@@ -1,0 +1,37 @@
+[
+    {
+        "prompt": "Question: What is the capital of France?\nAnswer:",
+        "response": "Paris!",
+        "duration": 6.443852186203003,
+        "memory_usage": 493428736,
+        "score": 0.8857
+    },
+    {
+        "prompt": "Question: Who wrote 'Romeo and Juliet'?\nAnswer:",
+        "response": "William Shakespeare.",
+        "duration": 2.088794231414795,
+        "memory_usage": 493359104,
+        "score": 0.9776
+    },
+    {
+        "prompt": "Question: What is the chemical symbol for gold?\nAnswer:",
+        "response": "The chemical symbol for gold is Au.",
+        "duration": 2.228896141052246,
+        "memory_usage": 491712512,
+        "score": 0.4669
+    },
+    {
+        "prompt": "Question: What is the tallest mountain in the world?\nAnswer:",
+        "response": "The answer to that question is Mount Everest, located in the Himalayas on the border between Nepal and Tibet. It stands at an incredible 8,848 meters (29,029 feet) above sea level.",
+        "duration": 2.5591704845428467,
+        "memory_usage": 492027904,
+        "score": 0.6315
+    },
+    {
+        "prompt": "Question: What is the square root of 144?\nAnswer:",
+        "response": "The answer to \"What is the square root of 144?\" is:\n\n\u221a144 = 12",
+        "duration": 2.3286690711975098,
+        "memory_usage": 493084672,
+        "score": 0.3251
+    }
+]

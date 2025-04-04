@@ -1,0 +1,16 @@
+[
+    {
+        "prompt": "Summarize the following text:\nArtificial intelligence (AI) is intelligence demonstrated by machines, as opposed to the natural intelligence displayed by animals including humans. AI research has been defined as the field of study of intelligent agents, which refers to any system that perceives its environment and takes actions that maximize its chance of achieving its goals.\nSummary:",
+        "response": " Artificial Intelligence (AI) is a form of intelligence demonstrated by machines rather than natural intelligence displayed by animals and humans. AI research focuses on the development of intelligent agents, systems that can perceive their environment and take actions to achieve their goals effectively.",
+        "duration": 2.4916086196899414,
+        "memory_usage": 497463296,
+        "score": 0.9042
+    },
+    {
+        "prompt": "Summarize the following text:\nClimate change refers to long-term shifts in temperatures and weather patterns. These shifts may be natural, such as through variations in the solar cycle. But since the 1800s, human activities have been the main driver of climate change, primarily due to burning fossil fuels like coal, oil and gas.\nSummary:",
+        "response": " Climate change refers to long-term alterations in temperatures and weather patterns, which can be both natural (like solar cycle variations) and human-induced. Since the 1800s, human activities, particularly the burning of fossil fuels such as coal, oil, and gas, have been the primary cause of climate change.",
+        "duration": 2.852719306945801,
+        "memory_usage": 494166016,
+        "score": 0.8588
+    }
+]

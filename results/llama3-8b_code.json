@@ -1,0 +1,23 @@
+[
+    {
+        "prompt": "Problem: Write a function to sum all even numbers in a list.\nStarter Code: def sum_even(numbers):\nComplete the code:",
+        "response": "Here is the completed code:\n```\ndef sum_even(numbers):\n    total = 0\n    for num in numbers:\n        if num % 2 == 0:  # check if number is even\n            total += num\n    return total\n```\nExplanation:\n\n* We initialize a variable `total` to keep track of the sum of even numbers.\n* We iterate through each number in the input list `numbers`.\n* For each number, we check if it's even by using the modulo operator `%`. If the remainder is 0 when divided by 2, then the number is even.\n* If the number is even, we add it to the `total` variable.\n* Finally, we return the total sum of even numbers.\n\nYou can test this function with a sample list, like this:\n```\nnumbers = [1, 2, 3, 4, 5, 6]\nprint(sum_even(numbers))  # Output: 12\n```",
+        "duration": 4.028218030929565,
+        "memory_usage": 492818432,
+        "score": 0.813
+    },
+    {
+        "prompt": "Problem: Write a function to check if a string is a palindrome.\nStarter Code: def is_palindrome(text):\nComplete the code:",
+        "response": "A classic problem!\n\nHere's the complete code:\n```python\ndef is_palindrome(text):\n    \"\"\"\n    Returns True if the input string is a palindrome, False otherwise.\n    \"\"\"\n    text = text.lower()  # ignore case\n    return text == text[::-1]  # check if original string is equal to its reverse\n```\nHere's how it works:\n\n1. We convert the input string to lowercase using `text.lower()` to ignore case sensitivity.\n2. We then compare the original string with its reverse (`text[::-1]`) using the equality operator (`==`).\n3. If the two strings are equal, the function returns `True`, indicating that the string is a palindrome.\n4. Otherwise, it returns `False`.\n\nExample usage:\n```python\nprint(is_palindrome(\"Madam\"))  # True\nprint(is_palindrome(\"Hello\"))  # False\n```\nI hope this helps!",
+        "duration": 3.9883768558502197,
+        "memory_usage": 498475008,
+        "score": 0.7341
+    },
+    {
+        "prompt": "Problem: Implement a recursive function to calculate factorial.\nStarter Code: def factorial(n):\nComplete the code:",
+        "response": "Here's the completed code:\n\n```python\ndef factorial(n):\n    # Base case: 1! is defined as 1, and 0! is also 1\n    if n == 1 or n == 0:\n        return 1\n    else:\n        # Recursive case: n! = n * (n-1)!\n        result = n * factorial(n - 1)\n        return result\n```\n\nIn this code, we define a function `factorial` that takes an integer `n` as input. The base cases are when `n` is 0 or 1, in which case the factorial is defined to be 1. For all other values of `n`, we recursively calculate the factorial by multiplying `n` with the factorial of `(n-1)`.",
+        "duration": 3.6888113021850586,
+        "memory_usage": 500420608,
+        "score": 0.8699
+    }
+]

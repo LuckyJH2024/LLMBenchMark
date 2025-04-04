@@ -1,0 +1,18 @@
+[
+    {
+      "context": "John is taller than Mary. Mary is taller than Sue. Sue is taller than Bill.",
+      "question": "Who is the tallest person?",
+      "answer": "John"
+    },
+    {
+      "context": "All mammals are warm-blooded. Whales are mammals.",
+      "question": "Are whales warm-blooded?",
+      "answer": "Yes"
+    },
+    {
+      "context": "If it rains, the ground gets wet. The ground is wet.",
+      "question": "Did it necessarily rain?",
+      "answer": "No"
+    }
+  ]
+  

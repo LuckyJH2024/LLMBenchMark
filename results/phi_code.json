@@ -1,0 +1,23 @@
+[
+    {
+        "prompt": "Problem: Write a function to sum all even numbers in a list.\nStarter Code: def sum_even(numbers):\nComplete the code:",
+        "response": " def sum_even(numbers):\n    total = 0\n    for num in numbers:\n        if num % 2 == 0:\n            total += num\n    return total\n",
+        "duration": 2.5173816680908203,
+        "memory_usage": 489783296,
+        "score": 0.9739
+    },
+    {
+        "prompt": "Problem: Write a function to check if a string is a palindrome.\nStarter Code: def is_palindrome(text):\nComplete the code:",
+        "response": " def is_palindrome(text):\n    \"\"\"\n    This function checks whether the input string is a palindrome.\n    \n    Parameters:\n        text (str): The input string to check.\n    \n    Returns:\n        bool: True if the input string is a palindrome, False otherwise.\n    \"\"\"\n    \n    # remove whitespace and make all letters lowercase\n    text = \"\".join(text.lower().split())\n    \n    # compare the string with its reverse\n    return text == text[::-1]\n",
+        "duration": 2.9576728343963623,
+        "memory_usage": 489869312,
+        "score": 0.8666
+    },
+    {
+        "prompt": "Problem: Implement a recursive function to calculate factorial.\nStarter Code: def factorial(n):\nComplete the code:",
+        "response": " def factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n",
+        "duration": 2.3058035373687744,
+        "memory_usage": 491794432,
+        "score": 0.9506
+    }
+]

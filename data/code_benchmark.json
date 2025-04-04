@@ -1,0 +1,18 @@
+[
+    {
+      "description": "Write a function to sum all even numbers in a list.",
+      "starter_code": "def sum_even(numbers):",
+      "solution": "def sum_even(numbers):\n    return sum(num for num in numbers if num % 2 == 0)"
+    },
+    {
+      "description": "Write a function to check if a string is a palindrome.",
+      "starter_code": "def is_palindrome(text):",
+      "solution": "def is_palindrome(text):\n    text = text.lower().replace(' ', '')\n    return text == text[::-1]"
+    },
+    {
+      "description": "Implement a recursive function to calculate factorial.",
+      "starter_code": "def factorial(n):",
+      "solution": "def factorial(n):\n    if n <= 1:\n        return 1\n    return n * factorial(n-1)"
+    }
+  ]
+  
