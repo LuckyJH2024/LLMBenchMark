@@ -1,0 +1,10 @@
+ollama
+psutil
+requests
+sentence_transformers 
+transformers
+torch
+pandas
+matplotlib
+seaborn
+tabulate
