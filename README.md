@@ -38,6 +38,11 @@ ollama run phi
 ollama run mistral
 ollama run llama3:8b
 ```
+If you want to see all models downloaded on your machine, use this in your terminal (outside the prompt):
+```bash
+ollama list
+```
+The one you ran most recently is typically the one you're interacting with unless you switched.
 
 ---
 
