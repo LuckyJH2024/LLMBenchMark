@@ -1,0 +1,521 @@
+[
+    {
+        "prompt": "Context: John is taller than Mary. Mary is taller than Sue. Sue is taller than Bill.\nQuestion: Who is the tallest person?\nAnswer:",
+        "ground_truth": "John",
+        "context": "John is taller than Mary. Mary is taller than Sue. Sue is taller than Bill.",
+        "question": "Who is the tallest person?",
+        "response": "Let's analyze the given information:\n\n1. John is taller than Mary.\n2. Mary is taller than Sue.\n3. Sue is taller than Bill.\n\nFrom statement 1, we know John is taller than Mary.\nFrom statement 2, we know Mary is taller than Sue.\nFrom statement 3, we know Sue is taller than Bill.\n\nNow, let's combine this information:\n\n* John is taller than Mary (statement 1).\n* Mary is taller than Sue (statement 2), which means Sue must be shorter than Mary.\n* Sue is taller than Bill (statement 3).\n\nPutting it all together, we get:\n\nJohn > Mary > Sue > Bill\n\nSo, the tallest person is... **John**!",
+        "reasoning_steps": [
+            "John > Mary",
+            "Mary > Sue",
+            "Sue > Bill",
+            "So John > Bill"
+        ],
+        "reference_steps": [
+            "John > Mary",
+            "Mary > Sue",
+            "Sue > Bill",
+            "Therefore John is tallest"
+        ],
+        "paraphrased_response": "The tallest person is John.",
+        "task_type": "reasoning",
+        "answer_score": 0.7738,
+        "chain_score": 0.8687,
+        "consistency_score": 0.5572,
+        "score": 0.7738,
+        "duration": 7.130684852600098,
+        "memory_usage": 656252928
+    },
+    {
+        "prompt": "Context: A is to the left of B. B is to the left of C. C is to the left of D.\nQuestion: Is A to the left of D?\nAnswer:",
+        "ground_truth": "Yes",
+        "context": "A is to the left of B. B is to the left of C. C is to the left of D.",
+        "question": "Is A to the left of D?",
+        "response": "A classic lateral thinking puzzle!\n\nLet's break it down:\n\n1. A is to the left of B.\n2. B is to the left of C.\n3. C is to the left of D.\n\nFrom these statements, we can infer that A < B < C < D (in terms of their positions).\n\nNow, let's ask: Is A to the left of D?\n\nThe answer is: YES!\n\nBecause A is already to the left of B, and B is already to the left of C, it follows that A must be to the left of D as well.",
+        "reasoning_steps": [
+            "A < B",
+            "B < C",
+            "C < D",
+            "So A < D"
+        ],
+        "reference_steps": [
+            "A < B < C < D",
+            "Therefore A is to the left of D"
+        ],
+        "paraphrased_response": "Yes, A is to the left of D.",
+        "task_type": "reasoning",
+        "answer_score": 0.7896,
+        "chain_score": 0.5642,
+        "consistency_score": 0.6658,
+        "score": 0.7896,
+        "duration": 3.413919448852539,
+        "memory_usage": 654319616
+    },
+    {
+        "prompt": "Context: Tom is older than Jake. Jake is older than Sam.\nQuestion: Who is the youngest?\nAnswer:",
+        "ground_truth": "Sam",
+        "context": "Tom is older than Jake. Jake is older than Sam.",
+        "question": "Who is the youngest?",
+        "response": "According to the context, Tom is older than Jake, and Jake is older than Sam. This means that Sam must be the youngest!",
+        "reasoning_steps": [
+            "Tom > Jake",
+            "Jake > Sam",
+            "So Tom > Sam",
+            "Therefore Sam is youngest"
+        ],
+        "reference_steps": [
+            "Tom > Jake > Sam",
+            "So Sam is the youngest"
+        ],
+        "paraphrased_response": "Sam is the youngest.",
+        "task_type": "reasoning",
+        "answer_score": 0.8156,
+        "chain_score": 0.7068,
+        "consistency_score": 0.6949,
+        "score": 0.8156,
+        "duration": 2.5045523643493652,
+        "memory_usage": 656199680
+    },
+    {
+        "prompt": "Context: All mammals are warm-blooded. Whales are mammals.\nQuestion: Are whales warm-blooded?\nAnswer:",
+        "ground_truth": "Yes",
+        "context": "All mammals are warm-blooded. Whales are mammals.",
+        "question": "Are whales warm-blooded?",
+        "response": "Yes, whales are warm-blooded. As all mammals are warm-blooded and whales are mammals, it logically follows that whales are also warm-blooded.",
+        "reasoning_steps": [
+            "All mammals are warm-blooded",
+            "Whales are mammals",
+            "So whales are warm-blooded"
+        ],
+        "reference_steps": [
+            "All mammals are warm-blooded",
+            "Whales are mammals",
+            "Therefore whales are warm-blooded"
+        ],
+        "paraphrased_response": "Yes, because whales are mammals and all mammals are warm-blooded.",
+        "task_type": "reasoning",
+        "answer_score": 0.8257,
+        "chain_score": 0.9916,
+        "consistency_score": 0.8874,
+        "score": 0.8257,
+        "duration": 2.4875612258911133,
+        "memory_usage": 653307904
+    },
+    {
+        "prompt": "Context: All birds lay eggs. Penguins are birds.\nQuestion: Do penguins lay eggs?\nAnswer:",
+        "ground_truth": "Yes",
+        "context": "All birds lay eggs. Penguins are birds.",
+        "question": "Do penguins lay eggs?",
+        "response": "Yes, penguins do lay eggs! As birds, they reproduce by laying eggs, just like all other bird species.",
+        "reasoning_steps": [
+            "All birds lay eggs",
+            "Penguins are birds",
+            "Therefore penguins lay eggs"
+        ],
+        "reference_steps": [
+            "Bird \u2192 lays eggs",
+            "Penguin = bird",
+            "So penguin lays eggs"
+        ],
+        "paraphrased_response": "Yes, because penguins are birds.",
+        "task_type": "reasoning",
+        "answer_score": 0.8062,
+        "chain_score": 0.8451,
+        "consistency_score": 0.6316,
+        "score": 0.8062,
+        "duration": 2.2923362255096436,
+        "memory_usage": 653815808
+    },
+    {
+        "prompt": "Context: All squares are rectangles. A square is a polygon.\nQuestion: Is a square a rectangle?\nAnswer:",
+        "ground_truth": "Yes",
+        "context": "All squares are rectangles. A square is a polygon.",
+        "question": "Is a square a rectangle?",
+        "response": "Given context: \"All squares are rectangles.\"\n\nSince all squares are rectangles, and we know that a square is a polygon (as mentioned in the question), it logically follows that:\n\n**Yes**, a square is a rectangle.",
+        "reasoning_steps": [
+            "All squares are rectangles",
+            "This shape is a square",
+            "Therefore it's a rectangle"
+        ],
+        "reference_steps": [
+            "square \u2192 rectangle",
+            "Given shape is square",
+            "So it's rectangle"
+        ],
+        "paraphrased_response": "Yes, since all squares are rectangles.",
+        "task_type": "reasoning",
+        "answer_score": 0.8218,
+        "chain_score": 0.8822,
+        "consistency_score": 0.6978,
+        "score": 0.8218,
+        "duration": 2.710447311401367,
+        "memory_usage": 654331904
+    },
+    {
+        "prompt": "Context: If it rains, the ground gets wet. The ground is wet.\nQuestion: Did it necessarily rain?\nAnswer:",
+        "ground_truth": "No",
+        "context": "If it rains, the ground gets wet. The ground is wet.",
+        "question": "Did it necessarily rain?",
+        "response": "No, it did not necessarily rain. The statement \"If it rains, the ground gets wet\" implies a possibility or condition, but does not guarantee that it actually rained. We only know that the ground is wet, but we can't conclude for certain whether it was raining or not. There could be other explanations for why the ground is wet (e.g. flooding, sprinklers, etc.).",
+        "reasoning_steps": [
+            "If it rains \u2192 ground gets wet",
+            "Ground is wet",
+            "But wet ground can have other causes",
+            "So it did not necessarily rain"
+        ],
+        "reference_steps": [
+            "If A then B",
+            "B observed",
+            "Cannot conclude A",
+            "Therefore: not necessarily rain"
+        ],
+        "paraphrased_response": "No, because the ground could be wet for other reasons.",
+        "task_type": "reasoning",
+        "answer_score": 0.8061,
+        "chain_score": 0.3697,
+        "consistency_score": 0.5355,
+        "score": 0.8061,
+        "duration": 3.002551317214966,
+        "memory_usage": 654663680
+    },
+    {
+        "prompt": "Context: If the alarm is set, the light is on. The light is on.\nQuestion: Is the alarm definitely set?\nAnswer:",
+        "ground_truth": "No",
+        "context": "If the alarm is set, the light is on. The light is on.",
+        "question": "Is the alarm definitely set?",
+        "response": "A classic lateral thinking puzzle!\n\nThe question asks if the alarm is definitely set, not just that it might be set or possibly set.\n\nWe know that \"if the alarm is set, the light is on\" and we also know that \"the light is on\". Therefore, we can conclude that the alarm must be set, because if it weren't set, the light wouldn't be on.\n\nSo, the answer is: **Yes**, the alarm is definitely set.",
+        "reasoning_steps": [
+            "Alarm \u2192 light on",
+            "Light is on",
+            "But light could be on from other causes",
+            "So alarm not necessarily set"
+        ],
+        "reference_steps": [
+            "If A then B",
+            "B is true",
+            "Does not imply A is true"
+        ],
+        "paraphrased_response": "No, other things could turn the light on.",
+        "task_type": "reasoning",
+        "answer_score": 0.7954,
+        "chain_score": 0.193,
+        "consistency_score": 0.3545,
+        "score": 0.7954,
+        "duration": 3.0840320587158203,
+        "memory_usage": 654643200
+    },
+    {
+        "prompt": "Context: If the car battery is dead, the car won't start. The car didn't start.\nQuestion: Is the battery necessarily dead?\nAnswer:",
+        "ground_truth": "No",
+        "context": "If the car battery is dead, the car won't start. The car didn't start.",
+        "question": "Is the battery necessarily dead?",
+        "response": "No.\n\nJust because the car didn't start doesn't necessarily mean the battery is dead. There could be other reasons why the car won't start, such as:\n\n* Faulty starter motor\n* Bad spark plugs\n* Loose or corroded connections\n* Faulty ignition switch\n* Air in the fuel system\n* Low fuel pressure\n\nAnd so on.\n\nA dead battery would typically be indicated by a slow crank or no crank at all. But if the car doesn't start, there are many other possible causes that don't necessarily involve a dead battery.",
+        "reasoning_steps": [
+            "Dead battery \u2192 car won't start",
+            "Car won't start",
+            "Could be other issues",
+            "Battery not necessarily dead"
+        ],
+        "reference_steps": [
+            "A \u2192 B",
+            "B is true",
+            "Can't conclude A"
+        ],
+        "paraphrased_response": "No, the battery might be fine.",
+        "task_type": "reasoning",
+        "answer_score": 0.797,
+        "chain_score": 0.0795,
+        "consistency_score": 0.4807,
+        "score": 0.797,
+        "duration": 3.3277597427368164,
+        "memory_usage": 658485248
+    },
+    {
+        "prompt": "Context: Tom has 3 apples. He buys 2 more and eats 1.\nQuestion: How many apples does Tom have now?\nAnswer:",
+        "ground_truth": "4",
+        "context": "Tom has 3 apples. He buys 2 more and eats 1.",
+        "question": "How many apples does Tom have now?",
+        "response": "Let's break it down step by step!\n\nTom starts with 3 apples.\n\nHe buys 2 more, so he gets 3 (initial) + 2 = 5 apples in total.\n\nThen, he eats 1 apple. So, he has 5 - 1 = 4 apples left.\n\nTherefore, Tom has 4 apples now!",
+        "reasoning_steps": [
+            "3 + 2 = 5",
+            "5 - 1 = 4"
+        ],
+        "reference_steps": [
+            "Initial: 3",
+            "Buy: +2",
+            "Eat: -1",
+            "Total: 4"
+        ],
+        "paraphrased_response": "Tom has 4 apples now.",
+        "task_type": "reasoning",
+        "answer_score": 0.7973,
+        "chain_score": 0.1263,
+        "consistency_score": 0.7685,
+        "score": 0.7973,
+        "duration": 3.037473678588867,
+        "memory_usage": 658759680
+    },
+    {
+        "prompt": "Context: A pen costs $2 and a notebook costs $5. Lisa buys 2 pens and 1 notebook.\nQuestion: How much did Lisa spend?\nAnswer:",
+        "ground_truth": "$9",
+        "context": "A pen costs $2 and a notebook costs $5. Lisa buys 2 pens and 1 notebook.",
+        "question": "How much did Lisa spend?",
+        "response": "Let's calculate!\n\nLisa bought 2 pens, which cost $2 each, so that's a total of:\n\n2 pens x $2 per pen = $4\n\nShe also bought 1 notebook, which costs $5.\n\nAdding the cost of the pens and the notebook, Lisa spent:\n\n$4 (pens) + $5 (notebook) = $9\n\nSo, Lisa spent a total of $9!",
+        "reasoning_steps": [
+            "2 pens = 2\u00d72 = 4",
+            "Notebook = 5",
+            "Total = 4+5 = 9"
+        ],
+        "reference_steps": [
+            "2\u00d7$2 = $4",
+            "$4 + $5 = $9"
+        ],
+        "paraphrased_response": "Lisa spent $9 in total.",
+        "task_type": "reasoning",
+        "answer_score": 0.7852,
+        "chain_score": 0.4546,
+        "consistency_score": 0.6154,
+        "score": 0.7852,
+        "duration": 2.8913073539733887,
+        "memory_usage": 660148224
+    },
+    {
+        "prompt": "Context: There are 10 apples and 4 are rotten.\nQuestion: How many good apples are there?\nAnswer:",
+        "ground_truth": "6",
+        "context": "There are 10 apples and 4 are rotten.",
+        "question": "How many good apples are there?",
+        "response": "There are 10 apples in total. Since 4 of them are rotten, we need to subtract the number of rotten apples from the total.\n\n10 - 4 = 6\n\nSo, there are 6 good apples!",
+        "reasoning_steps": [
+            "10 - 4 = 6"
+        ],
+        "reference_steps": [
+            "Total - Rotten = Good",
+            "10 - 4 = 6"
+        ],
+        "paraphrased_response": "There are 6 good apples.",
+        "task_type": "reasoning",
+        "answer_score": 0.7983,
+        "chain_score": 0.0985,
+        "consistency_score": 0.7639,
+        "score": 0.7983,
+        "duration": 2.680899143218994,
+        "memory_usage": 659808256
+    },
+    {
+        "prompt": "Context: All cats are animals. Some animals are not cats.\nQuestion: Is every animal a cat?\nAnswer:",
+        "ground_truth": "No",
+        "context": "All cats are animals. Some animals are not cats.",
+        "question": "Is every animal a cat?",
+        "response": "No, every animal is not a cat.\n\nThis answer follows from the given statements:\n\n1. All cats are animals (some cats might be).\n2. Some animals are not cats (most animals are not).\n\nFrom these two statements, we can conclude that there exist animals that are not cats. Therefore, it cannot be the case that every animal is a cat.",
+        "reasoning_steps": [
+            "All cats are animals",
+            "But not all animals are cats",
+            "Therefore not every animal is a cat"
+        ],
+        "reference_steps": [
+            "Subset does not imply superset",
+            "Animals \u2283 Cats",
+            "So answer is No"
+        ],
+        "paraphrased_response": "No, because there are animals that are not cats.",
+        "task_type": "reasoning",
+        "answer_score": 0.8075,
+        "chain_score": 0.2837,
+        "consistency_score": 0.7116,
+        "score": 0.8075,
+        "duration": 2.8831920623779297,
+        "memory_usage": 661090304
+    },
+    {
+        "prompt": "Context: If Peter is in the house, the lights are on. The lights are not on.\nQuestion: Is Peter in the house?\nAnswer:",
+        "ground_truth": "No",
+        "context": "If Peter is in the house, the lights are on. The lights are not on.",
+        "question": "Is Peter in the house?",
+        "response": "Since the lights are off, and if Peter is in the house, the lights would be on, we can conclude that:\n\nIs Peter in the house? NO",
+        "reasoning_steps": [
+            "If Peter \u2192 lights on",
+            "Lights off \u2192 Peter not home"
+        ],
+        "reference_steps": [
+            "Modus Tollens",
+            "Not B \u2192 Not A"
+        ],
+        "paraphrased_response": "No, the lights are off so Peter is not home.",
+        "task_type": "reasoning",
+        "answer_score": 0.8168,
+        "chain_score": 0.1067,
+        "consistency_score": 0.8107,
+        "score": 0.8168,
+        "duration": 2.5457139015197754,
+        "memory_usage": 659456000
+    },
+    {
+        "prompt": "Context: If a figure is a triangle, it has three sides. The figure has four sides.\nQuestion: Is the figure a triangle?\nAnswer:",
+        "ground_truth": "No",
+        "context": "If a figure is a triangle, it has three sides. The figure has four sides.",
+        "question": "Is the figure a triangle?",
+        "response": "No, since the figure has four sides and a triangle by definition has only three sides, the figure cannot be a triangle.",
+        "reasoning_steps": [
+            "Triangle \u2192 3 sides",
+            "Figure has 4 sides",
+            "So it's not a triangle"
+        ],
+        "reference_steps": [
+            "Contradiction on triangle property"
+        ],
+        "paraphrased_response": "No, because triangles have three sides.",
+        "task_type": "reasoning",
+        "answer_score": 0.8178,
+        "chain_score": 0.5421,
+        "consistency_score": 0.7728,
+        "score": 0.8178,
+        "duration": 2.5049691200256348,
+        "memory_usage": 661176320
+    },
+    {
+        "prompt": "Context: If Tim had studied, he would have passed. Tim didn\u2019t pass.\nQuestion: Did Tim study?\nAnswer:",
+        "ground_truth": "No",
+        "context": "If Tim had studied, he would have passed. Tim didn\u2019t pass.",
+        "question": "Did Tim study?",
+        "response": "The answer is: No!",
+        "reasoning_steps": [
+            "Studied \u2192 passed",
+            "Tim failed",
+            "So he didn't study"
+        ],
+        "reference_steps": [
+            "Contrapositive reasoning"
+        ],
+        "paraphrased_response": "No, because if he studied, he would have passed.",
+        "task_type": "reasoning",
+        "answer_score": 0.8146,
+        "chain_score": 0.176,
+        "consistency_score": 0.2876,
+        "score": 0.8146,
+        "duration": 2.2281365394592285,
+        "memory_usage": 661188608
+    },
+    {
+        "prompt": "Context: If there had been traffic, Lisa would be late. Lisa was on time.\nQuestion: Was there traffic?\nAnswer:",
+        "ground_truth": "No",
+        "context": "If there had been traffic, Lisa would be late. Lisa was on time.",
+        "question": "Was there traffic?",
+        "response": "No, there was no traffic.",
+        "reasoning_steps": [
+            "Traffic \u2192 late",
+            "Lisa on time",
+            "So no traffic"
+        ],
+        "reference_steps": [
+            "Contrapositive of causal statement"
+        ],
+        "paraphrased_response": "No, because she was on time.",
+        "task_type": "reasoning",
+        "answer_score": 0.8495,
+        "chain_score": 0.2096,
+        "consistency_score": 0.4393,
+        "score": 0.8495,
+        "duration": 2.244807243347168,
+        "memory_usage": 661241856
+    },
+    {
+        "prompt": "Context: If the store had been open, we would have bought milk. We didn\u2019t buy milk.\nQuestion: Was the store open?\nAnswer:",
+        "ground_truth": "No",
+        "context": "If the store had been open, we would have bought milk. We didn\u2019t buy milk.",
+        "question": "Was the store open?",
+        "response": "No!",
+        "reasoning_steps": [
+            "Store open \u2192 buy milk",
+            "No milk",
+            "So store wasn\u2019t open"
+        ],
+        "reference_steps": [
+            "Outcome negated \u2192 cause negated"
+        ],
+        "paraphrased_response": "No, the store must have been closed.",
+        "task_type": "reasoning",
+        "answer_score": 0.9186,
+        "chain_score": -0.0181,
+        "consistency_score": 0.1595,
+        "score": 0.9186,
+        "duration": 2.1480181217193604,
+        "memory_usage": 661454848
+    },
+    {
+        "prompt": "Context: You want to bake a cake from scratch.\nQuestion: What are the steps to do this?\nAnswer:",
+        "ground_truth": "Preheat, mix, pour, bake, cool",
+        "context": "You want to bake a cake from scratch.",
+        "question": "What are the steps to do this?",
+        "response": "The joy of baking a cake from scratch! Here's a step-by-step guide to help you achieve a delicious and moist homemade cake:\n\n**Step 1: Prepare the Ingredients**\n\n* Gather all the necessary ingredients, including flour, sugar, eggs, butter or oil, milk, and any additional flavorings or mix-ins (e.g., vanilla extract, chocolate chips).\n* Measure out each ingredient according to your recipe's specifications.\n\n**Step 2: Preheat the Oven**\n\n* Preheat your oven to the temperature specified in your recipe (usually 350\u00b0F/180\u00b0C).\n* Make sure you have a rack in the middle of the oven to ensure even baking.\n\n**Step 3: Mix Dry Ingredients**\n\n* In a large mixing bowl, combine dry ingredients like flour, sugar, and any other non-liquid dry components.\n* Whisk or sift these ingredients together until well combined.\n\n**Step 4: Mix Wet Ingredients**\n\n* In a separate mixing bowl, combine wet ingredients like eggs, milk, butter or oil, and any additional liquid flavorings (e.g., vanilla extract).\n* Beat or whisk the wet ingredients together until smooth and well combined.\n\n**Step 5: Combine Wet and Dry Ingredients**\n\n* Gradually add the dry ingredients to the wet ingredients, mixing until just combined. Be careful not to overmix.\n* Scrape down the sides of the bowl to ensure all ingredients are incorporated.\n\n**Step 6: Add Any Additional Mix-ins (Optional)**\n\n* If your recipe calls for mix-ins like nuts, chocolate chips, or fruit, fold them into the batter gently and evenly.\n\n**Step 7: Prepare the Cake Pans**\n\n* Grease two 9-inch (23cm) round cake pans or one 13x9-inch (33x23cm) rectangular pan.\n* Line the bottom of each pan with parchment paper for easy removal after baking.\n\n**Step 8: Pour the Batter into the Prepared Pans**\n\n* Divide the batter evenly between the prepared pans, smoothing the tops to ensure even baking.\n\n**Step 9: Bake the Cakes**\n\n* Place the cake pans in the preheated oven and bake according to your recipe's specified time (usually 25-35 minutes for a single layer).\n* Check for doneness by inserting a toothpick into the center of each cake. If it comes out clean, the cakes are done.\n\n**Step 10: Cool the Cakes**\n\n* Remove the cakes from the oven and let them cool in the pans for 5-10 minutes.\n* Transfer the cakes to a wire rack to cool completely before frosting or serving.\n\nThat's it! With these steps, you'll be well on your way to baking a delicious cake from scratch. Happy baking!",
+        "reasoning_steps": [
+            "Baking needs heat \u2192 preheat",
+            "Combine materials \u2192 mix",
+            "Then shape \u2192 pour",
+            "Then apply heat \u2192 bake",
+            "Then rest \u2192 cool"
+        ],
+        "reference_steps": [
+            "Preheat oven",
+            "Mix ingredients",
+            "Pour batter",
+            "Bake",
+            "Cool"
+        ],
+        "paraphrased_response": "Start with preheating, then mix, pour, bake and cool.",
+        "task_type": "reasoning",
+        "answer_score": 0.7905,
+        "chain_score": 0.5558,
+        "consistency_score": 0.5643,
+        "score": 0.7905,
+        "duration": 7.8409788608551025,
+        "memory_usage": 661499904
+    },
+    {
+        "prompt": "Context: You\u2019re planning a trip to another country.\nQuestion: What should you do before traveling?\nAnswer:",
+        "ground_truth": "Check passport, book flights, pack",
+        "context": "You\u2019re planning a trip to another country.",
+        "question": "What should you do before traveling?",
+        "response": "Before traveling to another country, there are several important steps you should take to ensure a smooth and enjoyable trip. Here's a checklist of things to do:\n\n1. **Research the destination**: Learn about the culture, customs, language, climate, and geography of your destination country.\n2. **Check visa requirements**: Find out if you need a visa to enter the country, and apply for one if necessary.\n3. **Book flights and accommodations**: Reserve your flights and hotel stays well in advance to ensure availability and get the best rates.\n4. **Get travel insurance**: Protect yourself against unexpected medical or travel-related expenses with a comprehensive travel insurance policy.\n5. **Check vaccination requirements**: Consult your doctor or a travel clinic to determine if any vaccinations are required for your destination country.\n6. **Notify your bank and credit card companies**: Let them know you'll be traveling internationally, so they don't flag your transactions as suspicious.\n7. **Make photocopies of important documents**: Carry copies of your passport, driver's license, and travel insurance documents, in case the originals are lost or stolen.\n8. **Pack smart**: Check the weather forecast and pack accordingly, considering the dress code, cultural norms, and essential items like adapters, chargers, and medications.\n9. **Exchange currency**: Get some local currency for your destination country to avoid high exchange rates at airports or tourist areas.\n10. **Stay informed**: Register with your government's travel advisory program, and stay up-to-date on travel alerts, warnings, and health concerns related to your destination.\n\nBy taking these steps, you'll be well-prepared for a successful and enjoyable trip abroad!",
+        "reasoning_steps": [
+            "Need ID \u2192 check passport",
+            "Need transport \u2192 book flights",
+            "Prepare items \u2192 pack"
+        ],
+        "reference_steps": [
+            "Documents, transport, preparation"
+        ],
+        "paraphrased_response": "Check your passport, then book travel and pack.",
+        "task_type": "reasoning",
+        "answer_score": 0.8091,
+        "chain_score": 0.1922,
+        "consistency_score": 0.5259,
+        "score": 0.8091,
+        "duration": 5.431292295455933,
+        "memory_usage": 664178688
+    },
+    {
+        "prompt": "Context: You want to organize a surprise party.\nQuestion: What are the key steps?\nAnswer:",
+        "ground_truth": "Pick date, invite, buy, prepare, celebrate",
+        "context": "You want to organize a surprise party.",
+        "question": "What are the key steps?",
+        "response": "The thrill of planning a surprise party! Here are the key steps to ensure everything goes smoothly:\n\n1. **Get permission from the guest of honor**: Make sure the person you're surprising is free on the desired date and won't have any suspicious plans that might ruin the surprise.\n2. **Gather a team of helpers**: Recruit 2-3 trusted friends or family members to assist with planning, decorations, food, and overall execution.\n3. **Choose a theme (optional)**: If you want to add an extra layer of excitement, pick a theme for the party that aligns with the guest of honor's interests or favorite colors.\n4. **Pick a date and time**: Schedule the party when the guest of honor is least expecting it. Make sure they have no other plans during that time frame.\n5. **Plan the surprise reveal**: Decide how you'll get the guest of honor to the party location without giving away the surprise. This might involve creating a fake plan or convincing them to come for another reason (e.g., \"Let's grab coffee\").\n6. **Send out invitations (discreetly)**: Craft invitations that don't give away the surprise, and send them only to people who need to know. You can use online invitation platforms or create your own designs.\n7. **Plan the party details**:\n\t* Food and drinks: Order catering, bake a cake, or prepare snacks and treats.\n\t* Decorations: Choose a theme, buy balloons, streamers, and other decorations that fit the surprise.\n\t* Music: Curate a playlist or hire a musician to set the mood.\n8. **Keep it under wraps**: Make sure all party details are kept secret until the big reveal. Use code names, vague descriptions, or misdirection when discussing the party with others.\n9. **Execute the surprise**: On the day of the party, bring the guest of honor to the location without giving away the surprise. When they enter the room, shout \"Surprise!\" and let the celebration begin!\n\nRemember to stay organized, be flexible, and have fun planning the surprise!",
+        "reasoning_steps": [
+            "Choose date \u2192 availability",
+            "Invite guests",
+            "Buy decorations",
+            "Set up venue",
+            "Surprise person"
+        ],
+        "reference_steps": [
+            "Date, invite, shop, prepare, execute"
+        ],
+        "paraphrased_response": "Pick a date, invite friends, prepare the venue and celebrate.",
+        "task_type": "reasoning",
+        "answer_score": 0.8051,
+        "chain_score": 0.3528,
+        "consistency_score": 0.6617,
+        "score": 0.8051,
+        "duration": 6.431095123291016,
+        "memory_usage": 662798336
+    }
+]
