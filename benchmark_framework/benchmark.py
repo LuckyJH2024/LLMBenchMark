@@ -2,10 +2,12 @@ import time
 import threading
 import ollama
 import psutil
+from bert_score import score
 import os
 import json
 import numpy as np
 import requests
+from typing import List, Dict, Any
 from sentence_transformers import SentenceTransformer, util
 from transformers import RobertaTokenizer, RobertaModel
 import torch
@@ -26,12 +28,12 @@ class LLMBenchmark:
             self.results[model] = {}
             for task_type, tasks in self.tasks.items():
                 print(f"Running {task_type} tasks for model {model}")
-                self.results[model][task_type] = self.benchmark_task(model, tasks)
+                self.results[model][task_type] = self.benchmark_task(model, tasks, task_type)
                 safe_model_name = model.replace(":", "-")  # 处理非法文件名字符
                 self.save_results(f"results/{safe_model_name}_{task_type}.json", self.results[model][task_type])
         return self.results
 
-    def benchmark_task(self, model, task_data):
+    def benchmark_task(self, model, task_data, task_type):
         results = []
         for task in task_data:
             print(f"Running task with prompt: {task['prompt']}")
@@ -52,20 +54,27 @@ class LLMBenchmark:
             duration = time.time() - start_time
             memory_usage = psutil.Process(os.getpid()).memory_info().rss
 
-            if "ground_truth" in task:
-                score = self.evaluate(model_response, task["ground_truth"], task.get("task_type"))
-            else:
-                score = None
+            task["response"] = model_response  # ⬅️ 非常关键！传入给 reasoning scorer
 
-            results.append({
-                "prompt": task["prompt"],
-                "response": model_response,
+            if "ground_truth" in task:
+                if task_type == "reasoning":
+                    score_detail = self.evaluate_reasoning_all(task)
+                    task.update(score_detail)  # ⬅️ 一次性保留全部字段
+                    task["score"] = score_detail["answer_score"]  # legacy 兼容性字段
+                else:
+                    task["score"] = self.evaluate(model_response, task["ground_truth"], task_type)
+            else:
+                task["score"] = None
+
+            task.update({
                 "duration": duration,
                 "memory_usage": memory_usage,
-                "score": score
             })
 
+            results.append(task)  # ⬅️ 保存完整字段
+
         return results
+
 
     def _thinking_animation(self):
         print("Thinking: ", end="")
@@ -108,19 +117,56 @@ class LLMBenchmark:
         return round(final_score, 4)
 
     def evaluate_reasoning_style(self, response, ground_truth):
-        response_clean = re.sub(r'[^\w\s]', '', response.lower())
-        truth_clean = re.sub(r'[^\w\s]', '', ground_truth.lower())
+        # Semantic alignment
+        try:
+            P, R, F1 = score([response], [ground_truth], lang='en', verbose=False)
+            semantic_score = F1.item()
+        except Exception:
+            semantic_score = self.text_similarity(response, ground_truth)
 
-        # 简化关键词匹配逻辑
-        hit_score = 1.0 if truth_clean in response_clean else \
-                    0.5 if any(word in response_clean for word in truth_clean.split()) else 0.0
+        # Keyword containment
+        truth_words = set(ground_truth.lower().split())
+        response_words = set(response.lower().split())
+        hit_score = 1.0 if truth_words <= response_words else 0.5 if truth_words & response_words else 0.0
 
-        semantic_score = self.text_similarity(response, ground_truth)
         final_score = 0.3 * hit_score + 0.7 * semantic_score
-
         print(f"[REASONING DEBUG] HIT: {hit_score}, SIM: {semantic_score}, FINAL: {final_score}")
         return round(final_score, 4)
+    
+    def evaluate_reasoning_all(self, sample: Dict[str, Any]) -> Dict[str, Any]:
+        response = sample.get("response", "")
+        ground_truth = sample.get("ground_truth", "")
+        steps = sample.get("reasoning_steps", [])
+        ref_steps = sample.get("reference_steps", [])
+        paraphrased = sample.get("paraphrased_response", "")
 
+        response_clean = response.strip().lower()
+        ground_clean = ground_truth.strip().lower()
+        if response_clean == ground_clean:
+            answer_score = 1.0
+        else:
+            try:
+                P, R, F1 = score([response], [ground_truth], lang='en', verbose=False)
+                answer_score = round(F1.item(), 4)
+            except:
+                answer_score = self.text_similarity(response, ground_truth)
+
+        if steps and ref_steps:
+            total = 0
+            for pred, ref in zip(steps, ref_steps):
+                total += self.text_similarity(pred, ref)
+            chain_score = round(total / len(ref_steps), 4)
+        else:
+            chain_score = None
+
+        consistency_score = self.text_similarity(response, paraphrased) if paraphrased else None
+
+        return {
+            "answer_score": answer_score,
+            "chain_score": chain_score,
+            "consistency_score": consistency_score
+        }
+    
     def text_similarity(self, text1, text2):
         emb1 = self.sbert.encode(text1, convert_to_tensor=True)
         emb2 = self.sbert.encode(text2, convert_to_tensor=True)
