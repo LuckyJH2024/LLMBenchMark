@@ -211,8 +211,4 @@ Expected output:
 - `performance_dashboard.png`: Model × task comparison
 - `benchmark_report_*.md`: Full summary in markdown
 
----
 
-If you find this benchmark helpful, ⭐ star the project and consider contributing more reasoning types or tasks. Let’s push the limits of LLM reasoning!
-
----
