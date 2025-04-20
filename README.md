@@ -208,7 +208,8 @@ Expected output:
 
 - `results/{model}_reasoning.json`: Per-model scores
 - `radar_chart.png`: 3-score profile per model
+  ![Radar Chart](results/radar_chart.png)
 - `performance_dashboard.png`: Model × task comparison
-- `benchmark_report_*.md`: Full summary in markdown
+  ![Performance Dashboard](results/performance_dashboard.png)
 
 
