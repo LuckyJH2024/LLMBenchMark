@@ -1,0 +1,193 @@
+[
+    {
+      "context": "John is taller than Mary. Mary is taller than Sue. Sue is taller than Bill.",
+      "question": "Who is the tallest person?",
+      "response": "John",
+      "ground_truth": "John",
+      "reasoning_steps": ["John > Mary", "Mary > Sue", "Sue > Bill", "So John > Bill"],
+      "reference_steps": ["John > Mary", "Mary > Sue", "Sue > Bill", "Therefore John is tallest"],
+      "paraphrased_response": "The tallest person is John."
+    },
+    {
+      "context": "A is to the left of B. B is to the left of C. C is to the left of D.",
+      "question": "Is A to the left of D?",
+      "response": "Yes",
+      "ground_truth": "Yes",
+      "reasoning_steps": ["A < B", "B < C", "C < D", "So A < D"],
+      "reference_steps": ["A < B < C < D", "Therefore A is to the left of D"],
+      "paraphrased_response": "Yes, A is to the left of D."
+    },
+    {
+      "context": "Tom is older than Jake. Jake is older than Sam.",
+      "question": "Who is the youngest?",
+      "response": "Sam",
+      "ground_truth": "Sam",
+      "reasoning_steps": ["Tom > Jake", "Jake > Sam", "So Tom > Sam", "Therefore Sam is youngest"],
+      "reference_steps": ["Tom > Jake > Sam", "So Sam is the youngest"],
+      "paraphrased_response": "Sam is the youngest."
+    },
+  
+    {
+      "context": "All mammals are warm-blooded. Whales are mammals.",
+      "question": "Are whales warm-blooded?",
+      "response": "Yes",
+      "ground_truth": "Yes",
+      "reasoning_steps": ["All mammals are warm-blooded", "Whales are mammals", "So whales are warm-blooded"],
+      "reference_steps": ["All mammals are warm-blooded", "Whales are mammals", "Therefore whales are warm-blooded"],
+      "paraphrased_response": "Yes, because whales are mammals and all mammals are warm-blooded."
+    },
+    {
+      "context": "All birds lay eggs. Penguins are birds.",
+      "question": "Do penguins lay eggs?",
+      "response": "Yes",
+      "ground_truth": "Yes",
+      "reasoning_steps": ["All birds lay eggs", "Penguins are birds", "Therefore penguins lay eggs"],
+      "reference_steps": ["Bird → lays eggs", "Penguin = bird", "So penguin lays eggs"],
+      "paraphrased_response": "Yes, because penguins are birds."
+    },
+    {
+      "context": "All squares are rectangles. A square is a polygon.",
+      "question": "Is a square a rectangle?",
+      "response": "Yes",
+      "ground_truth": "Yes",
+      "reasoning_steps": ["All squares are rectangles", "This shape is a square", "Therefore it's a rectangle"],
+      "reference_steps": ["square → rectangle", "Given shape is square", "So it's rectangle"],
+      "paraphrased_response": "Yes, since all squares are rectangles."
+    },
+    {
+      "context": "If it rains, the ground gets wet. The ground is wet.",
+      "question": "Did it necessarily rain?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["If it rains → ground gets wet", "Ground is wet", "But wet ground can have other causes", "So it did not necessarily rain"],
+      "reference_steps": ["If A then B", "B observed", "Cannot conclude A", "Therefore: not necessarily rain"],
+      "paraphrased_response": "No, because the ground could be wet for other reasons."
+    },
+    {
+      "context": "If the alarm is set, the light is on. The light is on.",
+      "question": "Is the alarm definitely set?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["Alarm → light on", "Light is on", "But light could be on from other causes", "So alarm not necessarily set"],
+      "reference_steps": ["If A then B", "B is true", "Does not imply A is true"],
+      "paraphrased_response": "No, other things could turn the light on."
+    },
+    {
+      "context": "If the car battery is dead, the car won't start. The car didn't start.",
+      "question": "Is the battery necessarily dead?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["Dead battery → car won't start", "Car won't start", "Could be other issues", "Battery not necessarily dead"],
+      "reference_steps": ["A → B", "B is true", "Can't conclude A"],
+      "paraphrased_response": "No, the battery might be fine."
+    },
+    {
+      "context": "Tom has 3 apples. He buys 2 more and eats 1.",
+      "question": "How many apples does Tom have now?",
+      "response": "4",
+      "ground_truth": "4",
+      "reasoning_steps": ["3 + 2 = 5", "5 - 1 = 4"],
+      "reference_steps": ["Initial: 3", "Buy: +2", "Eat: -1", "Total: 4"],
+      "paraphrased_response": "Tom has 4 apples now."
+    },
+    {
+      "context": "A pen costs $2 and a notebook costs $5. Lisa buys 2 pens and 1 notebook.",
+      "question": "How much did Lisa spend?",
+      "response": "$9",
+      "ground_truth": "$9",
+      "reasoning_steps": ["2 pens = 2×2 = 4", "Notebook = 5", "Total = 4+5 = 9"],
+      "reference_steps": ["2×$2 = $4", "$4 + $5 = $9"],
+      "paraphrased_response": "Lisa spent $9 in total."
+    },
+    {
+      "context": "There are 10 apples and 4 are rotten.",
+      "question": "How many good apples are there?",
+      "response": "6",
+      "ground_truth": "6",
+      "reasoning_steps": ["10 - 4 = 6"],
+      "reference_steps": ["Total - Rotten = Good", "10 - 4 = 6"],
+      "paraphrased_response": "There are 6 good apples."
+    },
+    {
+      "context": "All cats are animals. Some animals are not cats.",
+      "question": "Is every animal a cat?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["All cats are animals", "But not all animals are cats", "Therefore not every animal is a cat"],
+      "reference_steps": ["Subset does not imply superset", "Animals ⊃ Cats", "So answer is No"],
+      "paraphrased_response": "No, because there are animals that are not cats."
+    },
+    {
+      "context": "If Peter is in the house, the lights are on. The lights are not on.",
+      "question": "Is Peter in the house?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["If Peter → lights on", "Lights off → Peter not home"],
+      "reference_steps": ["Modus Tollens", "Not B → Not A"],
+      "paraphrased_response": "No, the lights are off so Peter is not home."
+    },
+    {
+      "context": "If a figure is a triangle, it has three sides. The figure has four sides.",
+      "question": "Is the figure a triangle?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["Triangle → 3 sides", "Figure has 4 sides", "So it's not a triangle"],
+      "reference_steps": ["Contradiction on triangle property"],
+      "paraphrased_response": "No, because triangles have three sides."
+    },
+    {
+      "context": "If Tim had studied, he would have passed. Tim didn’t pass.",
+      "question": "Did Tim study?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["Studied → passed", "Tim failed", "So he didn't study"],
+      "reference_steps": ["Contrapositive reasoning"],
+      "paraphrased_response": "No, because if he studied, he would have passed."
+    },
+    {
+      "context": "If there had been traffic, Lisa would be late. Lisa was on time.",
+      "question": "Was there traffic?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["Traffic → late", "Lisa on time", "So no traffic"],
+      "reference_steps": ["Contrapositive of causal statement"],
+      "paraphrased_response": "No, because she was on time."
+    },
+    {
+      "context": "If the store had been open, we would have bought milk. We didn’t buy milk.",
+      "question": "Was the store open?",
+      "response": "No",
+      "ground_truth": "No",
+      "reasoning_steps": ["Store open → buy milk", "No milk", "So store wasn’t open"],
+      "reference_steps": ["Outcome negated → cause negated"],
+      "paraphrased_response": "No, the store must have been closed."
+    },
+    {
+      "context": "You want to bake a cake from scratch.",
+      "question": "What are the steps to do this?",
+      "response": "Preheat oven, mix ingredients, pour batter, bake, cool.",
+      "ground_truth": "Preheat, mix, pour, bake, cool",
+      "reasoning_steps": ["Baking needs heat → preheat", "Combine materials → mix", "Then shape → pour", "Then apply heat → bake", "Then rest → cool"],
+      "reference_steps": ["Preheat oven", "Mix ingredients", "Pour batter", "Bake", "Cool"],
+      "paraphrased_response": "Start with preheating, then mix, pour, bake and cool."
+    },
+    {
+      "context": "You’re planning a trip to another country.",
+      "question": "What should you do before traveling?",
+      "response": "Check passport, book flights, pack luggage.",
+      "ground_truth": "Check passport, book flights, pack",
+      "reasoning_steps": ["Need ID → check passport", "Need transport → book flights", "Prepare items → pack"],
+      "reference_steps": ["Documents, transport, preparation"],
+      "paraphrased_response": "Check your passport, then book travel and pack."
+    },
+    {
+      "context": "You want to organize a surprise party.",
+      "question": "What are the key steps?",
+      "response": "Choose date, invite friends, buy supplies, set up, surprise!",
+      "ground_truth": "Pick date, invite, buy, prepare, celebrate",
+      "reasoning_steps": ["Choose date → availability", "Invite guests", "Buy decorations", "Set up venue", "Surprise person"],
+      "reference_steps": ["Date, invite, shop, prepare, execute"],
+      "paraphrased_response": "Pick a date, invite friends, prepare the venue and celebrate."
+    }
+  ]
+  
