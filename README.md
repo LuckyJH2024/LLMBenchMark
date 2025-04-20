@@ -211,5 +211,7 @@ Expected output:
   ![Radar Chart](results/radar_chart.png)
 - `performance_dashboard.png`: Model × task comparison
   ![Performance Dashboard](results/performance_dashboard.png)
+- `reasoning_bar_comparison.png`: Comparison of reasoning subscores (answer, chain, consistency) across models  
+  ![Reasoning Subscore Bar Chart](results/reasoning_bar_comparison.png)
 
 
