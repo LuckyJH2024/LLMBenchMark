@@ -1,7 +1,3 @@
-以下是你整理后的 `README.md`，我已经将主框架与 reasoning benchmark 的说明 **无缝整合**，内容结构清晰、专业，适用于 GitHub 项目主页或本地说明文档：
-
----
-
 # 🧠 LLMBenchMark
 
 This project benchmarks local Large Language Models (LLMs) on tasks such as **question answering**, **code generation**, **logical reasoning**, and **summarization**. It provides **structured evaluation results**, rich **visualizations**, and a detailed **markdown report**.
