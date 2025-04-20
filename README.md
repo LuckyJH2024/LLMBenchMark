@@ -128,8 +128,7 @@ data/sample_reasoning_eval.json
   "ground_truth": "...",
   "reasoning_steps": [...],
   "reference_steps": [...],
-  "paraphrased_response": "...",
-  "type": "..."
+  "paraphrased_response": "..."
 }
 ```
 
