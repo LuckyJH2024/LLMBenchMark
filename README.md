@@ -1,20 +1,25 @@
-# LLMBenchMark
-
-This project benchmarks local LLMs (Large Language Models) on tasks such as question answering, code generation, reasoning, and summarization. It produces structured evaluation results with visualizations and markdown reports.
+以下是你整理后的 `README.md`，我已经将主框架与 reasoning benchmark 的说明 **无缝整合**，内容结构清晰、专业，适用于 GitHub 项目主页或本地说明文档：
 
 ---
 
-## Installation and Environment Setup
+# 🧠 LLMBenchMark
 
-### 1. Clone the project and navigate to the directory
+This project benchmarks local Large Language Models (LLMs) on tasks such as **question answering**, **code generation**, **logical reasoning**, and **summarization**. It provides **structured evaluation results**, rich **visualizations**, and a detailed **markdown report**.
+
+---
+
+## 🚀 Installation and Environment Setup
+
+### 1. Clone the project
 ```bash
 git clone https://github.com/LuckyJH2024/LLMBenchMark.git your_file_name
+cd your_file_name
 ```
 
 ### 2. Create and activate a virtual environment (optional)
 ```bash
-python3 -m venv venv
-source venv/bin/activate  # For Windows: venv\Scripts\activate
+python -m venv venv
+source venv/bin/activate        # Windows: venv\Scripts\activate
 ```
 
 ### 3. Install dependencies
@@ -24,118 +29,101 @@ pip install -r requirements.txt
 
 ---
 
-## Start Ollama and Load Models
+## 🧩 Start Ollama and Load Models
 
-### 4. Start Ollama (Local inference service)
-Make sure [Ollama](https://ollama.com/) is installed and running:
+### 4. Start Ollama
+Ensure [Ollama](https://ollama.com/) is installed and running:
 ```bash
 ollama serve
 ```
 
-### 5. Pull required models (first-time only)
+### 5. Pull required models
 ```bash
 ollama run phi
 ollama run mistral
 ollama run llama3:8b
 ```
-If you want to see all models downloaded on your machine, use this in your terminal (outside the prompt):
+
+To check available models:
 ```bash
 ollama list
 ```
-The one you ran most recently is typically the one you're interacting with unless you switched.
 
 ---
 
-## Run the Benchmark
+## 🧪 Run the Benchmark
 
 ### 6. Execute the main script
 ```bash
 python main.py
 ```
 
-This will run benchmarks and generate outputs in the `results/` directory:
-
-- JSON results per model-task combination (e.g. `phi_qa.json`)
-- Visualizations:
-  - `average_duration.png`
-  - `average_memory_usage.png`
-  - `performance_dashboard.png`
-- Summary Markdown Report:
-  - e.g. `benchmark_report_20250412_211738.md`
+This will:
+- Run all task benchmarks
+- Evaluate your selected models
+- Generate outputs in `results/`:
+  - `.json` results
+  - Radar / bar / heatmap plots
+  - Markdown summary report
 
 ---
 
-## Task Datasets
+## 📚 Task Datasets
 
-The following input files are used for benchmarking tasks:
+| Task Type      | File Name                  | Description                     |
+|----------------|----------------------------|---------------------------------|
+| QA             | `qa_benchmark.json`        | Question answering              |
+| Code           | `code_benchmark.json`      | Code completion & generation    |
+| Reasoning      | `sample_reasoning_eval.json` | Multi-type logical reasoning    |
+| Summarization  | `summarization_benchmark.json` | Text summarization tasks    |
 
-- `qa_benchmark.json` – Question answering
-- `code_benchmark.json` – Code generation
-- `reasoning_benchmark.json` – Logical reasoning
-- `summarization_benchmark.json` – Text summarization
-
-You can modify these JSON files to add your own benchmark tasks.
-
----
-
-## View Results
-
-- Markdown reports can be viewed with VSCode, Typora, or any markdown viewer.
-- PNG charts provide visual summaries of model performance.
+Modify or extend any dataset to suit your testing needs.
 
 ---
 
-## Supported Models
+## 📊 View Results
 
-Ollama-compatible local models, such as:
+- Markdown reports: `results/benchmark_report_*.md`
+- Charts: `results/*.png`
+- Viewable in VSCode, Typora, or any markdown/image viewer
+
+---
+
+## 💻 Supported Models
+
+You can use any model supported by Ollama, including:
 
 - `phi`
 - `mistral`
 - `llama3:8b`
 
-To add other models, modify the model list in `main.py`.
+Update the model list in `main.py` to benchmark others.
 
 ---
 
-## Project Structure
+## 🧱 Project Structure
 
 ```
 ├── main.py                 # Entry point
-├── benchmark.py           # Core logic: model calls, metrics, runtime
-├── tasks.py               # Task loading functions
-├── visualization.py       # Plotting performance
-├── report.py              # Markdown report generation
+├── benchmark.py            # Core logic & evaluation
+├── tasks.py                # Load and format task data
+├── visualization.py        # Create plots & dashboards
+├── report.py               # Markdown report generation
 ├── requirements.txt
-├── *.json                 # Task input data
-└── results/               # All benchmark outputs
+├── data/*.json             # Task definitions
+└── results/                # Output results and visualizations
 ```
 
 ---
 
-## Example Output
+# 🧠 Reasoning Benchmark Overview
 
-You will see results like the following chart:
-
-![Sample](results/average_duration.png)
-
----
-
-For further assistance, explore the source code and in-line documentation. Contributions welcome!
-
-#############################################Reasoning_benchmark################################
-
-### 🧠 Reasoning Benchmark Overview
-
-This benchmark is designed to **evaluate the reasoning capabilities** of Large Language Models (LLMs) across 7 core types of reasoning. Each type is tested with **3 carefully constructed examples**, yielding a total of **21 tasks**.
-
-#### 📁 Dataset File
-
+### 🧩 File:
 ```
 data/sample_reasoning_eval.json
 ```
 
-Each entry in the file includes:
-
+### 🧪 Structure:
 ```json
 {
   "context": "...",
@@ -144,48 +132,62 @@ Each entry in the file includes:
   "ground_truth": "...",
   "reasoning_steps": [...],
   "reference_steps": [...],
-  "paraphrased_response": "..."
+  "paraphrased_response": "...",
+  "type": "..."
 }
 ```
 
----
-
 ### 🔍 Covered Reasoning Types
 
-| Reasoning Type                | Description                                     | # Samples |
-|------------------------------|--------------------------------------------------|-----------|
-| Multi-hop Reasoning          | Requires combining 2+ facts (e.g., A > B > C)    | 3         |
-| Syllogistic Reasoning        | Deductive logic from categorical statements      | 3         |
-| Causal Reasoning             | Cause-effect relations, avoiding fallacies       | 3         |
-| Numerical / Symbolic         | Arithmetic, quantity comparison                  | 3         |
-| Boolean / Logical            | Modus Tollens, contradictions, set logic         | 3         |
-| Counterfactual Reasoning     | Hypotheticals, reasoning about what-if           | 3         |
-| Planning / Procedural        | Steps to solve or achieve a goal                 | 3         |
+| Type                       | Description                                 | #
+|---------------------------|---------------------------------------------|----|
+| Multi-hop Reasoning       | Chain of facts (e.g., A > B > C)             | 3  |
+| Syllogistic Reasoning     | Classic logic from category relationships   | 3  |
+| Causal Reasoning          | Fallacy avoidance, cause-effect logic       | 3  |
+| Numerical / Symbolic      | Basic arithmetic, quantities, logic math    | 3  |
+| Boolean Reasoning         | Truth, contradiction, set membership        | 3  |
+| Counterfactual Reasoning  | What-if reasoning                           | 3  |
+| Planning / Procedural     | Goal-driven task planning                   | 3  |
 
 ---
 
-### ⚙️ How It Works
+### ⚙️ Evaluation Metrics
 
-1. **Model Inference**: Our benchmark system sends prompts (context + question) to an LLM (e.g., via Ollama API).
-2. **Scoring Metrics**: For each sample, we compute:
-   - `answer_score`: semantic similarity to ground truth
-   - `chain_score`: similarity of reasoning steps
-   - `consistency_score`: paraphrase stability (optional)
-   - `final_score`: weighted average (for radar/summary)
-3. **Visualization**:
-   - Radar chart of 3 reasoning dimensions
-   - Bar chart comparison across models
-   - Performance heatmaps
-4. **Output**: Results saved to:
-   ```
-   results/{model_name}_reasoning.json
-   results/radar_chart.png
-   results/benchmark_report_*.md
-   ```
+Each sample is automatically scored across:
+
+| Metric             | Meaning                                              |
+|--------------------|------------------------------------------------------|
+| `answer_score`     | Response vs. ground truth (BERTScore / SBERT)       |
+| `chain_score`      | Reasoning steps vs. reference reasoning             |
+| `consistency_score`| Paraphrased response consistency                    |
+| `score`            | Final weighted score (used in radar/visuals)        |
 
 ---
 
-### 📌 Example Prompt Format
+## 🔬 Three Evaluation Directions
+
+### 1. ✅ Answer Accuracy Only
+Evaluate whether the model gave the **correct final answer**.
+
+- Compare `response` vs `ground_truth`
+- Use BERTScore / SBERT
+- Metric: `answer_score`
+
+### 2. 🔗 Reasoning Process Matching
+Compare **step-by-step** logic to `reference_steps`.
+
+- Use `reasoning_steps` and `reference_steps`
+- Metric: `chain_score` via average semantic match
+
+### 3. ♻️ Paraphrase Consistency
+Check **robustness** against paraphrasing.
+
+- Compare `response` and `paraphrased_response`
+- Metric: `consistency_score`
+
+---
+
+## 📌 Example Prompt Format
 
 ```
 Context: All mammals are warm-blooded. Whales are mammals.
@@ -193,16 +195,28 @@ Question: Are whales warm-blooded?
 Answer:
 ```
 
-Expected model output:
-> Yes, because whales are mammals and mammals are warm-blooded.
+Expected output:
+> Yes, because whales are mammals and all mammals are warm-blooded.
 
 ---
 
-### 📤 To Extend the Dataset
+## 📤 Extend the Benchmark
 
-- Add more examples to `sample_reasoning_eval.json`
-- Maintain the same format and append new `type` fields
-- Consider adding adversarial variants to test robustness
+- Add new examples to `sample_reasoning_eval.json`
+- Keep same field structure, append `"type"` as needed
+- You may add adversarial variants for robustness testing
 
 ---
 
+## 📈 Outputs and Visuals
+
+- `results/{model}_reasoning.json`: Per-model scores
+- `radar_chart.png`: 3-score profile per model
+- `performance_dashboard.png`: Model × task comparison
+- `benchmark_report_*.md`: Full summary in markdown
+
+---
+
+If you find this benchmark helpful, ⭐ star the project and consider contributing more reasoning types or tasks. Let’s push the limits of LLM reasoning!
+
+---
