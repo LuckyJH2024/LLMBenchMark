@@ -85,9 +85,9 @@ def create_reasoning_full_benchmark(file_path):
 def load_all_benchmarks(data_dir="data"):
     benchmarks = {}
     task_types = {
-        # "qa": "qa_benchmark.json",
-        # "code": "code_benchmark.json",
-        # "summarization": "summarization_benchmark.json",
+        "qa": "qa_benchmark.json",
+        "code": "code_benchmark.json",
+        "summarization": "summarization_benchmark.json",
         "reasoning": "sample_reasoning_eval.json"
     }
 
