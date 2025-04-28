@@ -9,6 +9,8 @@ from benchmark_framework.visualization import create_visualizations, create_perf
 from benchmark_framework.report import generate_report
 import pandas as pd
 
+# Set the working directory to the script's directory
+os.chdir(os.path.dirname(__file__))
 
 def main():
     """Run the LLM benchmark and generate results."""
