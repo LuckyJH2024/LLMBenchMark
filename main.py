@@ -7,6 +7,7 @@ from benchmark_framework.benchmark import LLMBenchmark
 from benchmark_framework.tasks import load_all_benchmarks
 from benchmark_framework.visualization import create_visualizations, create_performance_dashboard
 from benchmark_framework.report import generate_report
+from benchmark_framework.summary import calculate_summary_statistics
 import pandas as pd
 
 
@@ -25,8 +26,8 @@ def main():
     benchmark = LLMBenchmark(models, tasks)
     results = benchmark.run_benchmarks()
 
-    # Calculate summary statistics
-    summary = benchmark.get_summary_statistics()
+    # Calculate summary statistics using the new module
+    summary = calculate_summary_statistics(results)
 
     # Generate visualizations
     results_dir = 'results'

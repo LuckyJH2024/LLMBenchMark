@@ -1,0 +1,64 @@
+# LLM基准测试配置文件
+# 此文件定义了要测试的模型和测试类型
+
+# 测试模型配置
+models:
+  # API模型
+  api:
+    # OpenAI模型
+    # - openai:gpt-3.5-turbo
+    - openai:gpt-4o
+    # Anthropic模型
+    # - anthropic:claude3.5
+    - anthropic:claude3.7
+    # DeepSeek模型
+    # - deepseek:deepseek-coder
+  
+  # 本地Ollama模型 (即使不使用也需要保留此键)
+  local: []
+
+# 测试类型配置
+tests:
+  # 推理测试
+  reasoning:
+    enabled: true
+    samples: 10  # 测试样本数量
+  
+  # 代码测试
+  coding:
+    enabled: false
+    difficulties:
+      - interview
+      - competition
+    problems_per_difficulty: 3  # 每种难度的问题数量
+    data_path: "data/APPS"  # APPS数据集路径，请更新为实际路径
+  
+  # 问答测试
+  qa:
+    enabled: true
+    samples: 10
+
+# 输出配置
+output:
+  # 结果输出目录
+  results_dir: "results"
+  
+  # 是否生成可视化
+  visualize: true
+  
+  # 是否保存详细结果
+  save_details: true
+
+# 运行配置
+run:
+  # API请求超时时间(秒)
+  timeout: 120
+  
+  # 并行工作线程数量
+  workers: 4
+  
+  # 重试次数
+  retries: 3
+  
+  # 随机种子(0表示使用时间种子)
+  seed: 0 

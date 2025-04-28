@@ -1,0 +1,81 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# IDE related
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.env
+.venv
+
+# LLM Benchmark specific
+results/
+logs/
+data/
+APPS/
+*.log
+.ipynb_checkpoints/
+
+# API keys and sensitive configs
+.env.local
+.env.*.local
+*.conf
+
+# Large model files
+*.ckpt
+*.pt
+*.bin
+*.pth
+*.h5
+*.onnx
+*.safetensors
+
+# Cache files
+.cache/
+.pytest_cache/
+
+# Generated output files
+*.csv
+*.json
+*.xlsx
+*.pdf
+*.png
+*.jpg
+*.jpeg
+!/examples/**/*.png
+!/examples/**/*.jpg
+
+# Large data files
+*.zip
+*.tar.gz
+
+# Temporary files
+tmp/
+temp/ 

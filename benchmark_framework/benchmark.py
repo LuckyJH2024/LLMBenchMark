@@ -201,28 +201,6 @@ class LLMBenchmark:
         cosine_score = torch.nn.functional.cosine_similarity(emb1, emb2).item()
         return round(cosine_score, 4)
 
-    def get_summary_statistics(self):
-        summary_stats = {}
-        for model, task_types in self.results.items():
-            summary_stats[model] = {}
-            for task_type, results in task_types.items():
-                durations = [result['duration'] for result in results if 'duration' in result]
-                memory_usages = [result['memory_usage'] for result in results if 'memory_usage' in result]
-                scores = [result['score'] for result in results if result['score'] is not None]
-
-                average_duration = np.mean(durations) if durations else 0
-                average_memory_usage = np.mean(memory_usages) if memory_usages else 0
-                average_score = np.mean(scores) if scores else None
-
-                summary_stats[model][task_type] = {
-                    'average_duration': average_duration,
-                    'average_memory_usage': average_memory_usage,
-                    'average_score': average_score,
-                    'total_tasks': len(results)
-                }
-
-        return summary_stats
-
     def save_results(self, filename, data):
         with open(filename, 'w', encoding='utf-8') as file:
             json.dump(data, file, indent=4)

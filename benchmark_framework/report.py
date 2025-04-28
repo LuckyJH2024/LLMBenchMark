@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from math import pi
 
-def generate_report(summary, all_results, output_dir='results'):
+def generate_report(summary, all_results, output_dir='results', prefix=''):
     os.makedirs(output_dir, exist_ok=True)
 
     summary_df = pd.DataFrame.from_dict({(i, j): summary[i][j] 
@@ -37,7 +37,7 @@ def generate_report(summary, all_results, output_dir='results'):
                 report_sections.append(df.to_markdown(index=False))
 
     full_report = "\n\n".join(report_sections)
-    report_filename = os.path.join(output_dir, f"benchmark_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md")
+    report_filename = os.path.join(output_dir, f"{prefix}benchmark_report_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md")
     with open(report_filename, 'w') as file:
         file.write(full_report)
     print(f"Report saved to {report_filename}")

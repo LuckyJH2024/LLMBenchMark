@@ -1,10 +1,16 @@
 ollama
 psutil
 requests
-sentence_transformers 
+sentence_transformers
 transformers
 torch
 pandas
 matplotlib
 seaborn
 tabulate
+bert-score
+argparse
+numpy
+tqdm
+sacrebleu
+sacremoses
