@@ -1,8 +1,12 @@
-# Python
+# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+# C extensions
 *.so
+
+# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -19,62 +23,79 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
-MANIFEST
 
-# IDE related
-.idea/
-.vscode/
-*.sublime-project
-*.sublime-workspace
-.DS_Store
+# PyInstaller
+*.manifest
+*.spec
 
-# Virtual Environment
-venv/
-env/
-ENV/
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
 .env
 .venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
 
-# LLM Benchmark specific
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific
 results/
-logs/
-data/
-APPS/
+data/APPS/
 *.log
-.ipynb_checkpoints/
+*.json
+!requirements.json
+!config.json
 
-# API keys and sensitive configs
+# API keys and sensitive information
 .env.local
 .env.*.local
-*.conf
+api_keys.txt
+api_keys.json
 
 # Large model files
-*.ckpt
 *.pt
-*.bin
 *.pth
-*.h5
+*.bin
 *.onnx
 *.safetensors
 
-# Cache files
-.cache/
-.pytest_cache/
-
-# Generated output files
-*.csv
-*.json
-*.xlsx
-*.pdf
-*.png
-*.jpg
-*.jpeg
-!/examples/**/*.png
-!/examples/**/*.jpg
-
-# Large data files
-*.zip
-*.tar.gz
+# Generated reports
+results/**/*.png
+results/**/*.html
+results/**/*.md
 
 # Temporary files
 tmp/

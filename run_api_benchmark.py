@@ -11,7 +11,6 @@ from benchmark_framework.report import generate_report
 from benchmark_framework.benchmark import LLMBenchmark
 from benchmark_framework.summary import calculate_api_summary_statistics
 import pandas as pd
-from tqdm import tqdm
 
 
 def main():
@@ -30,9 +29,8 @@ def main():
     task_types = args.task_types
     results_dir = args.results_dir
     
-    print(f"开始API模型基准测试...")
-    print(f"测试模型: {', '.join(models)}")
-    print(f"测试任务类型: {', '.join(task_types)}")
+    print(f"Starting API LLM benchmarking for models: {models}")
+    print(f"Task types: {task_types}")
     start_time = time.time()
     
     # Load benchmark tasks
@@ -48,26 +46,24 @@ def main():
     api_key_status = api_benchmark.check_api_keys()
     for provider, status in api_key_status.items():
         if not status:
-            print(f"⚠️ 警告: 未找到{provider.upper()}的API密钥。请设置{provider.upper()}_API_KEY环境变量。")
+            print(f"⚠️ Warning: {provider.upper()} API key not found. Set {provider.upper()}_API_KEY environment variable.")
     
     # Create empty results dictionary
     results = {}
     
-    # 使用tqdm显示模型测试进度
-    for model in tqdm(models, desc="测试模型进度", ncols=100):
+    # Run benchmarks for each model
+    for model in models:
         provider = model.split(":", 1)[0]
         if not api_key_status.get(provider, False):
-            print(f"⚠️ 跳过 {model} (API密钥缺失)")
+            print(f"⚠️ Skipping {model} due to missing API key")
             continue
             
         results[model] = {}
         
-        # 使用tqdm显示任务类型进度
-        task_types_list = list(tasks.keys())
-        for task_type in tqdm(task_types_list, desc=f"{model}的任务类型", leave=False, ncols=100):
-            task_list = tasks[task_type]
+        for task_type, task_list in tasks.items():
+            print(f"Running {task_type} tasks for model {model}")
             
-            # 运行基准测试 (已经在api_models.py中添加了进度条)
+            # Run the benchmark
             task_results = api_benchmark.benchmark_api_model(model, task_list, task_type)
             
             # Create a temporary LLMBenchmark instance for evaluation
@@ -97,7 +93,6 @@ def main():
     summary_stats = calculate_api_summary_statistics(results)
     
     # Generate visualizations
-    print("生成可视化结果...")
     create_visualizations(summary_stats, results_dir)
     df = pd.DataFrame.from_dict({(i, j): summary_stats[i][j] 
                                for i in summary_stats.keys() 
@@ -109,12 +104,11 @@ def main():
     create_performance_dashboard(df, results_dir)
 
     # Generate report
-    print("生成报告...")
     generate_report(summary_stats, results, results_dir, prefix="api_")
 
     # Print completion message and time taken
     elapsed_time = time.time() - start_time
-    print(f"基准测试完成! 用时 {elapsed_time:.2f} 秒。结果已保存到 {results_dir} 目录.")
+    print(f"API LLM benchmarking completed in {elapsed_time:.2f} seconds. Results saved in {results_dir}.")
 
 
 if __name__ == "__main__":

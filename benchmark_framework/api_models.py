@@ -1,11 +1,10 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 import time
 import json
 import requests
 import os
 from typing import Dict, Any, List, Optional, Union
-from tqdm import tqdm
 
 class APIModelBenchmark:
     """
@@ -210,8 +209,9 @@ class APIModelBenchmark:
         """
         results = []
         
-        print(f"正在运行{len(tasks)}个{task_type}任务...")
-        for task in tqdm(tasks, desc=f"测试 {model} 的{task_type}任务", ncols=100):
+        for task in tasks:
+            print(f"Running API task with prompt: {task['prompt']}")
+            
             # Call the API model
             api_response = self.call_api_model(model, task['prompt'])
             model_response = api_response["text"]
@@ -229,6 +229,5 @@ class APIModelBenchmark:
             # by the existing LLMBenchmark.evaluate methods
             
             results.append(task_result)
-        
-        print(f"{model}的{task_type}测试已完成!")
+            
         return results 

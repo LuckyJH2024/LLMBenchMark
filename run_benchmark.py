@@ -17,6 +17,7 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 from pathlib import Path
+import seaborn as sns
 
 def load_config(config_path):
     """加载配置文件"""
@@ -64,9 +65,9 @@ def run_coding_test(models, config):
     for model in models:
         print(f"测试模型: {model}")
         
-        # 构建命令
+        # 构建命令 - 更新为新路径
         cmd = [
-            "python3", "apps_benchmark.py",
+            "python3", "benchmark_framework/apps_eval/apps_benchmark.py",
             "--models", model,
             "--difficulties", *difficulties,
             "--problems", str(problems_per_difficulty),
@@ -86,25 +87,140 @@ def run_coding_test(models, config):
             print(f"模型 {model} 的代码测试失败: {e}")
 
 def run_qa_test(models, config):
-    """运行问答测试"""
+    """运行问答测试 - 使用直接加载QA任务的方式"""
     output_dir = config['output']['results_dir']
+    qa_dir = os.path.join(output_dir, "qa")
+    os.makedirs(qa_dir, exist_ok=True)
     
     print("\n=== 开始问答测试 ===")
     
-    # 构建命令 - 根据run_api_benchmark.py实际支持的参数格式
-    cmd = [
-        "python3", "run_api_benchmark.py",
-        "--models", *models,
-        "--task-types", "qa",
-        "--results-dir", os.path.join(output_dir, "qa")
+    try:
+        # 从benchmark_framework.tasks导入必要的函数
+        from benchmark_framework.tasks import create_qa_benchmark
+        from benchmark_framework.benchmark import LLMBenchmark
+        
+        # 加载QA任务
+        qa_file_path = "data/qa_benchmark.json"
+        print(f"正在加载QA任务从: {qa_file_path}")
+        
+        # 确保文件存在且格式正确
+        try:
+            with open(qa_file_path, 'r', encoding='utf-8') as f:
+                # 验证JSON格式
+                json_data = json.load(f)
+                print(f"成功读取QA数据: {len(json_data)}个问题")
+        except json.JSONDecodeError as e:
+            print(f"QA文件{qa_file_path}不是有效的JSON格式: {e}")
+            print("尝试修复或重新创建QA文件...")
+            repair_qa_file(qa_file_path)
+        except FileNotFoundError:
+            print(f"QA文件{qa_file_path}不存在，创建示例文件...")
+            create_example_qa_file(qa_file_path)
+            
+        # 使用benchmark_framework中的函数加载任务
+        qa_tasks = create_qa_benchmark(qa_file_path)
+        
+        # 创建benchmark对象
+        benchmark = LLMBenchmark(models=models, tasks={"qa": qa_tasks})
+        
+        # 运行基准测试
+        print(f"开始为{len(models)}个模型运行QA测试...")
+        qa_results = benchmark.run_benchmarks()
+        
+        # 将每个模型的结果保存到单独的文件
+        for model, task_results in qa_results.items():
+            safe_model_name = model.replace(":", "-")
+            result_file = os.path.join(qa_dir, f"{safe_model_name}.json")
+            with open(result_file, "w") as f:
+                json.dump(task_results["qa"], f, indent=4)
+            print(f"模型 {model} 的问答结果已保存到 {result_file}")
+            
+        # 计算和保存摘要统计信息
+        compute_qa_summary(qa_results, qa_dir)
+        
+        print(f"问答测试完成")
+    except Exception as e:
+        import traceback
+        print(f"问答测试失败: {e}")
+        traceback.print_exc()
+
+def repair_qa_file(file_path):
+    """修复QA基准测试文件"""
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        # 尝试简单的JSON语法修复
+        if content.strip().startswith('<!DOCTYPE html>') or content.strip().startswith('<html>'):
+            print("检测到HTML内容而非JSON，替换为示例QA数据...")
+            create_example_qa_file(file_path)
+        else:
+            # 尝试修复JSON格式
+            try:
+                # 尝试修复常见的JSON错误
+                content = content.replace("'", '"')  # 单引号替换为双引号
+                content = content.strip()
+                if not content.startswith('['):
+                    content = '[' + content
+                if not content.endswith(']'):
+                    content = content + ']'
+                    
+                # 验证是否为有效JSON
+                json.loads(content)
+                
+                # 如果有效，写回文件
+                with open(file_path, 'w', encoding='utf-8') as f:
+                    f.write(content)
+                print(f"已修复QA文件: {file_path}")
+            except:
+                print("无法修复JSON格式，创建示例QA数据...")
+                create_example_qa_file(file_path)
+    except Exception as e:
+        print(f"修复QA文件失败: {e}")
+        create_example_qa_file(file_path)
+
+def create_example_qa_file(file_path):
+    """创建示例QA数据文件"""
+    example_data = [
+        {"question": "机器学习是什么？", "answer": "机器学习是人工智能的一个子领域，它使用统计技术让计算机系统利用数据学习和改进，而无需被明确编程。"},
+        {"question": "深度学习与传统机器学习有何不同？", "answer": "深度学习是机器学习的一个子集，它使用多层神经网络处理数据，可以自动学习特征，而传统机器学习通常需要手动特征工程。"},
+        {"question": "什么是大型语言模型？", "answer": "大型语言模型是一种基于深度学习的AI系统，通过大规模文本数据训练，能够理解和生成人类语言，执行各种语言相关任务。"}
     ]
     
-    # 运行命令
     try:
-        subprocess.run(cmd, check=True)
-        print(f"问答测试完成")
-    except subprocess.CalledProcessError as e:
-        print(f"问答测试失败: {e}")
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(example_data, f, indent=2, ensure_ascii=False)
+        print(f"已创建示例QA文件: {file_path}")
+    except Exception as e:
+        print(f"创建示例QA文件失败: {e}")
+
+def compute_qa_summary(qa_results, output_dir):
+    """计算QA结果的摘要统计信息"""
+    summary = {}
+    
+    for model, tasks in qa_results.items():
+        summary[model] = {}
+        entries = tasks.get("qa", [])
+        
+        if entries:
+            durations = [x.get("duration", 0) for x in entries]
+            memories = [x.get("memory_usage", 0) for x in entries]
+            scores = [x.get("score", 0) for x in entries if x.get("score") is not None]
+            
+            summary[model]["qa"] = {
+                "average_duration": np.mean(durations) if durations else 0,
+                "average_memory_usage": np.mean(memories) if memories else 0,
+                "average_score": np.mean(scores) if scores else 0,
+                "total_tasks": len(entries),
+            }
+    
+    # 保存摘要到文件
+    summary_file = os.path.join(output_dir, "summary.json")
+    with open(summary_file, "w") as f:
+        json.dump(summary, f, indent=4)
+    print(f"QA测试摘要已保存到: {summary_file}")
+    
+    return summary
 
 def generate_unified_report(config):
     """生成统一的测试报告"""
@@ -171,11 +287,86 @@ def load_results(directory):
 
 def generate_report(results, report_path):
     """生成综合报告"""
+    from datetime import datetime
+    import pandas as pd
+    import seaborn as sns
+    
     # 写入简单的HTML报告
     html_report = os.path.join(report_path, "benchmark_report.html")
     
     current_time = time.strftime("%Y-%m-%d %H:%M:%S")
     
+    # 创建可视化图表
+    print("正在生成可视化图表...")
+    
+    # 设置Seaborn样式
+    sns.set(style="whitegrid")
+    
+    # 为QA和摘要任务创建专门的条形图
+    plot_data = []
+    
+    # 收集所有任务的评分数据
+    for test_type, test_results in results.items():
+        for model_key, model_data in test_results.items():
+            if isinstance(model_data, dict) and not model_key.endswith('summary'):
+                # 尝试从结果中提取分数
+                for record in model_data:
+                    if isinstance(record, dict):
+                        score = record.get("score")
+                        if score is not None:
+                            plot_data.append({
+                                "Model": model_key,
+                                "Task Type": test_type,
+                                "Score": score
+                            })
+    
+    # 创建DataFrame
+    if plot_data:
+        plot_df = pd.DataFrame(plot_data)
+        
+        # 生成QA任务的条形图
+        qa_df = plot_df[plot_df['Task Type'] == 'qa']
+        if not qa_df.empty:
+            plt.figure(figsize=(10, 6))
+            sns.barplot(data=qa_df, x="Model", y="Score", ci="sd")
+            plt.title("QA任务 - 模型平均得分")
+            plt.ylim(0, 1)
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            qa_plot_path = os.path.join(report_path, "qa_scores.png")
+            plt.savefig(qa_plot_path)
+            plt.close()
+            print(f"QA得分图表已保存到 {qa_plot_path}")
+        
+        # 生成摘要任务的条形图
+        summarization_df = plot_df[plot_df['Task Type'] == 'summarization']
+        if not summarization_df.empty:
+            plt.figure(figsize=(10, 6))
+            sns.barplot(data=summarization_df, x="Model", y="Score", ci="sd")
+            plt.title("摘要任务 - 模型平均得分")
+            plt.ylim(0, 1)
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            summarization_plot_path = os.path.join(report_path, "summarization_scores.png")
+            plt.savefig(summarization_plot_path)
+            plt.close()
+            print(f"摘要得分图表已保存到 {summarization_plot_path}")
+        
+        # 生成推理任务的条形图
+        reasoning_df = plot_df[plot_df['Task Type'] == 'reasoning']
+        if not reasoning_df.empty:
+            plt.figure(figsize=(10, 6))
+            sns.barplot(data=reasoning_df, x="Model", y="Score", ci="sd")
+            plt.title("推理任务 - 模型平均得分")
+            plt.ylim(0, 1)
+            plt.xticks(rotation=45)
+            plt.tight_layout()
+            reasoning_plot_path = os.path.join(report_path, "reasoning_scores.png")
+            plt.savefig(reasoning_plot_path)
+            plt.close()
+            print(f"推理得分图表已保存到 {reasoning_plot_path}")
+    
+    # 写入HTML报告
     with open(html_report, 'w') as f:
         # 使用普通字符串而不是格式化字符串，避免%字符被误解为格式化字符
         f.write("""
@@ -246,8 +437,7 @@ def generate_report(results, report_path):
         </html>
         """)
     
-    # 在这里可以添加生成图表的代码
-    # 可视化各测试的相对性能
+    print(f"HTML报告已生成: {html_report}")
 
 def main():
     """主函数"""

@@ -1,22 +1,590 @@
 [
-    {
-      "question": "What is the capital of France?",
-      "answer": "Paris"
-    },
-    {
-      "question": "Who wrote 'Romeo and Juliet'?",
-      "answer": "William Shakespeare"
-    },
-    {
-      "question": "What is the chemical symbol for gold?",
-      "answer": "Au"
-    },
-    {
-      "question": "What is the tallest mountain in the world?",
-      "answer": "Mount Everest"
-    },
-    {
-      "question": "What is the square root of 144?",
-      "answer": "12"
-    }
-  ]
+  {
+    "question": "Nasser remains an iconic figure in the Arab world, particularly for his strides towards social justice and Arab unity, modernization policies, and anti-imperialist efforts. His presidency also encouraged and coincided with an Egyptian cultural boom, and launched large industrial projects, including the Aswan Dam and Helwan City. Nasser's detractors criticize his authoritarianism, his government's human rights violations, his populist relationship with the citizenry, and his failure to establish civil institutions, blaming his legacy for future dictatorial governance in Egypt. Historians describe Nasser as a towering political figure of the Middle East in the 20th century.What century did Nasser rule in?",
+    "answer": "20th"
+  },
+  {
+    "question": "In Ireland, pubs are known for their atmosphere or \"craic\". In Irish, a pub is referred to as teach tábhairne (\"tavernhouse\") or teach óil (\"drinkinghouse\"). Live music, either sessions of traditional Irish music or varieties of modern popular music, is frequently featured in the pubs of Ireland. Pubs in Northern Ireland are largely identical to their counterparts in the Republic of Ireland except for the lack of spirit grocers. A side effect of \"The Troubles\" was that the lack of a tourist industry meant that a higher proportion of traditional bars have survived the wholesale refitting of Irish pub interiors in the 'English style' in the 1950s and 1960s. New Zealand sports a number of Irish pubs.What country outside Ireland is known for having Irish pubs?",
+    "answer": "New Zealand"
+  },
+  {
+    "question": "The Internet was extensively used for passing information to aid rescue and recovery efforts. For example, the official news agency Xinhua set up an online rescue request center in order to find the blind spots of disaster recovery. After knowing that rescue helicopters had trouble landing into the epicenter area in Wenchuan, a student proposed a landing spot online and it was chosen as the first touchdown place for the helicopters[not in citation given]. Volunteers also set up several websites to help store contact information for victims and evacuees. On May 31, a rescue helicopter carrying earthquake survivors and crew members crashed in fog and turbulence in Wenchuan county. No-one survived.What kind of information were websites set up to store?",
+    "answer": "contact information"
+  },
+  {
+    "question": "In Why F A Hayek is a Conservative, British policy analyst Madsen Pirie claims Hayek mistakes the nature of the conservative outlook. Conservatives, he says, are not averse to change – but like Hayek, they are highly averse to change being imposed on the social order by people in authority who think they know how to run things better. They wish to allow the market to function smoothly and give it the freedom to change and develop. It is an outlook, says Pirie, that Hayek and conservatives both share.Pirie believes Hayek to be a conservative for what reason?",
+    "answer": "mistakes the nature of the conservative outlook"
+  },
+  {
+    "question": "The typical image of migration is of northern landbirds, such as swallows (Hirundinidae) and birds of prey, making long flights to the tropics. However, many Holarctic wildfowl and finch (Fringillidae) species winter in the North Temperate Zone, in regions with milder winters than their summer breeding grounds. For example, the pink-footed goose Anser brachyrhynchus migrates from Iceland to Britain and neighbouring countries, whilst the dark-eyed junco Junco hyemalis migrates from subarctic and arctic climates to the contiguous United States and the American goldfinch from taiga to wintering grounds extending from the American South northwestward to Western Oregon. Migratory routes and wintering grounds are traditional and learned by young during their first migration with their parents. Some ducks, such as the garganey Anas querquedula, move completely or partially into the tropics. The European pied flycatcher Ficedula hypoleuca also follows this migratory trend, breeding in Asia and Europe and wintering in Africa.Where do the dark-eyed junco migrate?",
+    "answer": "arctic climates to the contiguous United States"
+  },
+  {
+    "question": "The art of carpet weaving was particularly significant in the Ottoman Empire, carpets having an immense importance both as decorative furnishings, rich in religious and other symbolism, and as a practical consideration, as it was customary to remove one's shoes in living quarters. The weaving of such carpets originated in the nomadic cultures of central Asia (carpets being an easily transportable form of furnishing), and was eventually spread to the settled societies of Anatolia. Turks used carpets, rugs and kilims not just on the floors of a room, but also as a hanging on walls and doorways, where they provided additional insulation. They were also commonly donated to mosques, which often amassed large collections of them.Kilims were used by Turks to provide insulation where?",
+    "answer": "walls and doorways"
+  },
+  {
+    "question": "Also in 1931, Hayek critiqued Keynes's Treatise on Money (1930) in his \"Reflections on the pure theory of Mr. J. M. Keynes\" and published his lectures at the LSE in book form as Prices and Production. Unemployment and idle resources are, for Keynes, caused by a lack of effective demand; for Hayek, they stem from a previous, unsustainable episode of easy money and artificially low interest rates. Keynes asked his friend Piero Sraffa to respond. Sraffa elaborated on the effect of inflation-induced \"forced savings\" on the capital sector and about the definition of a \"natural\" interest rate in a growing economy. Others who responded negatively to Hayek's work on the business cycle included John Hicks, Frank Knight, and Gunnar Myrdal. Kaldor later wrote that Hayek's Prices and Production had produced \"a remarkable crop of critics\" and that the total number of pages in British and American journals dedicated to the resulting debate \"could rarely have been equalled in the economic controversies of the past.\"Who did Keynes turn to for assistance in arguing his point to Hayek?",
+    "answer": "Piero Sraffa"
+  },
+  {
+    "question": "The rivalry between Nintendo and Sega resulted in what has been described as one of the most notable console wars in video game history, in which Sega positioned the Genesis as the \"cool\" console, with more mature titles aimed at older gamers, and edgy advertisements that occasionally attacked the competition. Nintendo however, scored an early public relations advantage by securing the first console conversion of Capcom's arcade classic Street Fighter II for SNES, which took over a year to make the transition to Genesis. Despite the Genesis's head start, much larger library of games, and lower price point, the Genesis only represented an estimated 60% of the American 16-bit console market in June 1992, and neither console could maintain a definitive lead for several years. Donkey Kong Country is said to have helped establish the SNES's market prominence in the latter years of the 16-bit generation, and for a time, maintain against the PlayStation and Saturn. According to Nintendo, the company had sold more than 20 million SNES units in the U.S. According to a 2014 Wedbush Securities report based on NPD sales data, the SNES ultimately outsold the Genesis in the U.S. market.How much of the US 16-bit console market did the Genesis have in summer 1992?",
+    "answer": "60%"
+  },
+  {
+    "question": "In electric power distribution, capacitors are used for power factor correction. Such capacitors often come as three capacitors connected as a three phase load. Usually, the values of these capacitors are given not in farads but rather as a reactive power in volt-amperes reactive (var). The purpose is to counteract inductive loading from devices like electric motors and transmission lines to make the load appear to be mostly resistive. Individual motor or lamp loads may have capacitors for power factor correction, or larger sets of capacitors (usually with automatic switching devices) may be installed at a load center within a building or in a large utility substation.How are power factor correction capacitors sometimes installed?",
+    "answer": "at a load center within a building"
+  },
+  {
+    "question": "Schwarzenegger announced his candidacy in the 2003 California recall election for Governor of California on the August 6, 2003 episode of The Tonight Show with Jay Leno. Schwarzenegger had the most name recognition in a crowded field of candidates, but he had never held public office and his political views were unknown to most Californians. His candidacy immediately became national and international news, with media outlets dubbing him the \"Governator\" (referring to The Terminator movies, see above) and \"The Running Man\" (the name of another one of his films), and calling the recall election \"Total Recall\" (yet another movie starring Schwarzenegger). Schwarzenegger declined to participate in several debates with other recall replacement candidates, and appeared in only one debate on September 24, 2003.How many debates did Schwarzenegger participate in before the 2003 California recall election?",
+    "answer": "one"
+  },
+  {
+    "question": "When the news arrived in England it caused an outcry. In response, a combined bounty of £1,000 was offered for Every's capture by the Privy Council and East India Company, leading to the first worldwide manhunt in recorded history. The plunder of Aurangzeb's treasure ship had serious consequences for the English East India Company. The furious Mughal Emperor Aurangzeb ordered Sidi Yaqub and Nawab Daud Khan to attack and close four of the company's factories in India and imprison their officers, who were almost lynched by a mob of angry Mughals, blaming them for their countryman's depredations, and threatened to put an end to all English trading in India. To appease Emperor Aurangzeb and particularly his Grand Vizier Asad Khan, Parliament exempted Every from all of the Acts of Grace (pardons) and amnesties it would subsequently issue to other pirates.Captian Every was the focus of the first recorded worldwide.... what in history?",
+    "answer": "manhunt"
+  },
+  {
+    "question": "Each year HHC's facilities provide about 225,000 admissions, one million emergency room visits and five million clinic visits to New Yorkers. HHC facilities treat nearly one-fifth of all general hospital discharges and more than one third of emergency room and hospital-based clinic visits in New York City.What fraction of general hospital discharges receive treatment at HHC?",
+    "answer": "one-fifth"
+  },
+  {
+    "question": "Major tourist destinations include Times Square; Broadway theater productions; the Empire State Building; the Statue of Liberty; Ellis Island; the United Nations Headquarters; museums such as the Metropolitan Museum of Art; greenspaces such as Central Park and Washington Square Park; Rockefeller Center; the Manhattan Chinatown; luxury shopping along Fifth and Madison Avenues; and events such as the Halloween Parade in Greenwich Village; the Macy's Thanksgiving Day Parade; the lighting of the Rockefeller Center Christmas Tree; the St. Patrick's Day parade; seasonal activities such as ice skating in Central Park in the wintertime; the Tribeca Film Festival; and free performances in Central Park at Summerstage. Major attractions in the boroughs outside Manhattan include Flushing Meadows-Corona Park and the Unisphere in Queens; the Bronx Zoo; Coney Island, Brooklyn; and the New York Botanical Garden in the Bronx. The New York Wheel, a 630-foot ferris wheel, was under construction at the northern shore of Staten Island in 2015, overlooking the Statue of Liberty, New York Harbor, and the Lower Manhattan skyline.At what location is a Christmas tree famously lit every year?",
+    "answer": "Rockefeller Center"
+  },
+  {
+    "question": "Ancient Greek philosophers like Thales, Anaxagoras (ca. 500 BC – 428 BC), Epicurus and Democritus prefigure later materialists. The Latin poem De Rerum Natura by Lucretius (ca. 99 BC – ca. 55 BC) reflects the mechanistic philosophy of Democritus and Epicurus. According to this view, all that exists is matter and void, and all phenomena result from different motions and conglomerations of base material particles called \"atoms\" (literally: \"indivisibles\"). De Rerum Natura provides mechanistic explanations for phenomena such as erosion, evaporation, wind, and sound. Famous principles like \"nothing can touch body but body\" first appeared in the works of Lucretius. Democritus and Epicurus however did not hold to a monist ontology since they held to the ontological separation of matter and space i.e. space being \"another kind\" of being, indicating that the definition of \"materialism\" is wider than given scope for in this article.De Rerum Natura is a poem by who?",
+    "answer": "Lucretius"
+  },
+  {
+    "question": "In July 2012, Ancestry.com reported on historic and DNA research by its staff that discovered that Obama is likely a descendant through his mother of John Punch, considered by some historians to be the first African slave in the Virginia colony. An indentured servant, he was \"bound for life\" in 1640 after trying to escape. The story of him and his descendants is that of multi-racial America since it appeared he and his sons married or had unions with white women, likely indentured servants and working-class like them. Their multi-racial children were free because they were born to free English women. Over time, Obama's line of the Bunch family (as they became known) were property owners and continued to \"marry white\"; they became part of white society, likely by the early to mid-18th century.Who is John Punch?",
+    "answer": "the first African slave in the Virginia colony"
+  },
+  {
+    "question": "During the 14th century in the northeastern part of the state nomad tribes by the name of Jornado hunted bison along the Rio Grande; they left numerous rock paintings throughout the northeastern part of the state. When the Spanish explorers reached this area they found their descendants, Suma and Manso tribes. In the southern part of the state, in a region known as Aridoamerica, Chichimeca people survived by hunting, gathering, and farming between AD 300 and 1300. The Chichimeca are the ancestors of the Tepehuan people.How did the Chichimeca survive?",
+    "answer": "hunting, gathering, and farming"
+  },
+  {
+    "question": "In 1609, English explorer Henry Hudson re-discovered the region when he sailed his ship the Halve Maen (\"Half Moon\" in Dutch) into New York Harbor while searching for the Northwest Passage to the Orient for his employer, the Dutch East India Company. He proceeded to sail up what he named the North River, also called the Mauritis River, and now known as the Hudson River, to the site of the present-day New York State capital of Albany in the belief that it might represent an oceanic tributary. When the river narrowed and was no longer saline, he realized it was not a maritime passage and sailed back downriver. He made a ten-day exploration of the area and claimed the region for his employer. In 1614, the area between Cape Cod and Delaware Bay would be claimed by the Netherlands and called Nieuw-Nederland (New Netherland).What did Henry Hudson call the river that is now called the Hudson River?",
+    "answer": "North River"
+  },
+  {
+    "question": "New Haven (local /nuː ˈheɪvən/, noo-HAY-vən), in the U.S. state of Connecticut, is the principal municipality in Greater New Haven, which had a total population of 862,477 in 2010. It is located on New Haven Harbor on the northern shore of the Long Island Sound in New Haven County, Connecticut, which in turn comprises the outer limits of the New York metropolitan area. It is the second-largest city in Connecticut (after Bridgeport), with a population of 129,779 people as of the 2010 United States Census. According to a census of 1 July 2012, by the Census Bureau, the city had a population of 130,741.The population of the Greater New Haven in 2010?",
+    "answer": "862,477"
+  },
+  {
+    "question": "St. John's was the starting point for the first non-stop transatlantic aircraft flight, by Alcock and Brown in a modified Vickers Vimy IV bomber, in June 1919, departing from Lester's Field in St. John's and ending in a bog near Clifden, Connemara, Ireland. In July 2005, the flight was duplicated by American aviator and adventurer Steve Fossett in a replica Vickers Vimy aircraft, with St. John's International Airport substituting for Lester's Field (now an urban and residential part of the city).Where in St. John's did Alcock and Brown depart from in June 1919?",
+    "answer": "Lester's Field"
+  },
+  {
+    "question": "The Bush administration then turned its attention to Iraq, and argued the need to remove Saddam Hussein from power in Iraq had become urgent. Among the stated reasons were that Saddam's regime had tried to acquire nuclear material and had not properly accounted for biological and chemical material it was known to have previously possessed, and believed to still maintain. Both the possession of these weapons of mass destruction (WMD), and the failure to account for them, would violate the U.N. sanctions. The assertion about WMD was hotly advanced by the Bush administration from the beginning, but other major powers including China, France, Germany, and Russia remained unconvinced that Iraq was a threat and refused to allow passage of a UN Security Council resolution to authorize the use of force. Iraq permitted UN weapon inspectors in November 2002, who were continuing their work to assess the WMD claim when the Bush administration decided to proceed with war without UN authorization and told the inspectors to leave the country. The United States invaded Iraq on March 20, 2003, along with a \"coalition of the willing\" that consisted of additional troops from the United Kingdom, and to a lesser extent, from Australia and Poland. Within about three weeks, the invasion caused the collapse of both the Iraqi government and its armed forces, however, the U.S. and allied forces failed to find any weapon of mass destruction in Iraq. Traces of former materials and weapons labs were reported to have been located, but no \"smoking guns\". Nevertheless, on May 1, George W. Bush landed on the aircraft carrier USS Abraham Lincoln, in a Lockheed S-3 Viking, where he gave a speech announcing the end of \"major combat operations\" in the Iraq War. Bush's approval rating in May was at 66%, according to a CNN–USA Today–Gallup poll. However, Bush's high approval ratings did not last. First, while the war itself was popular in the U.S., the reconstruction and attempted \"democratization\" of Iraq lost some support as months passed and casualty figures increased, with no decrease in violence nor progress toward stability or reconstruction. Second, as investigators combed through the country, they failed to find the predicted WMD stockpiles, which led to debate over the rationale for the war.Did Bush have the support of the UN, when he decided to infiltrate Iraq on March 20, 2003?",
+    "answer": "without UN authorization"
+  },
+  {
+    "question": "On 16 March 2012, 52 Greenpeace activists from five different countries boarded Fennica and Nordica, multipurpose icebreakers chartered to support Shell's drilling rigs near Alaska. Around the same time period, a reporter for Fortune magazine spoke with Edward Itta, an Inupiat Eskimo leader and the former mayor of the North Slope Borough, who expressed that he was conflicted about Shell's plans in the Arctic, as he was very concerned that an oil spill could destroy the Inupiat Eskimo's hunting-and-fishing culture, but his borough also received major tax revenue from oil and gas production; additionally, further revenue from energy activity was considered crucial to the future of the living standard in Itta's community.What was the main concern of Edward Itta?",
+    "answer": "an oil spill could destroy the Inupiat Eskimo's hunting-and-fishing culture"
+  },
+  {
+    "question": "The Times Literary Supplement (TLS) first appeared in 1902 as a supplement to The Times, becoming a separately paid-for weekly literature and society magazine in 1914. The Times and the TLS have continued to be co-owned, and as of 2012 the TLS is also published by News International and cooperates closely with The Times, with its online version hosted on The Times website, and its editorial offices based in Times House, Pennington Street, London.In 1914, a separately paid-for supplement for The Times was a magazine that featured what kind of content?",
+    "answer": "weekly literature"
+  },
+  {
+    "question": "NASCAR (headquartered in Daytona Beach) begins all three of its major auto racing series in Florida at Daytona International Speedway in February, featuring the Daytona 500, and ends all three Series in November at Homestead-Miami Speedway. Daytona also has the Coke Zero 400 NASCAR race weekend around Independence Day in July. The 24 Hours of Daytona is one of the world's most prestigious endurance auto races. The Grand Prix of St. Petersburg and Grand Prix of Miami have held IndyCar races as well.Name another race in florida ",
+    "answer": "Daytona also has the Coke Zero 400 NASCAR race weekend around Independence Day in July"
+  },
+  {
+    "question": "Evidence from the early technical literature concerning electrical recording suggests that it wasn't until the 1942–1949 period that there were serious efforts to standardize recording characteristics within an industry. Heretofore, electrical recording technology from company to company was considered a proprietary art all the way back to the 1925 Western Electric licensed method used by Columbia and Victor. For example, what Brunswick-Balke-Collender (Brunswick Corporation) did was different from the practices of Victor.Around what time period was there an attempt made to standardize recordings?",
+    "answer": "1942–1949"
+  },
+  {
+    "question": "The Quranic text seems to have no beginning, middle, or end, its nonlinear structure being akin to a web or net. The textual arrangement is sometimes considered to exhibit lack of continuity, absence of any chronological or thematic order and repetitiousness. Michael Sells, citing the work of the critic Norman O. Brown, acknowledges Brown's observation that the seeming disorganization of Quranic literary expression – its scattered or fragmented mode of composition in Sells's phrase – is in fact a literary device capable of delivering profound effects as if the intensity of the prophetic message were shattering the vehicle of human language in which it was being communicated. Sells also addresses the much-discussed repetitiveness of the Quran, seeing this, too, as a literary device.What is lacking in the arrangement of the Quranic text?",
+    "answer": "continuity"
+  },
+  {
+    "question": "Phaininda and episkyros were Greek ball games. An image of an episkyros player depicted in low relief on a vase at the National Archaeological Museum of Athens appears on the UEFA European Championship Cup. Athenaeus, writing in 228 AD, referenced the Roman ball game harpastum. Phaininda, episkyros and harpastum were played involving hands and violence. They all appear to have resembled rugby football, wrestling and volleyball more than what is recognizable as modern football. As with pre-codified \"mob football\", the antecedent of all modern football codes, these three games involved more handling the ball than kicking. Non-competitive games included kemari in Japan, chuk-guk in Korea and woggabaliri in Australia.What country is the game wogabaliri from?",
+    "answer": "Australia"
+  },
+  {
+    "question": "In October 1810, six months after Fryderyk's birth, the family moved to Warsaw, where his father acquired a post teaching French at the Warsaw Lyceum, then housed in the Saxon Palace. Fryderyk lived with his family in the Palace grounds. The father played the flute and violin; the mother played the piano and gave lessons to boys in the boarding house that the Chopins kept. Chopin was of slight build, and even in early childhood was prone to illnesses.What instruments did Chopin's father play?",
+    "answer": "flute and violin"
+  },
+  {
+    "question": "Plato's theory of forms or \"ideas\" describes ideal forms (for example the platonic solids in geometry or abstracts like Goodness and Justice), as universals existing independently of any particular instance. Arne Grøn calls this doctrine \"the classic example of a metaphysical idealism as a transcendent idealism\", while Simone Klein calls Plato \"the earliest representative of metaphysical objective idealism\". Nevertheless, Plato holds that matter is real, though transitory and imperfect, and is perceived by our body and its senses and given existence by the eternal ideas that are perceived directly by our rational soul. Plato was therefore a metaphysical and epistemological dualist, an outlook that modern idealism has striven to avoid: Plato's thought cannot therefore be counted as idealist in the modern sense, although quantum physics' assertion that man's consciousness is an immutable and primary requisite for not merely perceiving but shaping matter, and thus his reality, would give more credence to Plato's dualist position.[citation needed]What sort of dualist is Plato regarded as?",
+    "answer": "metaphysical and epistemological"
+  },
+  {
+    "question": "To pay for his military campaigns and colonial expansion, Emperor Wu nationalized several private industries. He created central government monopolies administered largely by former merchants. These monopolies included salt, iron, and liquor production, as well as bronze-coin currency. The liquor monopoly lasted only from 98 to 81 BC, and the salt and iron monopolies were eventually abolished in early Eastern Han. The issuing of coinage remained a central government monopoly throughout the rest of the Han dynasty. The government monopolies were eventually repealed when a political faction known as the Reformists gained greater influence in the court. The Reformists opposed the Modernist faction that had dominated court politics in Emperor Wu's reign and during the subsequent regency of Huo Guang (d. 68 BC). The Modernists argued for an aggressive and expansionary foreign policy supported by revenues from heavy government intervention in the private economy. The Reformists, however, overturned these policies, favoring a cautious, non-expansionary approach to foreign policy, frugal budget reform, and lower tax-rates imposed on private entrepreneurs.Which faction did the Reformists oppose?",
+    "answer": "Modernist"
+  },
+  {
+    "question": "Italians in different regions today may also speak regional varieties of standard Italian, or regional Italian dialects, which, unlike the majority of languages of Italy, are actually dialects of standard Italian rather than separate languages. A regional Italian dialect is generally standard Italian that has been heavily influenced or mixed with local or regional native languages and accents.Regional Italian dialects are often influenced by regional languages and what other language?",
+    "answer": "standard Italian"
+  },
+  {
+    "question": "At the 2012 census, 59.5% of jobs in the Paris Region were in market services (12.0% in wholesale and retail trade, 9.7% in professional, scientific, and technical services, 6.5% in information and communication, 6.5% in transportation and warehousing, 5.9% in finance and insurance, 5.8% in administrative and support services, 4.6% in accommodation and food services, and 8.5% in various other market services), 26.9% in non-market services (10.4% in human health and social work activities, 9.6% in public administration and defence, and 6.9% in education), 8.2% in manufacturing and utilities (6.6% in manufacturing and 1.5% in utilities), 5.2% in construction, and 0.2% in agriculture.What percentage of people worked in agriculture?",
+    "answer": "0.2"
+  },
+  {
+    "question": "In 1838 with the amount of smuggled opium entering China approaching 1,400 tons a year, the Chinese imposed a death penalty for opium smuggling and sent a Special Imperial Commissioner, Lin Zexu, to curb smuggling. This resulted in the First Opium War (1839–42). After the war Hong Kong island was ceded to Britain under the Treaty of Nanking and the Chinese market opened to the opium traders of Britain and other nations. The Jardines and Apcar and Company dominated the trade, although P&O also tried to take a share. A Second Opium War fought by Britain and France against China lasted from 1856 until 1860 and led to the Treaty of Tientsin, which legalised the importation of opium. Legalisation stimulated domestic Chinese opium production and increased the importation of opium from Turkey and Persia. This increased competition for the Chinese market led to India reducing its opium output and diversifying its exports.when did the first Opium war start?",
+    "answer": "1839"
+  },
+  {
+    "question": "In the paper \"Who's Gay? Does It Matter?\", Ritch Savin-Williams proposes two different approaches to assessing sexual orientation until well positioned and psychometrically sound and tested definitions are developed that would allow research to reliably identify the prevalence, causes, and consequences of homosexuality. He first suggests that greater priority should be given to sexual arousal and attraction over behaviour and identity because it is less prone to self- and other-deception, social conditions and variable meanings. To measure attraction and arousal he proposed that biological measures should be developed and used. There are numerous biological/physiological measures that exist that can measure sexual orientation such as sexual arousal, brain scans, eye tracking, body odour preference, and anatomical variations such as digit-length ratio and right or left handedness. Secondly, Savin-Williams suggests that researchers should forsake the general notion of sexual orientation altogether and assess only those components that are relevant for the research question being investigated. For example:What did he propose to measure attraction?",
+    "answer": "that biological measures should be developed and used."
+  },
+  {
+    "question": "Kinect is a \"controller-free gaming and entertainment experience\" for the Xbox 360. It was first announced on June 1, 2009 at the Electronic Entertainment Expo, under the codename, Project Natal. The add-on peripheral enables users to control and interact with the Xbox 360 without a game controller by using gestures, spoken commands and presented objects and images. The Kinect accessory is compatible with all Xbox 360 models, connecting to new models via a custom connector, and to older ones via a USB and mains power adapter. During their CES 2010 keynote speech, Robbie Bach and Microsoft CEO Steve Ballmer went on to say that Kinect will be released during the holiday period (November–January) and it will work with every 360 console. Its name and release date of 2010-11-04 were officially announced on 2010-06-13, prior to Microsoft's press conference at E3 2010.How can users utilize the Kinect to interact with their 360 consoles?",
+    "answer": "by using gestures, spoken commands and presented objects and images"
+  },
+  {
+    "question": "Nanjing Library, founded in 1907, houses more than 10 million volumes of printed materials and is the third largest library in China, after the National Library in Beijing and Shanghai Library. Other libraries, such as city-owned Jinling Library and various district libraries, also provide considerable amount of information to citizens. Nanjing University Library is the second largest university libraries in China after Peking University Library, and the fifth largest nationwide, especially in the number of precious collections.How many volumes does the Nanjing Library have?",
+    "answer": "more than 10 million volumes"
+  },
+  {
+    "question": "Many mechanical aids to calculation and measurement were constructed for astronomical and navigation use. The planisphere was a star chart invented by Abū Rayhān al-Bīrūnī in the early 11th century. The astrolabe was invented in the Hellenistic world in either the 1st or 2nd centuries BC and is often attributed to Hipparchus. A combination of the planisphere and dioptra, the astrolabe was effectively an analog computer capable of working out several different kinds of problems in spherical astronomy. An astrolabe incorporating a mechanical calendar computer and gear-wheels was invented by Abi Bakr of Isfahan, Persia in 1235. Abū Rayhān al-Bīrūnī invented the first mechanical geared lunisolar calendar astrolabe, an early fixed-wired knowledge processing machine with a gear train and gear-wheels, circa 1000 AD.Who invented the planisphere?",
+    "answer": "Abū Rayhān al-Bīrūnī"
+  },
+  {
+    "question": "The Brookings Institution reported in June 2009 that U.S. consumption accounted for more than a third of the growth in global consumption between 2000 and 2007. \"The US economy has been spending too much and borrowing too much for years and the rest of the world depended on the U.S. consumer as a source of global demand.\" With a recession in the U.S. and the increased savings rate of U.S. consumers, declines in growth elsewhere have been dramatic. For the first quarter of 2009, the annualized rate of decline in GDP was 14.4% in Germany, 15.2% in Japan, 7.4% in the UK, 18% in Latvia, 9.8% in the Euro area and 21.5% for Mexico.Who depended on the U.S. consumer as a source of global demand?",
+    "answer": "the rest of the world"
+  },
+  {
+    "question": "Which American aircraft company made the Guardian anti submarine aircraft?",
+    "answer": "Grumman"
+  },
+  {
+    "question": "‘I Predict a Riot’ (2004) and ‘Never Miss a Beat’ (2008) were Top 10 hits for whom?",
+    "answer": "KAISER CHIEFS"
+  },
+  {
+    "question": "What was being advertised in a famous TV advert which showed Paul Gascoigne burst into tears?",
+    "answer": "Walkers Crisps"
+  },
+  {
+    "question": "In which country is the city of Derry?",
+    "answer": "Northern Ireland"
+  },
+  {
+    "question": "Death Valley is in which state of the USA?",
+    "answer": "California"
+  },
+  {
+    "question": "Whom did Pat Cash defeat in the 1987 Wimbledon Men's Singles Final?",
+    "answer": "Ivan Lendl"
+  },
+  {
+    "question": "Who was the first sportsman to be British Sports Personality of the Year twice?",
+    "answer": "Henry Cooper"
+  },
+  {
+    "question": "Who became the first socialist Prime Minister of Greece in 1981?",
+    "answer": "Andreas Papandreou"
+  },
+  {
+    "question": "In which country was Daniel Libeskind, architect of the Jewish Museum in Berlin born?",
+    "answer": "POLAND"
+  },
+  {
+    "question": "What is the longest river in North America?",
+    "answer": "Missouri River"
+  },
+  {
+    "question": "Malev was the national airline of which European country from 1946 to 2012?",
+    "answer": "Hungary"
+  },
+  {
+    "question": "What Italian word refers to a painting technique where paint is laid onto the canvas so thickly that the brush or knife strokes are visible?",
+    "answer": "IMPASTO"
+  },
+  {
+    "question": "Linford Christie won a gold medal representing Great Britain in the 100 metres at the 1992 Olympics in Barcelona, but what country was he born in?",
+    "answer": "Jamaica"
+  },
+  {
+    "question": "New Zealand has won every IRB Sevens tournament since 1999 except one. Who won in 2005-2006?",
+    "answer": "Fiji"
+  },
+  {
+    "question": "During which month of the year is Oak Apple Day  (Royal Oak Day) celebrated?",
+    "answer": "May"
+  },
+  {
+    "question": "The Book of Kells is in which city?",
+    "answer": "Dublin"
+  },
+  {
+    "question": "\"In which 20th century conflict did the \"\"Tet offensive\"\" take place?\"",
+    "answer": "Vietnam War"
+  },
+  {
+    "question": "After the Olympics, what are the world's second-largest multi-sport event, the Delhi edition of which was in the news in 2010?",
+    "answer": "Commonwealth Games"
+  },
+  {
+    "question": "What was Bruce Springsteen's first number one album in the U.K.",
+    "answer": "Born in the U.S.A."
+  },
+  {
+    "question": "In a 2004 poll run by the BBC, which TV show won the title of Best British Sitcom?",
+    "answer": "Only Fools And Horses"
+  },
+  {
+    "question": "In what year was Olaf Palme, Prime Minister of Sweden, assassinated?",
+    "answer": "1986"
+  },
+  {
+    "question": "Episcopal refers to what authority?",
+    "answer": "Bishop"
+  },
+  {
+    "question": "Who did Snoopy take to the skies in his Sopwith Camel doghouse/biplane to do battle with in the comic strip Peanuts?",
+    "answer": "The Red Baron"
+  },
+  {
+    "question": "What type of bomber dropped the atomic bomb on Hiroshima in 1945?",
+    "answer": "BOEING B-29 SUPERFORTRESS"
+  },
+  {
+    "question": "\"The word \"\"batty\"\" derives from which expression?\"",
+    "answer": "BATS IN THE BELFRY"
+  },
+  {
+    "question": "Nashville based Mac McAnally was named for the second consecutive year Musician of the Year at which 2009 awards event?",
+    "answer": "CMA Awards"
+  },
+  {
+    "question": "Who created the fictional LAPD detective Harry Bosch?",
+    "answer": "Michael Connolly"
+  },
+  {
+    "question": "What now common device was proposed by Townes in 1958 and built by Maiman in 1960? (Townes got the Nobel Prize and Maiman filed the patent)",
+    "answer": "Laser"
+  },
+  {
+    "question": "In which long-running comic series did the eponymous hero experience two dream sequences where he married each of his girlfriends, Veronica and Betty?",
+    "answer": "Archie"
+  },
+  {
+    "question": "Which decade does Michael J Fox go back to in Back to the Future?",
+    "answer": "50s"
+  },
+  {
+    "question": "What was the surname of the French brothers who invented the hot - air balloon in the 18'th century ?",
+    "answer": "MONTGOLFIER"
+  },
+  {
+    "question": "What is the capital city of Nevada?",
+    "answer": "Carson City"
+  },
+  {
+    "question": "\"The wine \"\"Lachryma Christi\"\" is made from grapes grown on the slopes of which mountain?\"",
+    "answer": "VESUVIUS"
+  },
+  {
+    "question": "\"The phrases \"\"cry wolf\"\" and \"\"sour grapes\"\" have a basis in which collection of stories?\"",
+    "answer": "Aesop's Fables"
+  },
+  {
+    "question": "Who is the President of Argentina ?",
+    "answer": "CRISTINA KIRCHNER"
+  },
+  {
+    "question": "Which sign of the Zodiac are people born on 30th October?",
+    "answer": "Scorpio"
+  },
+  {
+    "question": "Messier numbers were first applied to what?",
+    "answer": "Accept any of GALAXIES, STAR CLUSTERS, NEBULAE or SUPER NOVA but not COMETS"
+  },
+  {
+    "question": "‘International ‘what’ is the official colour of the paint on the Golden Gate Bridge in California?",
+    "answer": "Orange"
+  },
+  {
+    "question": "In betting, which odds are known as ‘Enin’?",
+    "answer": "9 to 1"
+  },
+  {
+    "question": "Which American golfer beat Tom Watson in a play-off to win the 2009 Open Golf championship at Turnberry?",
+    "answer": "STEWART CINK"
+  },
+  {
+    "question": "Former professional footballer Neil Ruddock played for which English club from 1986 to 1988?",
+    "answer": "Tottenham Hotspur FC"
+  },
+  {
+    "question": "There are three snakes native to Britain, the adder, the grass snake and which other?",
+    "answer": "THE SMOOTH SNAKE"
+  },
+  {
+    "question": "To which genus of trees does the willow belong?",
+    "answer": "SALIX"
+  },
+  {
+    "question": "What is the name of the topmost bone of the spine that supports the skull",
+    "answer": "Atlas"
+  },
+  {
+    "question": "What colour does the planet Neptune appear to be from space?",
+    "answer": "Blue"
+  },
+  {
+    "question": "What is the second letter of the Greek alphabet?",
+    "answer": "Beta"
+  },
+  {
+    "question": "How are the lovers Vrechen and Sali described in the title of a 1906 opera by Delius?",
+    "answer": "A Village Romeo and Juliet"
+  },
+  {
+    "question": "Which female singer released the autobiography, 'True'?",
+    "answer": "GERI HALLIWELL"
+  },
+  {
+    "question": "The Chinese New Year has just occurred, what is it the year of?",
+    "answer": "The Horse"
+  },
+  {
+    "question": "In Norse mythology, what type of creature was Fenrir?",
+    "answer": "Wolf"
+  },
+  {
+    "question": "Which two words are inscribed on the Victoria Cross?",
+    "answer": "For Valour"
+  },
+  {
+    "question": "In 1999, who became King of Jordan following the death of King Hussein?",
+    "answer": "PRINCE ABDULLAH"
+  },
+  {
+    "question": "Which British prime minister resigned as a result of the Suez Crisis?",
+    "answer": "Anthony Eden"
+  },
+  {
+    "question": "Who piloted the command module during the first Moon landing?",
+    "answer": "Michael Collins"
+  },
+  {
+    "question": "An older woman who is attracted to, and often has sex with, much younger men is called a what",
+    "answer": "Cougar"
+  },
+  {
+    "question": "\"Which disease, the victims of which are nearly always men, (females are asymptomatic carriers of the disorder), is sometimes known as \"\"The Royal Disease\"\"?\"",
+    "answer": "HAEMOPHILIA"
+  },
+  {
+    "question": "Who founded the eponymous fashion label DVF?",
+    "answer": "DIANE VON FURSTENBERG"
+  },
+  {
+    "question": "The 'Bechdel Test' is an informal measure of what in films and other fictional entertainment?",
+    "answer": "Gender bias"
+  },
+  {
+    "question": "What colour is a polar bears skin?",
+    "answer": "Black"
+  },
+  {
+    "question": "In British currency, how many pre-decimal pennies were in a pound?",
+    "answer": "240"
+  },
+  {
+    "question": "According to the proverb, a chain is only as strong as what?",
+    "answer": "It's weakest link"
+  },
+  {
+    "question": "\"In \"\"The Lord Of The Rings\"\", what was the name of Gandalf's horse?\"",
+    "answer": "Shadowfax"
+  },
+  {
+    "question": "Military signals are given on which musical instrument?",
+    "answer": "Bugle"
+  },
+  {
+    "question": "A sorrel is which animal with a light reddish-brown coat?",
+    "answer": "Horse"
+  },
+  {
+    "question": "\"Who wrote \"\"The Water Babies\"\"?\"",
+    "answer": "Charles Kingsley"
+  },
+  {
+    "question": "What is the name of the target in a game of curling?",
+    "answer": "House"
+  },
+  {
+    "question": "Traditionally made for agricultural workers, which elongated suet crust dumpling has a meat filling at one end and a jam one at the other?",
+    "answer": "Bedfordshire Clanger"
+  },
+  {
+    "question": "\"Who is cartoon character \"\"The Phantom\"\" married to?\"",
+    "answer": "Diana Palmer"
+  },
+  {
+    "question": "In which city was Terry Wogan born?",
+    "answer": "LIMERICK"
+  },
+  {
+    "question": "Which treaty in 1957 led to the creation of the EEC?",
+    "answer": "Treaty of Rome"
+  },
+  {
+    "question": "\"Who wrote \"\"March of the Meanies\"\" for the Beatles' cartoon film \"\"Yellow Submarine\"\"?\"",
+    "answer": "George Martin."
+  },
+  {
+    "question": "\"Which famous science fiction novel of 1898 is famous for its ending which states \"\"After all that mankind had tried, the Earth was saved by the littlest things that God, in his wisdom, had put on this Earth?\"",
+    "answer": "WAR OF THE WORLDS"
+  },
+  {
+    "question": "\"Who famously said in 1916 \"\"History is more or less bunk\"\"?\"",
+    "answer": "Henry Ford"
+  },
+  {
+    "question": "What type of creature is a Harvestman?",
+    "answer": "An Arachnid or Spider"
+  },
+  {
+    "question": "Edmund Hillary and Tenzing Norgay did what in May 1953?",
+    "answer": "First ascent of Everest"
+  },
+  {
+    "question": "\"After 97 years since being installed on a rock in Copenhagen harbour, the statue of \"\"The Little Mermaid\"\" left its place in April 2010 to go where?\"",
+    "answer": "Shanghai, China"
+  },
+  {
+    "question": "Who famously owned a bicycle shop at 22 South Williams Street, Dayton, Oh?",
+    "answer": "The Wright Brothers"
+  },
+  {
+    "question": "In which London road is Harrod’s department store?",
+    "answer": "Brompton Road"
+  },
+  {
+    "question": "What is usually added to Pernod before it is drank by the French",
+    "answer": "Water"
+  },
+  {
+    "question": "Halophobia is the fear of what?",
+    "answer": "Speaking"
+  },
+  {
+    "question": "What is the surname of Truman, played by Jim Carrey, in the 1998 film The Truman Show?",
+    "answer": "Burbank"
+  },
+  {
+    "question": "On which major river does Bamako, the capital of Mali stand?",
+    "answer": "NIGER"
+  },
+  {
+    "question": "\"What name was given to 6 labourers in Dorset, England, who formed a \"\"Friendly Society of Agricultural Labourers\"\" and in 1834 were sentenced to 7 years transportation for \"\"administering unlawful oaths\"\"?\"",
+    "answer": "The Tolpuddle Martyrs"
+  },
+  {
+    "question": "Which 19th century British general, who lived between 1824 and 1901, gave his name to a type of military belt?",
+    "answer": "SAM BROWNE"
+  },
+  {
+    "question": "Which US city filed for bankruptcy in July 2013?",
+    "answer": "DETROIT"
+  },
+  {
+    "question": "The Altiplano is a high plateau in the Andes name either of the two countries in which it lies?",
+    "answer": "BOLIVIA OR PERU"
+  },
+  {
+    "question": "Which musical was written by Tim Rice with two ex-members of ABBA?",
+    "answer": "Chess"
+  },
+  {
+    "question": "What was the Roman name for 'Bath'?",
+    "answer": "Aquae Sulis"
+  },
+  {
+    "question": "Which was the last team to win the FA Cup and Premier League double?",
+    "answer": "CHELSEA (2009-2010)"
+  },
+  {
+    "question": "Who brought a legal suit against Michael Jackson in early 2009 claiming a share of profits from the Thriller video?",
+    "answer": "John Landis"
+  },
+  {
+    "question": "Pharaohs were leaders of which ancient nation?",
+    "answer": "Egypt"
+  },
+  {
+    "question": "BG is the international car registration for which country?",
+    "answer": "Bulgaria"
+  },
+  {
+    "question": "The United States deployed combat units in 1965 into which war to prevent a communist takeover of Southeast Asia, part of a wider strategy called containment?",
+    "answer": "The Vietnam War"
+  },
+  {
+    "question": "What does a silkworm feed on?",
+    "answer": "Mulberries"
+  },
+  {
+    "question": "Who was nearly 7 feet tall, weighed 500 pounds, and could drink 100 beers in a sitting?",
+    "answer": "André the Giant"
+  },
+  {
+    "question": "Who bought the Duke and Duchess of Windsor's house in Paris in 1986?",
+    "answer": "MOHAMAD-AL-FAYED"
+  },
+  {
+    "question": "\"In Samuel Beckett's play \"\"Waiting For Godot\"\", which 2 characters appear together, briefly, once in each act?\"",
+    "answer": "Pozzo and Lucky"
+  },
+  {
+    "question": "Which US President was given the nickname ‘The Great Emancipator’?",
+    "answer": "Abraham Lincoln"
+  },
+  {
+    "question": "Who was the last King of Iraq?",
+    "answer": "Faisal the Second"
+  },
+  {
+    "question": "Who became British Prime Minister on the 22nd. January 1924?",
+    "answer": "RAMSAY MACDONALD"
+  },
+  {
+    "question": "Which NFL team represented the AFC at Super Bowl 50, who did they play, and what was the final score?",
+    "answer": "Denver Broncos; Carolina Panthers; 24\u201310"
+  },
+  {
+    "question": "Where did Super Bowl 50 take place, what stadium hosted it, and what date was it held?",
+    "answer": "Santa Clara, California; Levi's Stadium; February 7, 2016"
+  },
+  {
+    "question": "Who was the Super Bowl 50 MVP, what position did he play, and how many solo tackles did he make?",
+    "answer": "Von Miller; linebacker; five solo tackles"
+  },
+  {
+    "question": "Who was the quarterback for the Panthers, how many touchdowns did he score, and how many rushing yards did he achieve?",
+    "answer": "Cam Newton; 45 total touchdowns; 636 rushing yards"
+  },
+  {
+    "question": "What band headlined the Super Bowl 50 halftime show, which two artists joined them, and what previous halftime shows had they headlined?",
+    "answer": "Coldplay; Beyonc\u00e9 and Bruno Mars; Super Bowl XLVII and Super Bowl XLVIII"
+  },
+  {
+    "question": "What year was Super Bowl 50 played, which season did it conclude, and who won the championship?",
+    "answer": "2016; 2015 NFL season; Denver Broncos"
+  },
+  {
+    "question": "How many interceptions did the Panthers' defense get, who led the team, and how many tackles did he have?",
+    "answer": "24 interceptions; Kurt Coleman; 88 tackles"
+  },
+  {
+    "question": "Who did the Broncos defeat in the AFC Championship, what was the score, and where was the game played?",
+    "answer": "New England Patriots; 20\u201318; Sports Authority Field at Mile High"
+  },
+  {
+    "question": "Which team won Super Bowl 50, what was their regular season record, and who was their coach?",
+    "answer": "Denver Broncos; 12\u20134; Gary Kubiak"
+  },
+  {
+    "question": "Who was the Panthers' top wide receiver in 2015, how many catches did he have, and how many yards did he record?",
+    "answer": "Greg Olsen; 77 receptions; 1,104 yards"
+  }
+]

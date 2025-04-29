@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
 """
@@ -15,6 +15,9 @@ with varying difficulty levels: introductory, interview, and competition.
 import sys
 import importlib
 from typing import List
+import os
+# 添加项目根目录到sys.path
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 
 
 def check_dependencies(dependencies: List[str]) -> None:
@@ -42,7 +45,6 @@ DEPENDENCIES = [
 check_dependencies([dep for dep in DEPENDENCIES if dep not in ["os", "json", "concurrent.futures"]])
 
 # Import remaining libraries after dependency check
-import os
 import json
 import time
 import random
@@ -60,24 +62,26 @@ from typing import Dict, List, Any, Optional, Union, Tuple
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from benchmark_framework.api_models import APIModelBenchmark
 from benchmark_framework.summary import calculate_api_summary_statistics
-import testing_util
-import pyext
+# 从当前目录导入模块
+from benchmark_framework.apps_eval import testing_util
+from benchmark_framework.apps_eval import pyext
 
 # Constants
-TIMEOUT = 5  # seconds
-MAX_RETRIES = 3
-RETRY_DELAY = 2  # seconds
+TIMEOUT = 10  # Seconds for code execution timeout
+MAX_RETRIES = 3  # Maximum number of retries for API calls
+RETRY_DELAY = 5  # Seconds to wait between retries
 
 # 添加一个函数用于并行处理单个问题
-def process_problem(benchmark, model_name, problem, api_key=None):
+def process_problem(api_benchmark, model, problem, problem_index, total_problems):
     """
     Process a single problem for a model in parallel.
     
     Args:
-        benchmark: API benchmark instance
-        model_name: Model to test
+        api_benchmark: API benchmark instance
+        model: Model to test
         problem: Problem dictionary
-        api_key: API key for the model
+        problem_index: Index of the problem
+        total_problems: Total number of problems
         
     Returns:
         Result dictionary
@@ -86,6 +90,8 @@ def process_problem(benchmark, model_name, problem, api_key=None):
         # Format prompt and get model response
         prompt = APPSBenchmark.format_prompt_static(problem)
         
+        print(f"Testing [{problem_index+1}/{total_problems}] {model} on problem {problem['problem_id']} ({problem['difficulty']})")
+        
         # Add retry logic for API calls
         response_data = None
         retries = 0
@@ -93,14 +99,17 @@ def process_problem(benchmark, model_name, problem, api_key=None):
         
         while retries <= MAX_RETRIES:
             try:
-                response_data = benchmark.call_api_model(model_name, prompt, api_key)
+                response_data = api_benchmark.call_api_model(model, prompt)
                 break  # Exit the retry loop if successful
             except Exception as e:
                 last_error = e
                 retries += 1
                 if retries <= MAX_RETRIES:
+                    print(f"Attempt {retries}/{MAX_RETRIES} failed for problem {problem['problem_id']}: {e}")
+                    print(f"Retrying in {RETRY_DELAY} seconds...")
                     time.sleep(RETRY_DELAY)
                 else:
+                    print(f"All {MAX_RETRIES} retry attempts failed for problem {problem['problem_id']}")
                     raise
         
         if response_data is None:
@@ -131,6 +140,8 @@ def process_problem(benchmark, model_name, problem, api_key=None):
         
         return result
     except Exception as e:
+        print(f"Error processing problem {problem['problem_id']}: {e}")
+        traceback.print_exc()
         # Instead of returning None, return a result with error information
         # This ensures we track API failures in results
         return {
@@ -437,9 +448,8 @@ class APPSBenchmark:
             difficulty_results_map = {difficulty: [] for difficulty in difficulties}
             with ThreadPoolExecutor(max_workers=max_workers) as executor:
                 future_to_problem = {
-                    executor.submit(process_problem, self.api_benchmark, model, problem, api_key): problem
+                    executor.submit(process_problem, self.api_benchmark, model, problem, i, len(all_problems)): problem
                     for i, problem in enumerate(all_problems)
-                    for api_key in api_key_status.get(provider, [])
                 }
                 
                 # Process results as they complete

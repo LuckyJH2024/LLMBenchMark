@@ -16,6 +16,10 @@ models:
   
   # 本地Ollama模型 (即使不使用也需要保留此键)
   local: []
+  # local: 
+  #   - phi
+  #   - mistral
+  #   - llama3:8b
 
 # 测试类型配置
 tests:
@@ -35,7 +39,7 @@ tests:
   
   # 问答测试
   qa:
-    enabled: true
+    enabled: false
     samples: 10
 
 # 输出配置
