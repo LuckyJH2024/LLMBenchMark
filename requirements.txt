@@ -1,16 +1,40 @@
-ollama
-psutil
-requests
-sentence_transformers
-transformers
-torch
-pandas
-matplotlib
-seaborn
-tabulate
-bert-score
+# 基础依赖
 argparse
 numpy
+psutil
+pyyaml
 tqdm
+requests
+
+# 数据处理和分析
+pandas>=1.5.0
+tabulate
+
+# 机器学习库
+torch
+transformers>=4.28.0
+sentence_transformers>=2.2.2
+bert-score>=0.3.13
 sacrebleu
 sacremoses
+
+# 可视化
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# LLM API访问
+ollama>=0.1.14
+
+# 并行处理
+concurrent.futures
+
+# 用于代码执行评估的必要库
+tempfile
+traceback
+json
+subprocess
+
+# 安装说明:
+# 虚拟环境: python -m venv venv
+# 激活环境: source venv/bin/activate (Linux/Mac) 或 venv\Scripts\activate (Windows)
+# 安装依赖: pip install -r requirements.txt
