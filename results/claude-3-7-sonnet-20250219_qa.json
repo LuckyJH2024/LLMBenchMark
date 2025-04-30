@@ -1,0 +1,1031 @@
+[
+    {
+        "prompt": "Question: Nasser remains an iconic figure in the Arab world, particularly for his strides towards social justice and Arab unity, modernization policies, and anti-imperialist efforts. His presidency also encouraged and coincided with an Egyptian cultural boom, and launched large industrial projects, including the Aswan Dam and Helwan City. Nasser's detractors criticize his authoritarianism, his government's human rights violations, his populist relationship with the citizenry, and his failure to establish civil institutions, blaming his legacy for future dictatorial governance in Egypt. Historians describe Nasser as a towering political figure of the Middle East in the 20th century.What century did Nasser rule in?\nAnswer:",
+        "response": "Based on the text, Nasser ruled in the 20th century. This is explicitly stated in the final sentence: \"Historians describe Nasser as a towering political figure of the Middle East in the 20th century.\"",
+        "duration": 1.2284364700317383,
+        "memory_usage": 242540544,
+        "score": 0.2392
+    },
+    {
+        "prompt": "Question: In Ireland, pubs are known for their atmosphere or \"craic\". In Irish, a pub is referred to as teach t\u00e1bhairne (\"tavernhouse\") or teach \u00f3il (\"drinkinghouse\"). Live music, either sessions of traditional Irish music or varieties of modern popular music, is frequently featured in the pubs of Ireland. Pubs in Northern Ireland are largely identical to their counterparts in the Republic of Ireland except for the lack of spirit grocers. A side effect of \"The Troubles\" was that the lack of a tourist industry meant that a higher proportion of traditional bars have survived the wholesale refitting of Irish pub interiors in the 'English style' in the 1950s and 1960s. New Zealand sports a number of Irish pubs.What country outside Ireland is known for having Irish pubs?\nAnswer:",
+        "response": "Based on the passage, New Zealand is mentioned as a country outside Ireland that \"sports a number of Irish pubs.\" This is stated in the last sentence of the text: \"New Zealand sports a number of Irish pubs.\"",
+        "duration": 1.1243655681610107,
+        "memory_usage": 242544640,
+        "score": 0.5645
+    },
+    {
+        "prompt": "Question: The Internet was extensively used for passing information to aid rescue and recovery efforts. For example, the official news agency Xinhua set up an online rescue request center in order to find the blind spots of disaster recovery. After knowing that rescue helicopters had trouble landing into the epicenter area in Wenchuan, a student proposed a landing spot online and it was chosen as the first touchdown place for the helicopters[not in citation given]. Volunteers also set up several websites to help store contact information for victims and evacuees. On May 31, a rescue helicopter carrying earthquake survivors and crew members crashed in fog and turbulence in Wenchuan county. No-one survived.What kind of information were websites set up to store?\nAnswer:",
+        "response": "According to the passage, volunteers set up several websites to help store contact information for victims and evacuees following the earthquake.",
+        "duration": 0.8913829326629639,
+        "memory_usage": 242544640,
+        "score": 0.3484
+    },
+    {
+        "prompt": "Question: In Why F A Hayek is a Conservative, British policy analyst Madsen Pirie claims Hayek mistakes the nature of the conservative outlook. Conservatives, he says, are not averse to change \u2013 but like Hayek, they are highly averse to change being imposed on the social order by people in authority who think they know how to run things better. They wish to allow the market to function smoothly and give it the freedom to change and develop. It is an outlook, says Pirie, that Hayek and conservatives both share.Pirie believes Hayek to be a conservative for what reason?\nAnswer:",
+        "response": "Pirie believes Hayek to be a conservative because Hayek shares the conservative outlook on change - specifically, both Hayek and conservatives are highly averse to change being imposed on the social order by authority figures who claim to know better. According to Pirie, both Hayek and conservatives prefer allowing the market to function freely and develop naturally rather than having changes imposed from above. Despite Hayek's own rejection of the conservative label, Pirie sees their shared skepticism of top-down social engineering and preference for organic market evolution as fundamentally conservative positions.",
+        "duration": 2.5875542163848877,
+        "memory_usage": 242544640,
+        "score": 0.4101
+    },
+    {
+        "prompt": "Question: The typical image of migration is of northern landbirds, such as swallows (Hirundinidae) and birds of prey, making long flights to the tropics. However, many Holarctic wildfowl and finch (Fringillidae) species winter in the North Temperate Zone, in regions with milder winters than their summer breeding grounds. For example, the pink-footed goose Anser brachyrhynchus migrates from Iceland to Britain and neighbouring countries, whilst the dark-eyed junco Junco hyemalis migrates from subarctic and arctic climates to the contiguous United States and the American goldfinch from taiga to wintering grounds extending from the American South northwestward to Western Oregon. Migratory routes and wintering grounds are traditional and learned by young during their first migration with their parents. Some ducks, such as the garganey Anas querquedula, move completely or partially into the tropics. The European pied flycatcher Ficedula hypoleuca also follows this migratory trend, breeding in Asia and Europe and wintering in Africa.Where do the dark-eyed junco migrate?\nAnswer:",
+        "response": "The dark-eyed junco (Junco hyemalis) migrates from subarctic and arctic climates to the contiguous United States during winter. This is mentioned in the passage as an example of a Holarctic finch species that winters in the North Temperate Zone rather than traveling all the way to the tropics.",
+        "duration": 1.8076632022857666,
+        "memory_usage": 242548736,
+        "score": 0.3437
+    },
+    {
+        "prompt": "Question: The art of carpet weaving was particularly significant in the Ottoman Empire, carpets having an immense importance both as decorative furnishings, rich in religious and other symbolism, and as a practical consideration, as it was customary to remove one's shoes in living quarters. The weaving of such carpets originated in the nomadic cultures of central Asia (carpets being an easily transportable form of furnishing), and was eventually spread to the settled societies of Anatolia. Turks used carpets, rugs and kilims not just on the floors of a room, but also as a hanging on walls and doorways, where they provided additional insulation. They were also commonly donated to mosques, which often amassed large collections of them.Kilims were used by Turks to provide insulation where?\nAnswer:",
+        "response": "Based on the text, kilims were used by Turks to provide insulation on walls and doorways. The passage specifically states: \"Turks used carpets, rugs and kilims not just on the floors of a room, but also as a hanging on walls and doorways, where they provided additional insulation.\"",
+        "duration": 1.7530827522277832,
+        "memory_usage": 242532352,
+        "score": 0.3528
+    },
+    {
+        "prompt": "Question: Also in 1931, Hayek critiqued Keynes's Treatise on Money (1930) in his \"Reflections on the pure theory of Mr. J. M. Keynes\" and published his lectures at the LSE in book form as Prices and Production. Unemployment and idle resources are, for Keynes, caused by a lack of effective demand; for Hayek, they stem from a previous, unsustainable episode of easy money and artificially low interest rates. Keynes asked his friend Piero Sraffa to respond. Sraffa elaborated on the effect of inflation-induced \"forced savings\" on the capital sector and about the definition of a \"natural\" interest rate in a growing economy. Others who responded negatively to Hayek's work on the business cycle included John Hicks, Frank Knight, and Gunnar Myrdal. Kaldor later wrote that Hayek's Prices and Production had produced \"a remarkable crop of critics\" and that the total number of pages in British and American journals dedicated to the resulting debate \"could rarely have been equalled in the economic controversies of the past.\"Who did Keynes turn to for assistance in arguing his point to Hayek?\nAnswer:",
+        "response": "Keynes turned to his friend Piero Sraffa to respond to Hayek's critique of his work. As mentioned in the passage, Sraffa elaborated on the effects of inflation-induced \"forced savings\" on the capital sector and addressed the definition of a \"natural\" interest rate in a growing economy as part of his response to Hayek.",
+        "duration": 1.656656265258789,
+        "memory_usage": 242532352,
+        "score": 0.417
+    },
+    {
+        "prompt": "Question: The rivalry between Nintendo and Sega resulted in what has been described as one of the most notable console wars in video game history, in which Sega positioned the Genesis as the \"cool\" console, with more mature titles aimed at older gamers, and edgy advertisements that occasionally attacked the competition. Nintendo however, scored an early public relations advantage by securing the first console conversion of Capcom's arcade classic Street Fighter II for SNES, which took over a year to make the transition to Genesis. Despite the Genesis's head start, much larger library of games, and lower price point, the Genesis only represented an estimated 60% of the American 16-bit console market in June 1992, and neither console could maintain a definitive lead for several years. Donkey Kong Country is said to have helped establish the SNES's market prominence in the latter years of the 16-bit generation, and for a time, maintain against the PlayStation and Saturn. According to Nintendo, the company had sold more than 20 million SNES units in the U.S. According to a 2014 Wedbush Securities report based on NPD sales data, the SNES ultimately outsold the Genesis in the U.S. market.How much of the US 16-bit console market did the Genesis have in summer 1992?\nAnswer:",
+        "response": "Based on the passage, in June 1992, the Genesis represented an estimated 60% of the American 16-bit console market. This is stated directly in the text where it mentions \"the Genesis only represented an estimated 60% of the American 16-bit console market in June 1992.\"",
+        "duration": 1.7070846557617188,
+        "memory_usage": 242532352,
+        "score": 0.306
+    },
+    {
+        "prompt": "Question: In electric power distribution, capacitors are used for power factor correction. Such capacitors often come as three capacitors connected as a three phase load. Usually, the values of these capacitors are given not in farads but rather as a reactive power in volt-amperes reactive (var). The purpose is to counteract inductive loading from devices like electric motors and transmission lines to make the load appear to be mostly resistive. Individual motor or lamp loads may have capacitors for power factor correction, or larger sets of capacitors (usually with automatic switching devices) may be installed at a load center within a building or in a large utility substation.How are power factor correction capacitors sometimes installed?\nAnswer:",
+        "response": "Power factor correction capacitors are sometimes installed in the following ways:\n\n1. As individual capacitors directly connected to specific loads (like motors or lamps)\n2. As larger sets of capacitors with automatic switching devices\n3. At load centers within buildings\n4. In large utility substations\n\nThese installation methods allow the capacitors to counteract inductive loading from various devices, making the overall load appear more resistive and improving the power factor.",
+        "duration": 1.899780035018921,
+        "memory_usage": 242532352,
+        "score": 0.2617
+    },
+    {
+        "prompt": "Question: Schwarzenegger announced his candidacy in the 2003 California recall election for Governor of California on the August 6, 2003 episode of The Tonight Show with Jay Leno. Schwarzenegger had the most name recognition in a crowded field of candidates, but he had never held public office and his political views were unknown to most Californians. His candidacy immediately became national and international news, with media outlets dubbing him the \"Governator\" (referring to The Terminator movies, see above) and \"The Running Man\" (the name of another one of his films), and calling the recall election \"Total Recall\" (yet another movie starring Schwarzenegger). Schwarzenegger declined to participate in several debates with other recall replacement candidates, and appeared in only one debate on September 24, 2003.How many debates did Schwarzenegger participate in before the 2003 California recall election?\nAnswer:",
+        "response": "Based on the text, Schwarzenegger participated in only one debate before the 2003 California recall election. The passage specifically states that \"Schwarzenegger declined to participate in several debates with other recall replacement candidates, and appeared in only one debate on September 24, 2003.\"",
+        "duration": 1.3578171730041504,
+        "memory_usage": 242536448,
+        "score": 0.2089
+    },
+    {
+        "prompt": "Question: When the news arrived in England it caused an outcry. In response, a combined bounty of \u00a31,000 was offered for Every's capture by the Privy Council and East India Company, leading to the first worldwide manhunt in recorded history. The plunder of Aurangzeb's treasure ship had serious consequences for the English East India Company. The furious Mughal Emperor Aurangzeb ordered Sidi Yaqub and Nawab Daud Khan to attack and close four of the company's factories in India and imprison their officers, who were almost lynched by a mob of angry Mughals, blaming them for their countryman's depredations, and threatened to put an end to all English trading in India. To appease Emperor Aurangzeb and particularly his Grand Vizier Asad Khan, Parliament exempted Every from all of the Acts of Grace (pardons) and amnesties it would subsequently issue to other pirates.Captian Every was the focus of the first recorded worldwide.... what in history?\nAnswer:",
+        "response": "Based on the text, Captain Every was the focus of the first recorded worldwide manhunt in history. After he plundered Aurangzeb's treasure ship, the Privy Council and East India Company offered a combined bounty of \u00a31,000 for his capture, which led to \"the first worldwide manhunt in recorded history.\"",
+        "duration": 2.0304062366485596,
+        "memory_usage": 242536448,
+        "score": 0.5198
+    },
+    {
+        "prompt": "Question: Each year HHC's facilities provide about 225,000 admissions, one million emergency room visits and five million clinic visits to New Yorkers. HHC facilities treat nearly one-fifth of all general hospital discharges and more than one third of emergency room and hospital-based clinic visits in New York City.What fraction of general hospital discharges receive treatment at HHC?\nAnswer:",
+        "response": "Based on the information provided, HHC facilities treat nearly one-fifth of all general hospital discharges in New York City.\n\nTherefore, the fraction of general hospital discharges that receive treatment at HHC is 1/5.",
+        "duration": 1.1574342250823975,
+        "memory_usage": 242556928,
+        "score": 0.1786
+    },
+    {
+        "prompt": "Question: Major tourist destinations include Times Square; Broadway theater productions; the Empire State Building; the Statue of Liberty; Ellis Island; the United Nations Headquarters; museums such as the Metropolitan Museum of Art; greenspaces such as Central Park and Washington Square Park; Rockefeller Center; the Manhattan Chinatown; luxury shopping along Fifth and Madison Avenues; and events such as the Halloween Parade in Greenwich Village; the Macy's Thanksgiving Day Parade; the lighting of the Rockefeller Center Christmas Tree; the St. Patrick's Day parade; seasonal activities such as ice skating in Central Park in the wintertime; the Tribeca Film Festival; and free performances in Central Park at Summerstage. Major attractions in the boroughs outside Manhattan include Flushing Meadows-Corona Park and the Unisphere in Queens; the Bronx Zoo; Coney Island, Brooklyn; and the New York Botanical Garden in the Bronx. The New York Wheel, a 630-foot ferris wheel, was under construction at the northern shore of Staten Island in 2015, overlooking the Statue of Liberty, New York Harbor, and the Lower Manhattan skyline.At what location is a Christmas tree famously lit every year?\nAnswer:",
+        "response": "According to the text, the lighting of the Rockefeller Center Christmas Tree is one of the notable events that makes Rockefeller Center a major tourist destination in New York City. This annual tree lighting ceremony at Rockefeller Center has become a famous holiday tradition.",
+        "duration": 2.108088970184326,
+        "memory_usage": 242561024,
+        "score": 0.5444
+    },
+    {
+        "prompt": "Question: Ancient Greek philosophers like Thales, Anaxagoras (ca. 500 BC \u2013 428 BC), Epicurus and Democritus prefigure later materialists. The Latin poem De Rerum Natura by Lucretius (ca. 99 BC \u2013 ca. 55 BC) reflects the mechanistic philosophy of Democritus and Epicurus. According to this view, all that exists is matter and void, and all phenomena result from different motions and conglomerations of base material particles called \"atoms\" (literally: \"indivisibles\"). De Rerum Natura provides mechanistic explanations for phenomena such as erosion, evaporation, wind, and sound. Famous principles like \"nothing can touch body but body\" first appeared in the works of Lucretius. Democritus and Epicurus however did not hold to a monist ontology since they held to the ontological separation of matter and space i.e. space being \"another kind\" of being, indicating that the definition of \"materialism\" is wider than given scope for in this article.De Rerum Natura is a poem by who?\nAnswer:",
+        "response": "De Rerum Natura is a poem by Lucretius (ca. 99 BC - ca. 55 BC). As mentioned in the text, this Latin poem reflects the mechanistic philosophy of Democritus and Epicurus, explaining phenomena like erosion, evaporation, wind, and sound through a materialist perspective based on atoms and void.",
+        "duration": 2.306945323944092,
+        "memory_usage": 242561024,
+        "score": 0.4586
+    },
+    {
+        "prompt": "Question: In July 2012, Ancestry.com reported on historic and DNA research by its staff that discovered that Obama is likely a descendant through his mother of John Punch, considered by some historians to be the first African slave in the Virginia colony. An indentured servant, he was \"bound for life\" in 1640 after trying to escape. The story of him and his descendants is that of multi-racial America since it appeared he and his sons married or had unions with white women, likely indentured servants and working-class like them. Their multi-racial children were free because they were born to free English women. Over time, Obama's line of the Bunch family (as they became known) were property owners and continued to \"marry white\"; they became part of white society, likely by the early to mid-18th century.Who is John Punch?\nAnswer:",
+        "response": "John Punch was an African indentured servant in colonial Virginia who, according to historical research by Ancestry.com in 2012, is likely an ancestor of Barack Obama through Obama's maternal lineage. Punch is considered by some historians to be the first African slave in the Virginia colony after he was \"bound for life\" in 1640 as punishment for attempting to escape his indentured servitude. His descendants, through unions with white women (likely fellow indentured servants), formed the Bunch family line that gradually integrated into white society over generations, eventually becoming property owners by the early to mid-18th century. This lineage represents America's complex multiracial history, as Punch's children were born free because their mothers were free English women.",
+        "duration": 3.070026397705078,
+        "memory_usage": 242561024,
+        "score": 0.5409
+    },
+    {
+        "prompt": "Question: During the 14th century in the northeastern part of the state nomad tribes by the name of Jornado hunted bison along the Rio Grande; they left numerous rock paintings throughout the northeastern part of the state. When the Spanish explorers reached this area they found their descendants, Suma and Manso tribes. In the southern part of the state, in a region known as Aridoamerica, Chichimeca people survived by hunting, gathering, and farming between AD 300 and 1300. The Chichimeca are the ancestors of the Tepehuan people.How did the Chichimeca survive?\nAnswer:",
+        "response": "The text states that the Chichimeca people survived by hunting, gathering, and farming between AD 300 and 1300. This information is directly mentioned in the passage when discussing the southern part of the state in the region known as Aridoamerica.",
+        "duration": 1.392258644104004,
+        "memory_usage": 242561024,
+        "score": 0.3935
+    },
+    {
+        "prompt": "Question: In 1609, English explorer Henry Hudson re-discovered the region when he sailed his ship the Halve Maen (\"Half Moon\" in Dutch) into New York Harbor while searching for the Northwest Passage to the Orient for his employer, the Dutch East India Company. He proceeded to sail up what he named the North River, also called the Mauritis River, and now known as the Hudson River, to the site of the present-day New York State capital of Albany in the belief that it might represent an oceanic tributary. When the river narrowed and was no longer saline, he realized it was not a maritime passage and sailed back downriver. He made a ten-day exploration of the area and claimed the region for his employer. In 1614, the area between Cape Cod and Delaware Bay would be claimed by the Netherlands and called Nieuw-Nederland (New Netherland).What did Henry Hudson call the river that is now called the Hudson River?\nAnswer:",
+        "response": "Based on the passage, Henry Hudson called the river that is now known as the Hudson River by two names:\n1. The North River\n2. The Mauritis River (also spelled as Mauritus River)\n\nThese were the names he gave to what was later renamed the Hudson River in his honor.",
+        "duration": 1.959744930267334,
+        "memory_usage": 242561024,
+        "score": 0.3716
+    },
+    {
+        "prompt": "Question: New Haven (local /nu\u02d0 \u02c8he\u026av\u0259n/, noo-HAY-v\u0259n), in the U.S. state of Connecticut, is the principal municipality in Greater New Haven, which had a total population of 862,477 in 2010. It is located on New Haven Harbor on the northern shore of the Long Island Sound in New Haven County, Connecticut, which in turn comprises the outer limits of the New York metropolitan area. It is the second-largest city in Connecticut (after Bridgeport), with a population of 129,779 people as of the 2010 United States Census. According to a census of 1 July 2012, by the Census Bureau, the city had a population of 130,741.The population of the Greater New Haven in 2010?\nAnswer:",
+        "response": "According to the passage, the Greater New Haven had a total population of 862,477 in 2010.",
+        "duration": 0.7742500305175781,
+        "memory_usage": 242561024,
+        "score": 0.2903
+    },
+    {
+        "prompt": "Question: St. John's was the starting point for the first non-stop transatlantic aircraft flight, by Alcock and Brown in a modified Vickers Vimy IV bomber, in June 1919, departing from Lester's Field in St. John's and ending in a bog near Clifden, Connemara, Ireland. In July 2005, the flight was duplicated by American aviator and adventurer Steve Fossett in a replica Vickers Vimy aircraft, with St. John's International Airport substituting for Lester's Field (now an urban and residential part of the city).Where in St. John's did Alcock and Brown depart from in June 1919?\nAnswer:",
+        "response": "Based on the provided text, Alcock and Brown departed from Lester's Field in St. John's for their historic first non-stop transatlantic aircraft flight in June 1919. This location was later substituted by St. John's International Airport when Steve Fossett duplicated the flight in July 2005, as Lester's Field had become an urban and residential part of the city by that time.",
+        "duration": 1.9886658191680908,
+        "memory_usage": 242561024,
+        "score": 0.4768
+    },
+    {
+        "prompt": "Question: The Bush administration then turned its attention to Iraq, and argued the need to remove Saddam Hussein from power in Iraq had become urgent. Among the stated reasons were that Saddam's regime had tried to acquire nuclear material and had not properly accounted for biological and chemical material it was known to have previously possessed, and believed to still maintain. Both the possession of these weapons of mass destruction (WMD), and the failure to account for them, would violate the U.N. sanctions. The assertion about WMD was hotly advanced by the Bush administration from the beginning, but other major powers including China, France, Germany, and Russia remained unconvinced that Iraq was a threat and refused to allow passage of a UN Security Council resolution to authorize the use of force. Iraq permitted UN weapon inspectors in November 2002, who were continuing their work to assess the WMD claim when the Bush administration decided to proceed with war without UN authorization and told the inspectors to leave the country. The United States invaded Iraq on March 20, 2003, along with a \"coalition of the willing\" that consisted of additional troops from the United Kingdom, and to a lesser extent, from Australia and Poland. Within about three weeks, the invasion caused the collapse of both the Iraqi government and its armed forces, however, the U.S. and allied forces failed to find any weapon of mass destruction in Iraq. Traces of former materials and weapons labs were reported to have been located, but no \"smoking guns\". Nevertheless, on May 1, George W. Bush landed on the aircraft carrier USS Abraham Lincoln, in a Lockheed S-3 Viking, where he gave a speech announcing the end of \"major combat operations\" in the Iraq War. Bush's approval rating in May was at 66%, according to a CNN\u2013USA Today\u2013Gallup poll. However, Bush's high approval ratings did not last. First, while the war itself was popular in the U.S., the reconstruction and attempted \"democratization\" of Iraq lost some support as months passed and casualty figures increased, with no decrease in violence nor progress toward stability or reconstruction. Second, as investigators combed through the country, they failed to find the predicted WMD stockpiles, which led to debate over the rationale for the war.Did Bush have the support of the UN, when he decided to infiltrate Iraq on March 20, 2003?\nAnswer:",
+        "response": "The text clearly states that the Bush administration proceeded with the war \"without UN authorization.\" Major powers like China, France, Germany, and Russia remained unconvinced that Iraq posed a threat and \"refused to allow passage of a UN Security Council resolution to authorize the use of force.\" When Bush decided to invade Iraq on March 20, 2003, he did so without UN support, instead relying on what was called a \"coalition of the willing\" that primarily included troops from the UK, Australia, and Poland. Therefore, Bush did not have the support of the UN when he decided to infiltrate Iraq.",
+        "duration": 2.905412197113037,
+        "memory_usage": 242561024,
+        "score": 0.2968
+    },
+    {
+        "prompt": "Question: On 16 March 2012, 52 Greenpeace activists from five different countries boarded Fennica and Nordica, multipurpose icebreakers chartered to support Shell's drilling rigs near Alaska. Around the same time period, a reporter for Fortune magazine spoke with Edward Itta, an Inupiat Eskimo leader and the former mayor of the North Slope Borough, who expressed that he was conflicted about Shell's plans in the Arctic, as he was very concerned that an oil spill could destroy the Inupiat Eskimo's hunting-and-fishing culture, but his borough also received major tax revenue from oil and gas production; additionally, further revenue from energy activity was considered crucial to the future of the living standard in Itta's community.What was the main concern of Edward Itta?\nAnswer:",
+        "response": "Edward Itta's main concern was that an oil spill could destroy the Inupiat Eskimo's hunting-and-fishing culture. While the passage mentions he was conflicted because his borough received major tax revenue from oil and gas production (and such revenue was considered crucial for his community's living standard), his primary concern was the potential environmental impact that could threaten his people's traditional way of life.",
+        "duration": 2.481840133666992,
+        "memory_usage": 242569216,
+        "score": 0.6109
+    },
+    {
+        "prompt": "Question: The Times Literary Supplement (TLS) first appeared in 1902 as a supplement to The Times, becoming a separately paid-for weekly literature and society magazine in 1914. The Times and the TLS have continued to be co-owned, and as of 2012 the TLS is also published by News International and cooperates closely with The Times, with its online version hosted on The Times website, and its editorial offices based in Times House, Pennington Street, London.In 1914, a separately paid-for supplement for The Times was a magazine that featured what kind of content?\nAnswer:",
+        "response": "Based on the passage, in 1914, The Times Literary Supplement (TLS) became a separately paid-for weekly magazine that featured literature and society content. This is stated directly in the text when it mentions that the TLS \"became a separately paid-for weekly literature and society magazine in 1914.\"",
+        "duration": 1.493170976638794,
+        "memory_usage": 242569216,
+        "score": 0.42
+    },
+    {
+        "prompt": "Question: NASCAR (headquartered in Daytona Beach) begins all three of its major auto racing series in Florida at Daytona International Speedway in February, featuring the Daytona 500, and ends all three Series in November at Homestead-Miami Speedway. Daytona also has the Coke Zero 400 NASCAR race weekend around Independence Day in July. The 24 Hours of Daytona is one of the world's most prestigious endurance auto races. The Grand Prix of St. Petersburg and Grand Prix of Miami have held IndyCar races as well.Name another race in florida \nAnswer:",
+        "response": "Based on the information provided, other notable auto races in Florida include the Coke Zero 400 NASCAR race held at Daytona around Independence Day in July, the 24 Hours of Daytona endurance race, the Grand Prix of St. Petersburg, and the Grand Prix of Miami which have hosted IndyCar races.",
+        "duration": 1.5360848903656006,
+        "memory_usage": 242573312,
+        "score": 0.7818
+    },
+    {
+        "prompt": "Question: Evidence from the early technical literature concerning electrical recording suggests that it wasn't until the 1942\u20131949 period that there were serious efforts to standardize recording characteristics within an industry. Heretofore, electrical recording technology from company to company was considered a proprietary art all the way back to the 1925 Western Electric licensed method used by Columbia and Victor. For example, what Brunswick-Balke-Collender (Brunswick Corporation) did was different from the practices of Victor.Around what time period was there an attempt made to standardize recordings?\nAnswer:",
+        "response": "Based on the given text, the serious efforts to standardize recording characteristics within the industry occurred during the 1942-1949 period. Before this time, electrical recording technology was considered proprietary by different companies, with each company using their own methods dating back to 1925 when Western Electric licensed their method to Columbia and Victor. The text specifically mentions that Brunswick-Balke-Collender (Brunswick Corporation) used different practices than Victor, highlighting the lack of standardization prior to the 1942-1949 period.",
+        "duration": 2.957801580429077,
+        "memory_usage": 242573312,
+        "score": 0.2948
+    },
+    {
+        "prompt": "Question: The Quranic text seems to have no beginning, middle, or end, its nonlinear structure being akin to a web or net. The textual arrangement is sometimes considered to exhibit lack of continuity, absence of any chronological or thematic order and repetitiousness. Michael Sells, citing the work of the critic Norman O. Brown, acknowledges Brown's observation that the seeming disorganization of Quranic literary expression \u2013 its scattered or fragmented mode of composition in Sells's phrase \u2013 is in fact a literary device capable of delivering profound effects as if the intensity of the prophetic message were shattering the vehicle of human language in which it was being communicated. Sells also addresses the much-discussed repetitiveness of the Quran, seeing this, too, as a literary device.What is lacking in the arrangement of the Quranic text?\nAnswer:",
+        "response": "According to the passage, what is described as lacking in the arrangement of the Quranic text is chronological or thematic order and continuity. The passage characterizes the Quran as having a \"nonlinear structure\" that \"seems to have no beginning, middle, or end,\" with its arrangement \"sometimes considered to exhibit lack of continuity, absence of any chronological or thematic order and repetitiousness.\" \n\nHowever, the passage also notes that these apparent structural characteristics are interpreted by some scholars (like Michael Sells and Norman O. Brown) not as deficiencies but as intentional literary devices that create profound effects and convey the intensity of the prophetic message.",
+        "duration": 2.949744462966919,
+        "memory_usage": 242573312,
+        "score": 0.1223
+    },
+    {
+        "prompt": "Question: Phaininda and episkyros were Greek ball games. An image of an episkyros player depicted in low relief on a vase at the National Archaeological Museum of Athens appears on the UEFA European Championship Cup. Athenaeus, writing in 228 AD, referenced the Roman ball game harpastum. Phaininda, episkyros and harpastum were played involving hands and violence. They all appear to have resembled rugby football, wrestling and volleyball more than what is recognizable as modern football. As with pre-codified \"mob football\", the antecedent of all modern football codes, these three games involved more handling the ball than kicking. Non-competitive games included kemari in Japan, chuk-guk in Korea and woggabaliri in Australia.What country is the game wogabaliri from?\nAnswer:",
+        "response": "Based on the text, the game woggabaliri is from Australia. The passage specifically states \"Non-competitive games included kemari in Japan, chuk-guk in Korea and woggabaliri in Australia.\"",
+        "duration": 1.141045331954956,
+        "memory_usage": 242573312,
+        "score": 0.305
+    },
+    {
+        "prompt": "Question: In October 1810, six months after Fryderyk's birth, the family moved to Warsaw, where his father acquired a post teaching French at the Warsaw Lyceum, then housed in the Saxon Palace. Fryderyk lived with his family in the Palace grounds. The father played the flute and violin; the mother played the piano and gave lessons to boys in the boarding house that the Chopins kept. Chopin was of slight build, and even in early childhood was prone to illnesses.What instruments did Chopin's father play?\nAnswer:",
+        "response": "Chopin's father played the flute and violin, as mentioned in the passage.",
+        "duration": 1.0471081733703613,
+        "memory_usage": 242577408,
+        "score": 0.6584
+    },
+    {
+        "prompt": "Question: Plato's theory of forms or \"ideas\" describes ideal forms (for example the platonic solids in geometry or abstracts like Goodness and Justice), as universals existing independently of any particular instance. Arne Gr\u00f8n calls this doctrine \"the classic example of a metaphysical idealism as a transcendent idealism\", while Simone Klein calls Plato \"the earliest representative of metaphysical objective idealism\". Nevertheless, Plato holds that matter is real, though transitory and imperfect, and is perceived by our body and its senses and given existence by the eternal ideas that are perceived directly by our rational soul. Plato was therefore a metaphysical and epistemological dualist, an outlook that modern idealism has striven to avoid: Plato's thought cannot therefore be counted as idealist in the modern sense, although quantum physics' assertion that man's consciousness is an immutable and primary requisite for not merely perceiving but shaping matter, and thus his reality, would give more credence to Plato's dualist position.[citation needed]What sort of dualist is Plato regarded as?\nAnswer:",
+        "response": "Plato is regarded as a metaphysical and epistemological dualist. His theory of Forms establishes a fundamental division between:\n\n1. The eternal, unchanging world of Forms/Ideas (which are transcendent universals that exist independently of physical instances)\n2. The physical, transitory world of matter that we perceive through our senses\n\nThis dualism operates on both metaphysical levels (concerning what exists) and epistemological levels (concerning how we know things). Plato maintains that:\n\n- Matter is real, though imperfect and changing\n- Our rational soul can directly perceive the eternal Forms\n- Our body and senses perceive the physical world\n\nWhile Plato's views have elements that align with idealism (particularly in his emphasis on the primacy of Forms), his acknowledgment of matter's reality distinguishes him from modern idealists who typically avoid such dualistic frameworks.",
+        "duration": 4.374434471130371,
+        "memory_usage": 242577408,
+        "score": 0.4832
+    },
+    {
+        "prompt": "Question: To pay for his military campaigns and colonial expansion, Emperor Wu nationalized several private industries. He created central government monopolies administered largely by former merchants. These monopolies included salt, iron, and liquor production, as well as bronze-coin currency. The liquor monopoly lasted only from 98 to 81 BC, and the salt and iron monopolies were eventually abolished in early Eastern Han. The issuing of coinage remained a central government monopoly throughout the rest of the Han dynasty. The government monopolies were eventually repealed when a political faction known as the Reformists gained greater influence in the court. The Reformists opposed the Modernist faction that had dominated court politics in Emperor Wu's reign and during the subsequent regency of Huo Guang (d. 68 BC). The Modernists argued for an aggressive and expansionary foreign policy supported by revenues from heavy government intervention in the private economy. The Reformists, however, overturned these policies, favoring a cautious, non-expansionary approach to foreign policy, frugal budget reform, and lower tax-rates imposed on private entrepreneurs.Which faction did the Reformists oppose?\nAnswer:",
+        "response": "The Reformists opposed the Modernist faction. As stated in the passage, the Reformists opposed the Modernists who had dominated court politics during Emperor Wu's reign and during Huo Guang's regency. The Modernists advocated for aggressive expansionary foreign policy with heavy government intervention in the private economy, while the Reformists favored a more cautious approach with lower tax rates and less government intervention.",
+        "duration": 2.2672910690307617,
+        "memory_usage": 242577408,
+        "score": 0.4766
+    },
+    {
+        "prompt": "Question: Italians in different regions today may also speak regional varieties of standard Italian, or regional Italian dialects, which, unlike the majority of languages of Italy, are actually dialects of standard Italian rather than separate languages. A regional Italian dialect is generally standard Italian that has been heavily influenced or mixed with local or regional native languages and accents.Regional Italian dialects are often influenced by regional languages and what other language?\nAnswer:",
+        "response": "To answer this question, I need to identify what influences regional Italian dialects besides the regional languages themselves.\n\nRegional Italian dialects are primarily influenced by:\n1. Standard Italian (the national language)\n2. Regional languages (local historical languages like Sicilian, Sardinian, etc.)\n3. The other language that influences regional Italian dialects is Latin\n\nLatin has historically been a significant influence on Italian dialects across different regions, as Italian itself evolved from Vulgar Latin, and many regional variations retain different Latin influences in their vocabulary, pronunciation, and grammatical structures.",
+        "duration": 3.116168737411499,
+        "memory_usage": 242585600,
+        "score": 0.3252
+    },
+    {
+        "prompt": "Question: At the 2012 census, 59.5% of jobs in the Paris Region were in market services (12.0% in wholesale and retail trade, 9.7% in professional, scientific, and technical services, 6.5% in information and communication, 6.5% in transportation and warehousing, 5.9% in finance and insurance, 5.8% in administrative and support services, 4.6% in accommodation and food services, and 8.5% in various other market services), 26.9% in non-market services (10.4% in human health and social work activities, 9.6% in public administration and defence, and 6.9% in education), 8.2% in manufacturing and utilities (6.6% in manufacturing and 1.5% in utilities), 5.2% in construction, and 0.2% in agriculture.What percentage of people worked in agriculture?\nAnswer:",
+        "response": "The text states that 0.2% of jobs in the Paris Region were in agriculture, according to the 2012 census.",
+        "duration": 0.9250342845916748,
+        "memory_usage": 242585600,
+        "score": 0.115
+    },
+    {
+        "prompt": "Question: In 1838 with the amount of smuggled opium entering China approaching 1,400 tons a year, the Chinese imposed a death penalty for opium smuggling and sent a Special Imperial Commissioner, Lin Zexu, to curb smuggling. This resulted in the First Opium War (1839\u201342). After the war Hong Kong island was ceded to Britain under the Treaty of Nanking and the Chinese market opened to the opium traders of Britain and other nations. The Jardines and Apcar and Company dominated the trade, although P&O also tried to take a share. A Second Opium War fought by Britain and France against China lasted from 1856 until 1860 and led to the Treaty of Tientsin, which legalised the importation of opium. Legalisation stimulated domestic Chinese opium production and increased the importation of opium from Turkey and Persia. This increased competition for the Chinese market led to India reducing its opium output and diversifying its exports.when did the first Opium war start?\nAnswer:",
+        "response": "The First Opium War started in 1839, as stated in the passage (\"This resulted in the First Opium War (1839\u201342)\").",
+        "duration": 1.738138198852539,
+        "memory_usage": 242585600,
+        "score": 0.3494
+    },
+    {
+        "prompt": "Question: In the paper \"Who's Gay? Does It Matter?\", Ritch Savin-Williams proposes two different approaches to assessing sexual orientation until well positioned and psychometrically sound and tested definitions are developed that would allow research to reliably identify the prevalence, causes, and consequences of homosexuality. He first suggests that greater priority should be given to sexual arousal and attraction over behaviour and identity because it is less prone to self- and other-deception, social conditions and variable meanings. To measure attraction and arousal he proposed that biological measures should be developed and used. There are numerous biological/physiological measures that exist that can measure sexual orientation such as sexual arousal, brain scans, eye tracking, body odour preference, and anatomical variations such as digit-length ratio and right or left handedness. Secondly, Savin-Williams suggests that researchers should forsake the general notion of sexual orientation altogether and assess only those components that are relevant for the research question being investigated. For example:What did he propose to measure attraction?\nAnswer:",
+        "response": "In the paper \"Who's Gay? Does It Matter?\", Savin-Williams proposed using biological/physiological measures to assess sexual attraction and arousal. These include methods such as measuring sexual arousal responses, brain scans, eye tracking, body odor preference tests, and examining anatomical variations like digit-length ratio and handedness. He suggested these biological measures because they are potentially less influenced by self-deception, social conditions, and variable meanings than self-reported behavior or identity.",
+        "duration": 2.050069808959961,
+        "memory_usage": 242589696,
+        "score": 0.482
+    },
+    {
+        "prompt": "Question: Kinect is a \"controller-free gaming and entertainment experience\" for the Xbox 360. It was first announced on June 1, 2009 at the Electronic Entertainment Expo, under the codename, Project Natal. The add-on peripheral enables users to control and interact with the Xbox 360 without a game controller by using gestures, spoken commands and presented objects and images. The Kinect accessory is compatible with all Xbox 360 models, connecting to new models via a custom connector, and to older ones via a USB and mains power adapter. During their CES 2010 keynote speech, Robbie Bach and Microsoft CEO Steve Ballmer went on to say that Kinect will be released during the holiday period (November\u2013January) and it will work with every 360 console. Its name and release date of 2010-11-04 were officially announced on 2010-06-13, prior to Microsoft's press conference at E3 2010.How can users utilize the Kinect to interact with their 360 consoles?\nAnswer:",
+        "response": "Users can utilize the Kinect to interact with their Xbox 360 consoles without a traditional game controller through:\n\n1. Gestures - physical movements that the Kinect sensor detects\n2. Spoken commands - voice control functionality\n3. Presented objects and images - the Kinect can recognize physical objects or images shown to it\n\nThese methods allow for a \"controller-free gaming and entertainment experience\" as described in the text.",
+        "duration": 2.11547589302063,
+        "memory_usage": 242589696,
+        "score": 0.3699
+    },
+    {
+        "prompt": "Question: Nanjing Library, founded in 1907, houses more than 10 million volumes of printed materials and is the third largest library in China, after the National Library in Beijing and Shanghai Library. Other libraries, such as city-owned Jinling Library and various district libraries, also provide considerable amount of information to citizens. Nanjing University Library is the second largest university libraries in China after Peking University Library, and the fifth largest nationwide, especially in the number of precious collections.How many volumes does the Nanjing Library have?\nAnswer:",
+        "response": "According to the passage, the Nanjing Library houses more than 10 million volumes of printed materials. This is explicitly stated in the first sentence: \"Nanjing Library, founded in 1907, houses more than 10 million volumes of printed materials and is the third largest library in China...\"",
+        "duration": 1.4037418365478516,
+        "memory_usage": 242589696,
+        "score": 0.5526
+    },
+    {
+        "prompt": "Question: Many mechanical aids to calculation and measurement were constructed for astronomical and navigation use. The planisphere was a star chart invented by Ab\u016b Rayh\u0101n al-B\u012br\u016bn\u012b in the early 11th century. The astrolabe was invented in the Hellenistic world in either the 1st or 2nd centuries BC and is often attributed to Hipparchus. A combination of the planisphere and dioptra, the astrolabe was effectively an analog computer capable of working out several different kinds of problems in spherical astronomy. An astrolabe incorporating a mechanical calendar computer and gear-wheels was invented by Abi Bakr of Isfahan, Persia in 1235. Ab\u016b Rayh\u0101n al-B\u012br\u016bn\u012b invented the first mechanical geared lunisolar calendar astrolabe, an early fixed-wired knowledge processing machine with a gear train and gear-wheels, circa 1000 AD.Who invented the planisphere?\nAnswer:",
+        "response": "Based on the provided information, the planisphere (a star chart) was invented by Ab\u016b Rayh\u0101n al-B\u012br\u016bn\u012b in the early 11th century (circa 1000s AD).",
+        "duration": 1.1568660736083984,
+        "memory_usage": 242593792,
+        "score": 0.4068
+    },
+    {
+        "prompt": "Question: The Brookings Institution reported in June 2009 that U.S. consumption accounted for more than a third of the growth in global consumption between 2000 and 2007. \"The US economy has been spending too much and borrowing too much for years and the rest of the world depended on the U.S. consumer as a source of global demand.\" With a recession in the U.S. and the increased savings rate of U.S. consumers, declines in growth elsewhere have been dramatic. For the first quarter of 2009, the annualized rate of decline in GDP was 14.4% in Germany, 15.2% in Japan, 7.4% in the UK, 18% in Latvia, 9.8% in the Euro area and 21.5% for Mexico.Who depended on the U.S. consumer as a source of global demand?\nAnswer:",
+        "response": "Based on the passage, \"the rest of the world depended on the U.S. consumer as a source of global demand.\" This is a direct quote from the Brookings Institution report mentioned in the text, which explains that the global economy was reliant on U.S. consumption for growth. This dependence is further illustrated by the dramatic GDP declines experienced by various countries (Germany, Japan, UK, Latvia, Euro area, and Mexico) when U.S. consumption decreased due to recession and increased savings rates.",
+        "duration": 2.3979320526123047,
+        "memory_usage": 242593792,
+        "score": 0.2709
+    },
+    {
+        "prompt": "Question: Which American aircraft company made the Guardian anti submarine aircraft?\nAnswer:",
+        "response": "The American aircraft company that made the Guardian anti-submarine aircraft was Grumman. The aircraft, officially designated as the AF Guardian, was the first purpose-built anti-submarine warfare aircraft to enter service with the United States Navy. It was unusual in that it was designed as a two-aircraft system, with one variant carrying the detection equipment and another carrying the weapons.",
+        "duration": 2.2917821407318115,
+        "memory_usage": 242597888,
+        "score": 0.3688
+    },
+    {
+        "prompt": "Question: \u2018I Predict a Riot\u2019 (2004) and \u2018Never Miss a Beat\u2019 (2008) were Top 10 hits for whom?\nAnswer:",
+        "response": "Based on the information provided, 'I Predict a Riot' (2004) and 'Never Miss a Beat' (2008) were Top 10 hits for the British rock band Kaiser Chiefs.",
+        "duration": 1.3963971138000488,
+        "memory_usage": 242597888,
+        "score": 0.5071
+    },
+    {
+        "prompt": "Question: What was being advertised in a famous TV advert which showed Paul Gascoigne burst into tears?\nAnswer:",
+        "response": "The famous TV advert showing Paul Gascoigne bursting into tears was advertising Walkers crisps. This commercial played on the infamous moment when Gascoigne (known as \"Gazza\") cried during the 1990 World Cup semi-final between England and West Germany after receiving a yellow card that would have suspended him from the final had England advanced.",
+        "duration": 2.117231845855713,
+        "memory_usage": 242597888,
+        "score": 0.3277
+    },
+    {
+        "prompt": "Question: In which country is the city of Derry?\nAnswer:",
+        "response": "Derry (also known as Londonderry) is a city located in Northern Ireland, which is part of the United Kingdom.",
+        "duration": 0.8808200359344482,
+        "memory_usage": 242601984,
+        "score": 0.4991
+    },
+    {
+        "prompt": "Question: Death Valley is in which state of the USA?\nAnswer:",
+        "response": "Death Valley is located in California. It extends into Nevada as well, but the majority of Death Valley National Park, including its lowest and most famous parts, is situated within the state of California.",
+        "duration": 1.3630976676940918,
+        "memory_usage": 242601984,
+        "score": 0.4416
+    },
+    {
+        "prompt": "Question: Whom did Pat Cash defeat in the 1987 Wimbledon Men's Singles Final?\nAnswer:",
+        "response": "Based on my knowledge, Pat Cash defeated Ivan Lendl in the 1987 Wimbledon Men's Singles Final. The match was a significant achievement for Cash, who won in straight sets (7-6, 6-2, 7-5), claiming his only Grand Slam title. This victory is also remembered for Cash's celebration afterward, when he climbed into the stands to embrace his family and coach - a gesture that has since become common among tennis champions.",
+        "duration": 2.2729380130767822,
+        "memory_usage": 242606080,
+        "score": 0.398
+    },
+    {
+        "prompt": "Question: Who was the first sportsman to be British Sports Personality of the Year twice?\nAnswer:",
+        "response": "The first sportsman to be British Sports Personality of the Year twice was Henry Cooper. He won the award in 1967 and 1970, becoming the first person to win the honor on multiple occasions.",
+        "duration": 1.1965079307556152,
+        "memory_usage": 242606080,
+        "score": 0.3938
+    },
+    {
+        "prompt": "Question: Who became the first socialist Prime Minister of Greece in 1981?\nAnswer:",
+        "response": "Andreas Papandreou became the first socialist Prime Minister of Greece in 1981. He was the founder of the Panhellenic Socialist Movement (PASOK) and led his party to victory in the 1981 elections, marking a significant shift in modern Greek politics as the country's first socialist government.",
+        "duration": 2.17218279838562,
+        "memory_usage": 242610176,
+        "score": 0.501
+    },
+    {
+        "prompt": "Question: In which country was Daniel Libeskind, architect of the Jewish Museum in Berlin born?\nAnswer:",
+        "response": "Daniel Libeskind, the architect of the Jewish Museum in Berlin, was born in Poland. Specifically, he was born in \u0141\u00f3d\u017a, Poland, in 1946, after World War II, to Holocaust survivor parents.",
+        "duration": 1.416121244430542,
+        "memory_usage": 242610176,
+        "score": 0.3554
+    },
+    {
+        "prompt": "Question: What is the longest river in North America?\nAnswer:",
+        "response": "The longest river in North America is the Missouri River. It flows for approximately 2,341 miles (3,767 km) before joining the Mississippi River. While the Mississippi River system as a whole is longer when combined with the Missouri, when measuring individual rivers, the Missouri River holds the title of being the longest in North America.",
+        "duration": 1.6002798080444336,
+        "memory_usage": 242610176,
+        "score": 0.4854
+    },
+    {
+        "prompt": "Question: Malev was the national airline of which European country from 1946 to 2012?\nAnswer:",
+        "response": "Hungary",
+        "duration": 0.587731122970581,
+        "memory_usage": 242610176,
+        "score": 1.0
+    },
+    {
+        "prompt": "Question: What Italian word refers to a painting technique where paint is laid onto the canvas so thickly that the brush or knife strokes are visible?\nAnswer:",
+        "response": "The Italian word that refers to a painting technique where paint is laid onto the canvas very thickly with visible brush or knife strokes is \"impasto.\" This technique creates a textured, three-dimensional effect on the canvas surface, allowing artists to add depth and expression through the physical buildup of paint.",
+        "duration": 1.4817051887512207,
+        "memory_usage": 242610176,
+        "score": 0.4555
+    },
+    {
+        "prompt": "Question: Linford Christie won a gold medal representing Great Britain in the 100 metres at the 1992 Olympics in Barcelona, but what country was he born in?\nAnswer:",
+        "response": "Linford Christie was born in Jamaica. Although he represented Great Britain in international competitions, including when he won the 100 meters gold medal at the 1992 Barcelona Olympics, Christie was born in Saint Andrew, Jamaica, before moving to the United Kingdom as a child.",
+        "duration": 1.5515758991241455,
+        "memory_usage": 242610176,
+        "score": 0.3099
+    },
+    {
+        "prompt": "Question: New Zealand has won every IRB Sevens tournament since 1999 except one. Who won in 2005-2006?\nAnswer:",
+        "response": "Based on the information available, I cannot verify the premise of the question. The question assumes that New Zealand has won every IRB Sevens tournament since 1999 except for the 2005-2006 season, but this is not accurate. \n\nNew Zealand has been a dominant force in the IRB Sevens (now known as the World Rugby Sevens Series), but they have not won every tournament except one since 1999. Multiple countries including Fiji, South Africa, and others have won the overall series in different years.\n\nFor specific information about who won the 2005-2006 IRB Sevens Series, I believe it was Fiji, but would need to verify this to provide a definitive answer.",
+        "duration": 3.3761699199676514,
+        "memory_usage": 242614272,
+        "score": 0.3767
+    },
+    {
+        "prompt": "Question: During which month of the year is Oak Apple Day  (Royal Oak Day) celebrated?\nAnswer:",
+        "response": "Oak Apple Day, also known as Royal Oak Day, is celebrated on May 29th. This holiday commemorates the restoration of the English monarchy in 1660 when Charles II returned from exile and was restored to the throne. The day is named after the oak tree in which Charles II hid to escape capture by Parliamentary forces after the Battle of Worcester in 1651.",
+        "duration": 1.7141201496124268,
+        "memory_usage": 242618368,
+        "score": 0.2868
+    },
+    {
+        "prompt": "Question: The Book of Kells is in which city?\nAnswer:",
+        "response": "The Book of Kells is in Dublin, Ireland. Specifically, it is housed in the Old Library at Trinity College Dublin, where it is on permanent display and serves as one of Ireland's most important cultural treasures and tourist attractions.",
+        "duration": 1.1059765815734863,
+        "memory_usage": 242622464,
+        "score": 0.481
+    },
+    {
+        "prompt": "Question: \"In which 20th century conflict did the \"\"Tet offensive\"\" take place?\"\nAnswer:",
+        "response": "The \"Tet Offensive\" took place during the Vietnam War. It was a major military campaign launched by North Vietnamese and Viet Cong forces beginning on January 30, 1968, during the lunar new year holiday known as T\u1ebft in Vietnam. Though the offensive was ultimately a military defeat for the communist forces, it had a profound psychological impact on the American public and is often considered a turning point in the Vietnam War.",
+        "duration": 1.804893970489502,
+        "memory_usage": 242622464,
+        "score": 0.5622
+    },
+    {
+        "prompt": "Question: After the Olympics, what are the world's second-largest multi-sport event, the Delhi edition of which was in the news in 2010?\nAnswer:",
+        "response": "The world's second-largest multi-sport event after the Olympics is the Commonwealth Games, the Delhi edition of which was in the news in 2010. The 2010 Commonwealth Games were hosted in Delhi, India from October 3-14, 2010, and received significant media attention for various organizational challenges and controversies leading up to the event.",
+        "duration": 1.6054975986480713,
+        "memory_usage": 242622464,
+        "score": 0.6131
+    },
+    {
+        "prompt": "Question: What was Bruce Springsteen's first number one album in the U.K.\nAnswer:",
+        "response": "Bruce Springsteen's first number one album in the U.K. was \"Born in the U.S.A.\" which reached the top spot on the UK Albums Chart in 1984. The album spent a total of 136 weeks on the UK chart and became one of Springsteen's most commercially successful releases worldwide.",
+        "duration": 1.4670636653900146,
+        "memory_usage": 242622464,
+        "score": 0.3789
+    },
+    {
+        "prompt": "Question: In a 2004 poll run by the BBC, which TV show won the title of Best British Sitcom?\nAnswer:",
+        "response": "The 2004 poll run by the BBC that determined the \"Best British Sitcom\" crowned \"Only Fools and Horses\" as the winner. This show, which starred David Jason as Del Boy Trotter, was a comedy about working-class market traders in London that ran from 1981 to 2003. It beat other popular sitcoms like \"Blackadder,\" \"The Vicar of Dibley,\" and \"Father Ted\" to claim the top spot in this nationwide vote.",
+        "duration": 2.3412322998046875,
+        "memory_usage": 242626560,
+        "score": 0.508
+    },
+    {
+        "prompt": "Question: In what year was Olaf Palme, Prime Minister of Sweden, assassinated?\nAnswer:",
+        "response": "Olaf Palme, Prime Minister of Sweden, was assassinated on February 28, 1986, in Stockholm. He was shot while walking home from a movie theater with his wife, and his murder remained unsolved for decades until authorities in 2020 identified Stig Engstr\u00f6m (also known as \"Skandia Man\") as the likely perpetrator, although Engstr\u00f6m had died in 2000 so no prosecution could occur.",
+        "duration": 2.2088348865509033,
+        "memory_usage": 242630656,
+        "score": 0.1908
+    },
+    {
+        "prompt": "Question: Episcopal refers to what authority?\nAnswer:",
+        "response": "Episcopal refers to the authority of bishops in a church hierarchy. It comes from the Greek word \"episkopos,\" meaning \"overseer\" or \"bishop.\" Episcopal church governance is characterized by leadership through bishops who have authority over a diocese or district, as opposed to other forms of church governance such as congregational (where each congregation governs itself) or presbyterian (governed by assemblies of elders).",
+        "duration": 1.7400615215301514,
+        "memory_usage": 242630656,
+        "score": 0.4238
+    },
+    {
+        "prompt": "Question: Who did Snoopy take to the skies in his Sopwith Camel doghouse/biplane to do battle with in the comic strip Peanuts?\nAnswer:",
+        "response": "Snoopy took to the skies in his Sopwith Camel (actually his doghouse imagined as a World War I biplane) to do battle with the Red Baron. The Red Baron, or Baron Manfred von Richthofen, was a famous German fighter pilot from World War I, and became Snoopy's arch-nemesis in these fantasy sequences in the Peanuts comic strip created by Charles Schulz.",
+        "duration": 1.941521406173706,
+        "memory_usage": 242634752,
+        "score": 0.5164
+    },
+    {
+        "prompt": "Question: What type of bomber dropped the atomic bomb on Hiroshima in 1945?\nAnswer:",
+        "response": "A B-29 Superfortress bomber, specifically the one named \"Enola Gay,\" dropped the atomic bomb on Hiroshima on August 6, 1945. The B-29 was a four-engine heavy bomber aircraft developed by Boeing for the United States Army Air Forces during World War II.",
+        "duration": 1.6031627655029297,
+        "memory_usage": 242634752,
+        "score": 0.5489
+    },
+    {
+        "prompt": "Question: \"The word \"\"batty\"\" derives from which expression?\"\nAnswer:",
+        "response": "The word \"batty\" derives from the expression \"to have bats in one's belfry.\" This old idiom uses the image of bats flying around in the bell tower of a church (the belfry) as a metaphor for crazy or eccentric thoughts flying around in someone's head. Over time, \"batty\" emerged as a shorthand adjective meaning \"crazy,\" \"eccentric,\" or \"mentally unstable,\" directly connected to this older expression about bats in a belfry representing mental confusion or oddity.",
+        "duration": 3.0195672512054443,
+        "memory_usage": 242638848,
+        "score": 0.5665
+    },
+    {
+        "prompt": "Question: Nashville based Mac McAnally was named for the second consecutive year Musician of the Year at which 2009 awards event?\nAnswer:",
+        "response": "The answer is the Country Music Association (CMA) Awards. Mac McAnally was named Musician of the Year at the 2009 CMA Awards for the second consecutive year, having also won the award in 2008.",
+        "duration": 1.1235251426696777,
+        "memory_usage": 242642944,
+        "score": 0.5764
+    },
+    {
+        "prompt": "Question: Who created the fictional LAPD detective Harry Bosch?\nAnswer:",
+        "response": "Michael Connelly created the fictional LAPD detective Harry Bosch. Connelly introduced this character in his 1992 novel \"The Black Echo,\" and Harry Bosch has since appeared in numerous novels, becoming one of the most popular characters in contemporary crime fiction. The Bosch series has also been adapted into a successful television show.",
+        "duration": 1.5115725994110107,
+        "memory_usage": 242642944,
+        "score": 0.271
+    },
+    {
+        "prompt": "Question: What now common device was proposed by Townes in 1958 and built by Maiman in 1960? (Townes got the Nobel Prize and Maiman filed the patent)\nAnswer:",
+        "response": "The device proposed by Charles Townes in 1958 and built by Theodore Maiman in 1960 was the laser (Light Amplification by Stimulated Emission of Radiation). Townes received the Nobel Prize in Physics in 1964 (shared with Nikolay Basov and Alexander Prokhorov) for fundamental work in quantum electronics that led to the development of the maser and laser, while Maiman was the first to successfully demonstrate a working laser at Hughes Research Laboratories using a ruby crystal, for which he filed the patent.",
+        "duration": 2.5303921699523926,
+        "memory_usage": 242642944,
+        "score": 0.4354
+    },
+    {
+        "prompt": "Question: In which long-running comic series did the eponymous hero experience two dream sequences where he married each of his girlfriends, Veronica and Betty?\nAnswer:",
+        "response": "The eponymous hero who experienced two dream sequences where he married each of his girlfriends, Veronica and Betty, appears in the long-running comic series \"Archie Comics.\" Archie Andrews is the main character who has famously been caught in a love triangle between Betty Cooper and Veronica Lodge throughout the series' history, and these dream sequence storylines explored potential futures with each of his love interests.",
+        "duration": 2.305237293243408,
+        "memory_usage": 242642944,
+        "score": 0.4645
+    },
+    {
+        "prompt": "Question: Which decade does Michael J Fox go back to in Back to the Future?\nAnswer:",
+        "response": "Michael J. Fox's character Marty McFly goes back to the 1950s in \"Back to the Future.\" Specifically, he travels from 1985 back to 1955, where he meets younger versions of his parents and has to ensure they fall in love to preserve his own existence.",
+        "duration": 1.9311249256134033,
+        "memory_usage": 242642944,
+        "score": 0.0495
+    },
+    {
+        "prompt": "Question: What was the surname of the French brothers who invented the hot - air balloon in the 18'th century ?\nAnswer:",
+        "response": "The surname of the French brothers who invented the hot-air balloon in the 18th century was Montgolfier. Joseph-Michel and Jacques-\u00c9tienne Montgolfier conducted the first untethered human flight in a hot-air balloon on November 21, 1783, after earlier demonstrations with unmanned balloons and flights with animals.",
+        "duration": 1.8839223384857178,
+        "memory_usage": 242642944,
+        "score": 0.2663
+    },
+    {
+        "prompt": "Question: What is the capital city of Nevada?\nAnswer:",
+        "response": "The capital city of Nevada is Carson City.",
+        "duration": 0.6268539428710938,
+        "memory_usage": 242647040,
+        "score": 0.6841
+    },
+    {
+        "prompt": "Question: \"The wine \"\"Lachryma Christi\"\" is made from grapes grown on the slopes of which mountain?\"\nAnswer:",
+        "response": "The wine \"Lachryma Christi\" (meaning \"Tears of Christ\" in Latin) is made from grapes grown on the slopes of Mount Vesuvius in Italy. This historic wine has been produced in the Campania region of Italy for centuries, with vineyards benefiting from the rich volcanic soil around the famous volcano near Naples.",
+        "duration": 1.7034380435943604,
+        "memory_usage": 242647040,
+        "score": 0.4284
+    },
+    {
+        "prompt": "Question: \"The phrases \"\"cry wolf\"\" and \"\"sour grapes\"\" have a basis in which collection of stories?\"\nAnswer:",
+        "response": "To answer this question, I need to identify which collection of stories contains the origin of both the phrases \"cry wolf\" and \"sour grapes.\"\n\nThe phrase \"cry wolf\" comes from the fable \"The Boy Who Cried Wolf,\" about a shepherd boy who repeatedly tricks villagers by falsely claiming a wolf is attacking his flock. When a real wolf appears, no one believes his cries for help.\n\nThe phrase \"sour grapes\" comes from the fable \"The Fox and the Grapes,\" in which a fox cannot reach some grapes hanging high on a vine and declares them to be sour to rationalize his failure.\n\nBoth of these stories are from Aesop's Fables, a collection of fables credited to Aesop, a storyteller who lived in ancient Greece. These fables have been passed down through generations and have contributed many phrases and moral lessons to our language and culture.\n\nTherefore, the answer is Aesop's Fables.",
+        "duration": 3.6532270908355713,
+        "memory_usage": 242647040,
+        "score": 0.5894
+    },
+    {
+        "prompt": "Question: Who is the President of Argentina ?\nAnswer:",
+        "response": "As of my knowledge, Javier Milei is the President of Argentina. He took office on December 10, 2023, after winning the presidential election. He is an economist and political figure who represents the libertarian party La Libertad Avanza.",
+        "duration": 1.4760591983795166,
+        "memory_usage": 242647040,
+        "score": 0.2974
+    },
+    {
+        "prompt": "Question: Which sign of the Zodiac are people born on 30th October?\nAnswer:",
+        "response": "People born on October 30th fall under the zodiac sign of Scorpio. The Scorpio date range in the western zodiac is typically from October 23 to November 21. So someone with an October 30th birthday is firmly within the Scorpio period.",
+        "duration": 1.7164535522460938,
+        "memory_usage": 242647040,
+        "score": 0.5003
+    },
+    {
+        "prompt": "Question: Messier numbers were first applied to what?\nAnswer:",
+        "response": "Messier numbers were first applied to nebulous objects in the night sky that were cataloged by French astronomer Charles Messier in the late 18th century. He created this catalog to list objects that might be mistaken for comets, as his primary interest was discovering comets. These objects, which we now know include galaxies, star clusters, and actual nebulae, are still referred to by their Messier designations (M1, M31, etc.) in astronomy today.",
+        "duration": 2.125713586807251,
+        "memory_usage": 242647040,
+        "score": 0.4527
+    },
+    {
+        "prompt": "Question: \u2018International \u2018what\u2019 is the official colour of the paint on the Golden Gate Bridge in California?\nAnswer:",
+        "response": "The official color of the paint on the Golden Gate Bridge in California is \"International Orange.\" This distinctive reddish-orange color was specifically selected because it complements the natural surroundings while providing good visibility in the fog that frequently shrouds the San Francisco Bay area.",
+        "duration": 1.8358590602874756,
+        "memory_usage": 242651136,
+        "score": 0.4621
+    },
+    {
+        "prompt": "Question: In betting, which odds are known as \u2018Enin\u2019?\nAnswer:",
+        "response": "To answer the question about which odds in betting are known as 'Enin', I need to analyze this term carefully.\n\n'Enin' is not a standard or widely recognized term in the betting industry. It's not used in common betting terminology across major betting systems (decimal, fractional, American/moneyline).\n\nAfter researching various betting terminologies, I cannot find any legitimate reference to odds called 'Enin' in professional gambling, sports betting, horse racing, or casino games.\n\nThe term may be:\n- A very localized or niche term used in a specific region\n- A misspelling of another betting term\n- A fictional term\n\nWithout more context or information, I cannot identify any odds in betting known as 'Enin'.",
+        "duration": 3.343207597732544,
+        "memory_usage": 242651136,
+        "score": 0.1287
+    },
+    {
+        "prompt": "Question: Which American golfer beat Tom Watson in a play-off to win the 2009 Open Golf championship at Turnberry?\nAnswer:",
+        "response": "The 2009 Open Golf Championship at Turnberry was won by Stewart Cink, who defeated Tom Watson in a four-hole playoff. This was particularly notable because Watson, at 59 years old, was attempting to become the oldest major champion in golf history and had led for much of the tournament before Cink ultimately prevailed in the playoff.",
+        "duration": 1.8709132671356201,
+        "memory_usage": 242651136,
+        "score": 0.4001
+    },
+    {
+        "prompt": "Question: Former professional footballer Neil Ruddock played for which English club from 1986 to 1988?\nAnswer:",
+        "response": "Based on the information provided in the question, Neil Ruddock, who was a former professional footballer, played for an English club between 1986 and 1988. However, I don't have specific information about which English club Neil Ruddock played for during this specific time period (1986-1988). To accurately answer this question, I would need additional information about Neil Ruddock's career history.",
+        "duration": 2.1946468353271484,
+        "memory_usage": 242655232,
+        "score": 0.2568
+    },
+    {
+        "prompt": "Question: There are three snakes native to Britain, the adder, the grass snake and which other?\nAnswer:",
+        "response": "The third snake native to Britain, alongside the adder and the grass snake, is the smooth snake (Coronella austriaca).",
+        "duration": 1.0121252536773682,
+        "memory_usage": 242659328,
+        "score": 0.5836
+    },
+    {
+        "prompt": "Question: To which genus of trees does the willow belong?\nAnswer:",
+        "response": "The willow belongs to the genus Salix.",
+        "duration": 0.724919319152832,
+        "memory_usage": 242663424,
+        "score": 0.4913
+    },
+    {
+        "prompt": "Question: What is the name of the topmost bone of the spine that supports the skull\nAnswer:",
+        "response": "The name of the topmost bone of the spine that supports the skull is the atlas (C1). This is the first cervical vertebra, which articulates with the occipital bone of the skull, allowing for nodding movements of the head. It's named after Atlas from Greek mythology, who was said to support the heavens on his shoulders.",
+        "duration": 1.6997981071472168,
+        "memory_usage": 242663424,
+        "score": 0.4531
+    },
+    {
+        "prompt": "Question: What colour does the planet Neptune appear to be from space?\nAnswer:",
+        "response": "Neptune appears blue from space due to the presence of methane in its atmosphere. Methane gas absorbs red light and reflects blue light, giving Neptune its characteristic azure or bright blue color. This distinctive blue hue is one of Neptune's most recognizable features when observed through telescopes or from spacecraft like Voyager 2, which provided close-up images of the planet.",
+        "duration": 1.6323227882385254,
+        "memory_usage": 242667520,
+        "score": 0.4185
+    },
+    {
+        "prompt": "Question: What is the second letter of the Greek alphabet?\nAnswer:",
+        "response": "The second letter of the Greek alphabet is beta (\u03b2).",
+        "duration": 1.0169954299926758,
+        "memory_usage": 242667520,
+        "score": 0.5139
+    },
+    {
+        "prompt": "Question: How are the lovers Vrechen and Sali described in the title of a 1906 opera by Delius?\nAnswer:",
+        "response": "To answer this question, I need to identify a 1906 opera by Frederick Delius that features lovers named Vrechen and Sali.\n\nThe opera in question is \"A Village Romeo and Juliet\" (sometimes written as \"A Village Romeo & Juliet\"), which was composed by Frederick Delius and first performed in 1907, though completed in 1906. The opera is based on the novella \"Romeo und Julia auf dem Dorfe\" by Gottfried Keller.\n\nIn the title of this opera, the lovers Vrenchen and Sali are described as \"A Village Romeo and Juliet\" - drawing a parallel between their rural love story and Shakespeare's famous tragic lovers.",
+        "duration": 3.0076026916503906,
+        "memory_usage": 242667520,
+        "score": 0.5756
+    },
+    {
+        "prompt": "Question: Which female singer released the autobiography, 'True'?\nAnswer:",
+        "response": "The female singer who released the autobiography titled 'True' is Melanie Chisholm, also known as Mel C or Sporty Spice from the Spice Girls. She published her autobiography \"Who I Am: My Story\" in the UK, which was released in the US under the title \"The Sporty One: My Life as a Spice Girl.\" I need to correct my response, as I don't believe there is a widely known autobiography by a female singer specifically titled \"True.\"",
+        "duration": 2.58713960647583,
+        "memory_usage": 242667520,
+        "score": 0.25
+    },
+    {
+        "prompt": "Question: The Chinese New Year has just occurred, what is it the year of?\nAnswer:",
+        "response": "The Chinese New Year for 2024 (which began on February 10, 2024) is the Year of the Wood Dragon according to the Chinese zodiac. The Dragon is the fifth animal in the 12-year cycle of the Chinese zodiac, and the Wood element is part of the five-element cycle that rotates with the zodiac animals.",
+        "duration": 1.847989559173584,
+        "memory_usage": 242671616,
+        "score": 0.1829
+    },
+    {
+        "prompt": "Question: In Norse mythology, what type of creature was Fenrir?\nAnswer:",
+        "response": "In Norse mythology, Fenrir was a monstrous wolf. He was the son of the god Loki and the giantess Angrbo\u00f0a, and was foretold to play a major role in Ragnar\u00f6k, where he would kill Odin. The gods raised Fenrir but when they realized how quickly he was growing and how dangerous he would become, they attempted to bind him. After two failed attempts with ordinary chains, they eventually succeeded with a magical ribbon called Gleipnir, though the god T\u00fdr lost his hand in the process.",
+        "duration": 2.695268392562866,
+        "memory_usage": 242671616,
+        "score": 0.3162
+    },
+    {
+        "prompt": "Question: Which two words are inscribed on the Victoria Cross?\nAnswer:",
+        "response": "The two words inscribed on the Victoria Cross are \"FOR VALOUR\".",
+        "duration": 0.6580202579498291,
+        "memory_usage": 242671616,
+        "score": 0.4883
+    },
+    {
+        "prompt": "Question: In 1999, who became King of Jordan following the death of King Hussein?\nAnswer:",
+        "response": "In 1999, Abdullah II became King of Jordan following the death of King Hussein. Abdullah II, who was King Hussein's eldest son, ascended to the throne after his father died on February 7, 1999.",
+        "duration": 1.0322973728179932,
+        "memory_usage": 242671616,
+        "score": 0.5179
+    },
+    {
+        "prompt": "Question: Which British prime minister resigned as a result of the Suez Crisis?\nAnswer:",
+        "response": "Anthony Eden resigned as British Prime minister in January 1957 as a direct result of the Suez Crisis. The crisis erupted in 1956 when Egypt nationalized the Suez Canal, and Britain, along with France and Israel, launched a military intervention without U.S. support. The operation was a political disaster that damaged Britain's international standing and created economic problems. Although Eden cited health reasons for his resignation, it was widely understood that the failed Suez intervention was the actual cause of his departure from office.",
+        "duration": 2.3560657501220703,
+        "memory_usage": 242671616,
+        "score": 0.355
+    },
+    {
+        "prompt": "Question: Who piloted the command module during the first Moon landing?\nAnswer:",
+        "response": "During the first Moon landing mission (Apollo 11) in July 1969, Michael Collins piloted the Command Module \"Columbia\" while it orbited the Moon. He remained alone in the Command Module while Neil Armstrong and Buzz Aldrin descended to the lunar surface in the Lunar Module \"Eagle\".",
+        "duration": 1.5523006916046143,
+        "memory_usage": 242671616,
+        "score": 0.2751
+    },
+    {
+        "prompt": "Question: An older woman who is attracted to, and often has sex with, much younger men is called a what\nAnswer:",
+        "response": "The term commonly used to describe an older woman who is attracted to and often has sex with much younger men is \"cougar.\" This is a slang term that became popular in the early 2000s to describe this specific type of age-gap relationship dynamic.",
+        "duration": 1.3835783004760742,
+        "memory_usage": 242679808,
+        "score": 0.4837
+    },
+    {
+        "prompt": "Question: \"Which disease, the victims of which are nearly always men, (females are asymptomatic carriers of the disorder), is sometimes known as \"\"The Royal Disease\"\"?\"\nAnswer:",
+        "response": "The disease sometimes known as \"The Royal Disease\" is Hemophilia (specifically Hemophilia A or B). It primarily affects males while females are typically asymptomatic carriers. This genetic blood clotting disorder became known as \"The Royal Disease\" because it affected the royal families of Europe, particularly descendants of Queen Victoria, who was a carrier of hemophilia B. The disease spread through royal families via marriages between royal houses, affecting the Russian, Spanish, and German royal families among others.",
+        "duration": 3.226083993911743,
+        "memory_usage": 242679808,
+        "score": 0.4527
+    },
+    {
+        "prompt": "Question: Who founded the eponymous fashion label DVF?\nAnswer:",
+        "response": "Diane von Furstenberg founded the eponymous fashion label DVF. The Belgian-American fashion designer established her company in 1972, and it became particularly known for her iconic wrap dress design introduced in 1974. The DVF brand continues to be a significant presence in the fashion industry, with Diane von Furstenberg herself recognized as an influential designer and businesswoman.",
+        "duration": 1.7010083198547363,
+        "memory_usage": 242679808,
+        "score": 0.4422
+    },
+    {
+        "prompt": "Question: The 'Bechdel Test' is an informal measure of what in films and other fictional entertainment?\nAnswer:",
+        "response": "The Bechdel Test is an informal measure of female representation and gender bias in films and other fictional entertainment. To pass the test, a work must feature at least two named female characters who talk to each other about something other than a man. The test highlights how frequently women's roles in media are defined primarily by their relationships to male characters rather than as independent individuals with their own concerns and storylines.",
+        "duration": 1.8920044898986816,
+        "memory_usage": 242679808,
+        "score": 0.5141
+    },
+    {
+        "prompt": "Question: What colour is a polar bears skin?\nAnswer:",
+        "response": "A polar bear's skin is actually black. This dark skin helps the bear absorb and retain heat from the sun. What appears white is actually the polar bear's transparent fur, which reflects visible light, giving them their characteristic white appearance. The hollow, transparent hair shafts scatter and reflect visible light, similar to how snow appears white.",
+        "duration": 2.139983654022217,
+        "memory_usage": 242679808,
+        "score": 0.2853
+    },
+    {
+        "prompt": "Question: In British currency, how many pre-decimal pennies were in a pound?\nAnswer:",
+        "response": "In British pre-decimal currency, there were 240 pennies in a pound. The pre-decimal system, used until February 15, 1971, was based on:\n\n1 pound (\u00a3) = 20 shillings\n1 shilling = 12 pennies\n\nTherefore, 20 shillings \u00d7 12 pennies = 240 pennies in one pound.\n\nThis system was replaced by the decimal currency system where 1 pound equals 100 new pence.",
+        "duration": 2.1319832801818848,
+        "memory_usage": 242679808,
+        "score": 0.2079
+    },
+    {
+        "prompt": "Question: According to the proverb, a chain is only as strong as what?\nAnswer:",
+        "response": "According to the proverb, a chain is only as strong as its weakest link.",
+        "duration": 0.8242306709289551,
+        "memory_usage": 242679808,
+        "score": 0.5135
+    },
+    {
+        "prompt": "Question: \"In \"\"The Lord Of The Rings\"\", what was the name of Gandalf's horse?\"\nAnswer:",
+        "response": "In \"The Lord of the Rings,\" Gandalf's horse is named Shadowfax. Shadowfax is described as the lord of all horses, a magnificent white steed from Rohan that was given to Gandalf by King Th\u00e9oden. Shadowfax is known for his incredible speed, intelligence, and the fact that he allows no one but Gandalf to ride him.",
+        "duration": 1.9511196613311768,
+        "memory_usage": 242688000,
+        "score": 0.4204
+    },
+    {
+        "prompt": "Question: Military signals are given on which musical instrument?\nAnswer:",
+        "response": "The military signals are given on the bugle, which is a brass instrument traditionally used to communicate commands and signals to troops in military settings.",
+        "duration": 0.9970853328704834,
+        "memory_usage": 242700288,
+        "score": 0.4254
+    },
+    {
+        "prompt": "Question: A sorrel is which animal with a light reddish-brown coat?\nAnswer:",
+        "response": "A sorrel is a horse with a light reddish-brown coat. This coloration is a common coat color in horses and is specifically referred to as \"sorrel\" in equine terminology.",
+        "duration": 1.434746503829956,
+        "memory_usage": 242700288,
+        "score": 0.487
+    },
+    {
+        "prompt": "Question: \"Who wrote \"\"The Water Babies\"\"?\"\nAnswer:",
+        "response": "Charles Kingsley wrote \"The Water Babies,\" a Victorian fairy tale published in 1863. The full title is \"The Water-Babies, A Fairy Tale for a Land Baby.\" It tells the story of a young chimney sweep named Tom who transforms into a water baby after drowning and undergoes moral education and spiritual development in an underwater world.",
+        "duration": 2.3164279460906982,
+        "memory_usage": 242700288,
+        "score": 0.3434
+    },
+    {
+        "prompt": "Question: What is the name of the target in a game of curling?\nAnswer:",
+        "response": "The name of the target in a game of curling is the \"house.\" The house is a circular target marked on the ice that consists of several concentric colored rings, with the center (known as the \"button\") being the primary aim for players as they slide their stones down the ice sheet.",
+        "duration": 1.8028631210327148,
+        "memory_usage": 242700288,
+        "score": 0.2671
+    },
+    {
+        "prompt": "Question: Traditionally made for agricultural workers, which elongated suet crust dumpling has a meat filling at one end and a jam one at the other?\nAnswer:",
+        "response": "The answer is the Bedfordshire Clanger. This traditional English dish consists of a suet pastry dumpling with a savory filling (typically meat) at one end and a sweet filling (usually jam or fruit) at the other. It was designed as a complete meal for agricultural workers who could eat the savory end as their main course and the sweet end as dessert, all in one portable food item.",
+        "duration": 2.205334186553955,
+        "memory_usage": 242700288,
+        "score": 0.5539
+    },
+    {
+        "prompt": "Question: \"Who is cartoon character \"\"The Phantom\"\" married to?\"\nAnswer:",
+        "response": "The Phantom, also known as \"The Ghost Who Walks,\" is married to Diana Palmer. In the long-running comic strip created by Lee Falk in 1936, Diana Palmer becomes Diana Walker after marrying The Phantom. She is a strong, independent character who works as a United Nations delegate in the modern storylines, though her profession has evolved over the decades of the comic's publication.",
+        "duration": 2.0734832286834717,
+        "memory_usage": 242700288,
+        "score": 0.4245
+    },
+    {
+        "prompt": "Question: In which city was Terry Wogan born?\nAnswer:",
+        "response": "Terry Wogan was born in Limerick, Ireland.",
+        "duration": 0.6339609622955322,
+        "memory_usage": 242700288,
+        "score": 0.3544
+    },
+    {
+        "prompt": "Question: Which treaty in 1957 led to the creation of the EEC?\nAnswer:",
+        "response": "The Treaty of Rome in 1957 led to the creation of the European Economic Community (EEC). This landmark agreement was signed on March\n25, 1957, by six founding nations: France, West Germany, Italy, Belgium, the Netherlands, and Luxembourg. The treaty established a common market and customs union, and it came into force on January 1, 1958. The EEC was a precursor to what would eventually evolve into the European Union.",
+        "duration": 2.1802783012390137,
+        "memory_usage": 242700288,
+        "score": 0.5187
+    },
+    {
+        "prompt": "Question: \"Who wrote \"\"March of the Meanies\"\" for the Beatles' cartoon film \"\"Yellow Submarine\"\"?\"\nAnswer:",
+        "response": "\"March of the Meanies\" was composed by George Martin for the Beatles' 1968 animated film \"Yellow Submarine.\" George Martin, often referred to as the \"Fifth Beatle,\" was the Beatles' producer who also created and orchestrated much of the film's score, including this particular instrumental piece that accompanies the Blue Meanies in the movie. While the Beatles themselves contributed songs to the film's soundtrack, the original orchestral score was Martin's work.",
+        "duration": 2.3371694087982178,
+        "memory_usage": 242700288,
+        "score": 0.3312
+    },
+    {
+        "prompt": "Question: \"Which famous science fiction novel of 1898 is famous for its ending which states \"\"After all that mankind had tried, the Earth was saved by the littlest things that God, in his wisdom, had put on this Earth?\"\nAnswer:",
+        "response": "The quote you're referring to is a paraphrased version of a passage from H.G. Wells' \"The War of the Worlds,\" published in 1898. The novel concludes with the revelation that the invading Martians were defeated not by human military might, but by Earth's microscopic bacteria, to which the Martians had no immunity.\n\nThe actual line from the novel is somewhat different and reads: \"For so it had come about, as indeed I and many men might have foreseen had not terror and disaster blinded our minds. These germs of disease have taken toll of humanity since the beginning of things\u2014taken toll of our prehuman ancestors since life began here... By the toll of a billion deaths man has bought his birthright of the earth, and it is his against all comers... For neither do men live nor die in vain.\"\n\nThe novel is indeed famous for this ironic ending where, after all human weapons fail, the invaders are defeated by Earth's smallest organisms.",
+        "duration": 5.082606315612793,
+        "memory_usage": 242708480,
+        "score": 0.3979
+    },
+    {
+        "prompt": "Question: \"Who famously said in 1916 \"\"History is more or less bunk\"\"?\"\nAnswer:",
+        "response": "Henry Ford famously said \"History is more or less bunk\" in 1916. The American industrialist and founder of the Ford Motor Company made this statement during an interview with the Chicago Tribune. Ford's dismissive view of history was part of his forward-looking philosophy that emphasized practical knowledge and innovation over traditional education and historical study.",
+        "duration": 2.15360951423645,
+        "memory_usage": 242716672,
+        "score": 0.5051
+    },
+    {
+        "prompt": "Question: What type of creature is a Harvestman?\nAnswer:",
+        "response": "A Harvestman is a type of arachnid, related to spiders but belonging to the order Opiliones. Unlike spiders, harvestmen have a single body segment (the head, thorax, and abdomen are fused together) and typically have very long, thin legs. They do not produce silk, are not venomous, and cannot bite humans. Harvestmen are sometimes called \"daddy longlegs\" in some regions, though this name is also used for cellar spiders and crane flies in different parts of the world.",
+        "duration": 2.737877368927002,
+        "memory_usage": 242716672,
+        "score": 0.5461
+    },
+    {
+        "prompt": "Question: Edmund Hillary and Tenzing Norgay did what in May 1953?\nAnswer:",
+        "response": "Edmund Hillary and Tenzing Norgay became the first climbers to reach the summit of Mount Everest in May 1953. Their historic ascent to the top of the world's highest mountain (29,029 feet/8,848 meters) occurred on May 29, 1953, as part of a British expedition led by Colonel John Hunt. This achievement is considered one of the landmark moments in mountaineering history.",
+        "duration": 1.9640586376190186,
+        "memory_usage": 242716672,
+        "score": 0.7605
+    },
+    {
+        "prompt": "Question: \"After 97 years since being installed on a rock in Copenhagen harbour, the statue of \"\"The Little Mermaid\"\" left its place in April 2010 to go where?\"\nAnswer:",
+        "response": "The statue of \"The Little Mermaid\" left its place in Copenhagen harbor in April 2010 to travel to Shanghai, China. It was temporarily relocated to be displayed at the Danish Pavilion during the 2010 Shanghai World Expo. This was the first time the famous statue had been officially moved from its original location since its installation in 1913. The statue returned to Copenhagen after the Expo concluded.",
+        "duration": 2.264582395553589,
+        "memory_usage": 242720768,
+        "score": 0.2845
+    },
+    {
+        "prompt": "Question: Who famously owned a bicycle shop at 22 South Williams Street, Dayton, Oh?\nAnswer:",
+        "response": "The Wright brothers, Orville and Wilbur Wright, famously owned a bicycle shop at 22 South Williams Street in Dayton, Ohio. They operated their bicycle business there before focusing on their aviation experiments that ultimately led to the first successful powered airplane flight in 1903.",
+        "duration": 1.6617417335510254,
+        "memory_usage": 242745344,
+        "score": 0.6675
+    },
+    {
+        "prompt": "Question: In which London road is Harrod\u2019s department store?\nAnswer:",
+        "response": "Harrods department store is located on Brompton Road in Knightsbridge, London.",
+        "duration": 0.7242424488067627,
+        "memory_usage": 242749440,
+        "score": 0.4608
+    },
+    {
+        "prompt": "Question: What is usually added to Pernod before it is drank by the French\nAnswer:",
+        "response": "The French typically add water to Pernod before drinking it. This addition causes the clear yellowish liquor to turn cloudy (a phenomenon called the \"louche effect\") as the anise oils become less soluble. The water not only dilutes the high alcohol content (40-45%) making it more palatable, but also releases more of the herbal flavors and aromas. Traditionally, Pernod is served with a small pitcher of water to allow drinkers to dilute it to their preferred strength, usually in a ratio of 5 parts water to 1 part Pernod.",
+        "duration": 2.7898905277252197,
+        "memory_usage": 242749440,
+        "score": 0.2859
+    },
+    {
+        "prompt": "Question: Halophobia is the fear of what?\nAnswer:",
+        "response": "Halophobia is the fear of salt. This phobia involves an irrational and persistent fear of salt or salt-related items. People with halophobia may experience anxiety when seeing, touching, or even thinking about salt. The term comes from the Greek word \"halos\" meaning salt, combined with \"phobia\" meaning fear.",
+        "duration": 1.838416576385498,
+        "memory_usage": 242757632,
+        "score": 0.052
+    },
+    {
+        "prompt": "Question: What is the surname of Truman, played by Jim Carrey, in the 1998 film The Truman Show?\nAnswer:",
+        "response": "The surname of Truman, played by Jim Carrey, in the 1998 film \"The Truman Show\" is Burbank. The full name of the character is Truman Burbank.",
+        "duration": 1.1242125034332275,
+        "memory_usage": 242757632,
+        "score": 0.4239
+    },
+    {
+        "prompt": "Question: On which major river does Bamako, the capital of Mali stand?\nAnswer:",
+        "response": "Bamako, the capital of Mali, stands on the Niger River. The Niger River is one of Africa's major waterways and plays a significant role in the geography, economy, and culture of Mali.",
+        "duration": 1.14979887008667,
+        "memory_usage": 242757632,
+        "score": 0.4859
+    },
+    {
+        "prompt": "Question: \"What name was given to 6 labourers in Dorset, England, who formed a \"\"Friendly Society of Agricultural Labourers\"\" and in 1834 were sentenced to 7 years transportation for \"\"administering unlawful oaths\"\"?\"\nAnswer:",
+        "response": "The name given to the 6 laborers from Dorset, England who formed a \"Friendly Society of Agricultural Labourers\" and were sentenced to 7 years transportation in 1834 for \"administering unlawful oaths\" was the \"Tolpuddle Martyrs.\" These men became significant figures in the history of trade unionism and labor rights in the United Kingdom.",
+        "duration": 2.3119595050811768,
+        "memory_usage": 242757632,
+        "score": 0.5424
+    },
+    {
+        "prompt": "Question: Which 19th century British general, who lived between 1824 and 1901, gave his name to a type of military belt?\nAnswer:",
+        "response": "The 19th century British general who lived between 1824 and 1901 and gave his name to a type of military belt was General Henry Havelock. The \"Havelock belt\" or \"Sam Browne belt\" is the military belt named after him. The belt features a supporting strap that runs diagonally over the right shoulder and was widely adopted by military forces around the world.\n\nWait, I made an error in my response. The correct answer is General Samuel James Browne (1824-1901), who gave his name to the \"Sam Browne belt.\" This belt has a supporting strap that goes over the right shoulder and was designed by Browne after he lost his left arm in battle, making it difficult for him to draw his sword using the standard belt of the time.",
+        "duration": 3.9865965843200684,
+        "memory_usage": 242761728,
+        "score": 0.478
+    },
+    {
+        "prompt": "Question: Which US city filed for bankruptcy in July 2013?\nAnswer:",
+        "response": "The US city that filed for bankruptcy in July 2013 was Detroit, Michigan. This was the largest municipal bankruptcy filing in US history at the time, with the city facing approximately $18-20 billion in debt. Detroit's bankruptcy filing on July 18, 2013 came after decades of economic decline, population loss, and financial mismanagement.",
+        "duration": 1.6632969379425049,
+        "memory_usage": 242761728,
+        "score": 0.4246
+    },
+    {
+        "prompt": "Question: The Altiplano is a high plateau in the Andes name either of the two countries in which it lies?\nAnswer:",
+        "response": "The Altiplano, which is a high plateau in the Andes mountains, lies primarily in two countries: Bolivia and Peru. The Altiplano spans across these countries and is one of the most extensive high plateaus outside Tibet, with an average elevation of about 3,750 meters (12,300 feet) above sea level.",
+        "duration": 1.99192476272583,
+        "memory_usage": 242765824,
+        "score": 0.458
+    },
+    {
+        "prompt": "Question: Which musical was written by Tim Rice with two ex-members of ABBA?\nAnswer:",
+        "response": "The musical written by Tim Rice with two ex-members of ABBA is \"Chess.\" Tim Rice wrote the lyrics, while the music was composed by Bj\u00f6rn Ulvaeus and Benny Andersson, who were both members of ABBA. The musical premiered as a concept album in 1984, and then opened as a stage production in London's West End in 1986.",
+        "duration": 2.310445785522461,
+        "memory_usage": 242765824,
+        "score": 0.3063
+    },
+    {
+        "prompt": "Question: What was the Roman name for 'Bath'?\nAnswer:",
+        "response": "The Roman name for 'Bath' was Aquae Sulis. This name combines the Latin word \"Aquae\" meaning \"waters\" or \"springs\" with \"Sulis,\" the name of the Celtic goddess associated with the hot springs there. The Romans developed the site into a bathing and religious complex after recognizing the significance of the natural hot springs that had been previously revered by the local Celtic population.",
+        "duration": 2.032803535461426,
+        "memory_usage": 242765824,
+        "score": 0.5578
+    },
+    {
+        "prompt": "Question: Which was the last team to win the FA Cup and Premier League double?\nAnswer:",
+        "response": "The last team to win the FA Cup and Premier League double was Manchester City in the 2022-2023 season. They won the Premier League title and then defeated Manchester United in the FA Cup final to complete the domestic double.",
+        "duration": 1.5176331996917725,
+        "memory_usage": 242765824,
+        "score": 0.4487
+    },
+    {
+        "prompt": "Question: Who brought a legal suit against Michael Jackson in early 2009 claiming a share of profits from the Thriller video?\nAnswer:",
+        "response": "John Landis brought a legal suit against Michael Jackson in early 2009, claiming a share of profits from the \"Thriller\" video. Landis, who directed the iconic \"Thriller\" music video in 1983, filed the lawsuit alleging that he was owed money from the video's profits according to their original agreement.",
+        "duration": 2.1454310417175293,
+        "memory_usage": 242765824,
+        "score": 0.3923
+    },
+    {
+        "prompt": "Question: Pharaohs were leaders of which ancient nation?\nAnswer:",
+        "response": "Pharaohs were leaders of ancient Egypt. The title \"Pharaoh\" specifically referred to the monarchs who ruled the Egyptian civilization from the First Dynasty (around 3150 BCE) until Egypt became a province of the Roman Empire in 30 BCE. Pharaohs were considered divine rulers who served as both political leaders and religious figures, connecting the Egyptian people to their gods.",
+        "duration": 1.668982744216919,
+        "memory_usage": 242765824,
+        "score": 0.4017
+    },
+    {
+        "prompt": "Question: BG is the international car registration for which country?\nAnswer:",
+        "response": "The international car registration code \"BG\" is used for Bulgaria.",
+        "duration": 0.7451479434967041,
+        "memory_usage": 242769920,
+        "score": 0.5049
+    },
+    {
+        "prompt": "Question: The United States deployed combat units in 1965 into which war to prevent a communist takeover of Southeast Asia, part of a wider strategy called containment?\nAnswer:",
+        "response": "The United States deployed combat units in 1965 into the Vietnam War to prevent a communist takeover of Southeast Asia, as part of the wider Cold War strategy called containment. This marked a significant escalation of U.S. involvement in the conflict, which had previously been limited to military advisors and support personnel.",
+        "duration": 1.9940245151519775,
+        "memory_usage": 242778112,
+        "score": 0.6706
+    },
+    {
+        "prompt": "Question: What does a silkworm feed on?\nAnswer:",
+        "response": "Silkworms feed primarily on mulberry leaves. The domesticated silkworm (Bombyx mori) has a strong preference for white mulberry (Morus alba) leaves, though they can also consume leaves from other mulberry species. This specialized diet is essential for their development and silk production. Silkworm caterpillars consume large amounts of mulberry leaves during their larval stage, which is when they produce the silk that is later harvested for commercial use.",
+        "duration": 2.3195083141326904,
+        "memory_usage": 242778112,
+        "score": 0.2587
+    },
+    {
+        "prompt": "Question: Who was nearly 7 feet tall, weighed 500 pounds, and could drink 100 beers in a sitting?\nAnswer:",
+        "response": "Andr\u00e9 the Giant, born Andr\u00e9 Ren\u00e9 Roussimoff, was known for his enormous size at nearly 7 feet tall (though reported heights vary from 6'10\" to 7'4\") and weighing around 500 pounds. He had legendary tales of alcohol consumption, with claims that he could drink 100+ beers in a single sitting. As a professional wrestler and actor (famous for his role as Fezzik in \"The Princess Bride\"), Andr\u00e9's incredible physical proportions were due to gigantism and acromegaly. His beer-drinking feats are part of wrestling folklore, with various accounts suggesting he once consumed 119 beers in one session, though the exact numbers vary in different tellings of these stories.",
+        "duration": 3.3122751712799072,
+        "memory_usage": 242782208,
+        "score": 0.6007
+    },
+    {
+        "prompt": "Question: Who bought the Duke and Duchess of Windsor's house in Paris in 1986?\nAnswer:",
+        "response": "Based on my knowledge, Mohamed Al-Fayed purchased the Duke and Duchess of Windsor's former Paris residence in 1986. The home was located near the Bois de Boulogne in Paris and had been the residence where the Duke (formerly King Edward VIII) and his wife Wallis Simpson lived after Edward's abdication from the British throne.",
+        "duration": 1.7922894954681396,
+        "memory_usage": 242782208,
+        "score": 0.4019
+    },
+    {
+        "prompt": "Question: \"In Samuel Beckett's play \"\"Waiting For Godot\"\", which 2 characters appear together, briefly, once in each act?\"\nAnswer:",
+        "response": "In Samuel Beckett's play \"Waiting For Godot,\" the two characters who appear together briefly once in each act are Pozzo and Lucky. They first appear in Act I as master and servant, with Lucky tied to a rope led by Pozzo. They return in Act II, but with a significant change - Pozzo has become blind and Lucky mute, though they maintain their master-servant relationship. Their brief appearances in both acts provide a stark contrast to the continuous presence of the main characters, Vladimir and Estragon.",
+        "duration": 2.71240496635437,
+        "memory_usage": 242782208,
+        "score": 0.4891
+    },
+    {
+        "prompt": "Question: Which US President was given the nickname \u2018The Great Emancipator\u2019?\nAnswer:",
+        "response": "Abraham Lincoln was given the nickname 'The Great Emancipator' due to his role in the abolition of slavery, particularly for issuing the Emancipation Proclamation in 1863 and pushing for the passage of the 13th Amendment, which formally abolished slavery in the United States.",
+        "duration": 1.443894863128662,
+        "memory_usage": 242782208,
+        "score": 0.5434
+    },
+    {
+        "prompt": "Question: Who was the last King of Iraq?\nAnswer:",
+        "response": "The last King of Iraq was Faisal II. He ruled from 1939 until July 14, 1958, when he was overthrown and killed during the 14 July Revolution (also known as the Iraqi coup d'\u00e9tat). Faisal II was only 23 years old at the time of his death. His overthrow ended the Hashemite monarchy in Iraq and led to the establishment of the Republic of Iraq.",
+        "duration": 1.7793958187103271,
+        "memory_usage": 242782208,
+        "score": 0.3496
+    },
+    {
+        "prompt": "Question: Who became British Prime Minister on the 22nd. January 1924?\nAnswer:",
+        "response": "Ramsay MacDonald became British Prime Minister on January 22, 1924. He formed the first Labour government in British history, though it was a minority government that lasted only until November of that year.",
+        "duration": 1.1776516437530518,
+        "memory_usage": 242782208,
+        "score": 0.4485
+    },
+    {
+        "prompt": "Question: Which NFL team represented the AFC at Super Bowl 50, who did they play, and what was the final score?\nAnswer:",
+        "response": "The Denver Broncos represented the AFC at Super Bowl 50. They played against the Carolina Panthers (representing the NFC). The final score was Denver Broncos 24, Carolina Panthers 10, with the Broncos winning the championship.",
+        "duration": 1.3336703777313232,
+        "memory_usage": 242782208,
+        "score": 0.6937
+    },
+    {
+        "prompt": "Question: Where did Super Bowl 50 take place, what stadium hosted it, and what date was it held?\nAnswer:",
+        "response": "Super Bowl 50 took place in Santa Clara, California at Levi's Stadium on February 7, 2016. The Denver Broncos defeated the Carolina Panthers 24-10 in this milestone 50th Super Bowl game.",
+        "duration": 1.0922973155975342,
+        "memory_usage": 242786304,
+        "score": 0.5814
+    },
+    {
+        "prompt": "Question: Who was the Super Bowl 50 MVP, what position did he play, and how many solo tackles did he make?\nAnswer:",
+        "response": "The Super Bowl 50 MVP was Von Miller, who played as an outside linebacker for the Denver Broncos. In Super Bowl 50, Von Miller recorded 5 solo tackles along with 2.5 sacks and 2 forced fumbles in the Broncos' 24-10 victory over the Carolina Panthers.",
+        "duration": 1.5327353477478027,
+        "memory_usage": 242786304,
+        "score": 0.6778
+    },
+    {
+        "prompt": "Question: Who was the quarterback for the Panthers, how many touchdowns did he score, and how many rushing yards did he achieve?\nAnswer:",
+        "response": "I don't have specific information about a particular Panthers game or season. The Carolina Panthers NFL team has had different quarterbacks over the years (such as Cam Newton, Sam Darnold, Baker Mayfield, Bryce Young, and others). \n\nTo properly answer your question, I would need more details about:\n- Which specific game or time period you're asking about\n- Whether you mean the Carolina Panthers or another team with \"Panthers\" in their name\n\nWith this information, I could provide accurate statistics about the quarterback's touchdowns and rushing yards for that specific game or period.",
+        "duration": 2.7358784675598145,
+        "memory_usage": 242786304,
+        "score": 0.5234
+    },
+    {
+        "prompt": "Question: What band headlined the Super Bowl 50 halftime show, which two artists joined them, and what previous halftime shows had they headlined?\nAnswer:",
+        "response": "Coldplay headlined the Super Bowl 50 halftime show, with Beyonc\u00e9 and Bruno Mars joining them as special guests. For the previous halftime show appearances:\n\n- Coldplay had not previously headlined a Super Bowl halftime show; this was their first appearance.\n- Beyonc\u00e9 had previously headlined Super Bowl XLVII (47) in 2013.\n- Bruno Mars had previously headlined Super Bowl XLVIII (48) in 2014.\n\nThis halftime show took place on February 7, 2016, at Levi's Stadium in Santa Clara, California.",
+        "duration": 2.256730794906616,
+        "memory_usage": 242786304,
+        "score": 0.6079
+    },
+    {
+        "prompt": "Question: What year was Super Bowl 50 played, which season did it conclude, and who won the championship?\nAnswer:",
+        "response": "Super Bowl 50 was played on February 7, 2016. It concluded the 2015 NFL season. The Denver Broncos won the championship by defeating the Carolina Panthers 24-10.",
+        "duration": 1.0988597869873047,
+        "memory_usage": 242786304,
+        "score": 0.5985
+    },
+    {
+        "prompt": "Question: How many interceptions did the Panthers' defense get, who led the team, and how many tackles did he have?\nAnswer:",
+        "response": "I don't have specific information about the Panthers' defensive statistics for the most recent or any particular NFL season. To accurately answer how many interceptions their defense recorded as a team, who led in interceptions, and how many tackles that player had would require access to current NFL statistics.\n\nTo find this information, I would recommend:\n1. Checking the official Carolina Panthers website\n2. Visiting NFL.com for team and player statistics\n3. Looking at sports statistics websites like ESPN or Pro Football Reference\n\nThese sources would provide the exact numbers you're looking for regarding the Panthers' defensive performance.",
+        "duration": 2.7860145568847656,
+        "memory_usage": 242786304,
+        "score": 0.5484
+    },
+    {
+        "prompt": "Question: Who did the Broncos defeat in the AFC Championship, what was the score, and where was the game played?\nAnswer:",
+        "response": "I don't have enough information to answer this question specifically. The question asks about \"the AFC Championship\" without specifying which year, and the Denver Broncos have participated in multiple AFC Championship games throughout their history. \n\nTo properly answer this question, I would need to know which specific AFC Championship game you're referring to. The Broncos have appeared in several AFC Championship games and have both won and lost these contests with different opponents, scores, and locations depending on the year.",
+        "duration": 2.4513261318206787,
+        "memory_usage": 242765824,
+        "score": 0.2558
+    },
+    {
+        "prompt": "Question: Which team won Super Bowl 50, what was their regular season record, and who was their coach?\nAnswer:",
+        "response": "The Denver Broncos won Super Bowl 50, defeating the Carolina Panthers 24-10 on February 7, 2016. The Broncos' regular season record that year was 12-4. Their head coach was Gary Kubiak.",
+        "duration": 1.1703920364379883,
+        "memory_usage": 242765824,
+        "score": 0.697
+    },
+    {
+        "prompt": "Question: Who was the Panthers' top wide receiver in 2015, how many catches did he have, and how many yards did he record?\nAnswer:",
+        "response": "In 2015, the Carolina Panthers' top wide receiver was Ted Ginn Jr., who recorded 44 catches for 739 receiving yards. He led the team's wide receivers in yards and touchdowns, though tight end Greg Olsen actually led the team overall with 77 catches for 1,104 yards.",
+        "duration": 2.050083637237549,
+        "memory_usage": 242769920,
+        "score": 0.6009
+    }
+]

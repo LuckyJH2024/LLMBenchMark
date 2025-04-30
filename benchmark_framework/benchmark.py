@@ -36,6 +36,9 @@ class LLMBenchmark:
         return self.results
     
     def call_model_api(self, model_name, prompt):
+        # 统一格式化 prompt（Claude 必需，其他模型兼容）
+        formatted_prompt = f"Human: {prompt}\n\nAssistant:"
+
         if "gpt" in model_name.lower():
             api_url = "https://api.openai.com/v1/chat/completions"
             headers = {
@@ -44,7 +47,7 @@ class LLMBenchmark:
             }
             data = {
                 "model": model_name,
-                "messages": [{"role": "user", "content": prompt}],
+                "messages": [{"role": "user", "content": formatted_prompt}],
                 "temperature": 0.7
             }
             response = requests.post(api_url, headers=headers, json=data)
@@ -58,7 +61,7 @@ class LLMBenchmark:
             }
             data = {
                 "model": model_name,
-                "messages": [{"role": "user", "content": prompt}],
+                "messages": [{"role": "user", "content": formatted_prompt}],
                 "temperature": 0.7
             }
             response = requests.post(api_url, headers=headers, json=data)
@@ -74,13 +77,14 @@ class LLMBenchmark:
             data = {
                 "model": model_name,
                 "max_tokens": 1024,
-                "messages": [{"role": "user", "content": prompt}]
+                "messages": [{"role": "user", "content": formatted_prompt}]
             }
             response = requests.post(api_url, headers=headers, json=data)
             return response.json()["content"][0]["text"]
 
         else:
             raise ValueError(f"Unsupported model: {model_name}")
+
 
 
     def benchmark_task(self, model, task_data):

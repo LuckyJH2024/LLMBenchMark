@@ -9,7 +9,7 @@ from benchmark_framework.visualization_qa_summary import generate_report as gene
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 RESULTS_DIR = "results"
-MODELS = ["gpt-4o", "deepseek-chat", "claude-3-sonnet-20240229"]
+MODELS = ["gpt-4o", "deepseek-chat", "claude-3-7-sonnet-20250219"]
 
 # Load QA and summarization benchmark tasks
 qa_tasks = create_qa_benchmark("data/qa_benchmark.json")
