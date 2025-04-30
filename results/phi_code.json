@@ -1,0 +1,23 @@
+[
+    {
+        "prompt": "Problem: Write a function to sum all even numbers in a list.\nStarter Code: def sum_even(numbers):\nComplete the code:",
+        "response": " def sum_even(numbers):\n    \"\"\"This function takes a list of integers as input and returns the sum of all even numbers\"\"\"\n    # Your code goes here\n\n    # Check if the list is empty or not\n    if len(numbers) == 0:\n        return 0\n    else:\n        sum_ = 0 # Initialize the sum as zero\n        \n        # Iterate over the list of numbers\n        for number in numbers:\n            # Check if the number is even or not\n            if number % 2 == 0:\n                # If it's even, add it to the sum\n                sum_ = sum_ + number\n        return sum_\n\n# Example:\nprint(sum_even([1, 2, 3, 4, 5, 6])) # Output: 12\n",
+        "duration": 3.38175368309021,
+        "memory_usage": 516284416,
+        "score": 0.8303
+    },
+    {
+        "prompt": "Problem: Write a function to check if a string is a palindrome.\nStarter Code: def is_palindrome(text):\nComplete the code:",
+        "response": " def is_palindrome(text): \n    return text == text[::-1] #check if the original text is equal to its reverse\n",
+        "duration": 2.4162628650665283,
+        "memory_usage": 518836224,
+        "score": 0.8362
+    },
+    {
+        "prompt": "Problem: Implement a recursive function to calculate factorial.\nStarter Code: def factorial(n):\nComplete the code:",
+        "response": " def factorial(n): \n    if n == 1: \n        return n \n    else: \n        return n * factorial(n-1)\n",
+        "duration": 2.418200969696045,
+        "memory_usage": 519626752,
+        "score": 0.9739
+    }
+]

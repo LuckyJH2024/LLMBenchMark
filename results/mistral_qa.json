@@ -1,0 +1,702 @@
+[
+    {
+        "prompt": "Question: Which American aircraft company made the Guardian anti submarine aircraft?\nAnswer:",
+        "response": " The Guardian anti-submarine aircraft was developed by Lockheed Martin. However, it's important to note that the name \"Guardian\" has been used for various aircraft in different eras and contexts, so it might not always refer specifically to the Lockheed Martin model you're thinking of. The one I mentioned is a P-3 Orion derivative designed by Lockheed Martin for the U.S. Coast Guard, which can be considered an anti-submarine aircraft.",
+        "duration": 4.235586404800415,
+        "memory_usage": 508944384,
+        "score": 0.1089
+    },
+    {
+        "prompt": "Question: \u2018I Predict a Riot\u2019 (2004) and \u2018Never Miss a Beat\u2019 (2008) were Top 10 hits for whom?\nAnswer:",
+        "response": " The songs 'I Predict a Riot' (2004) and 'Never Miss a Beat' (2008) are by the British band Kaiser Chiefs. They achieved significant success, but it seems they did not quite reach the Top 10 in the UK Singles Chart (although they came close). However, the songs were successful internationally, particularly in countries such as Canada, Ireland, New Zealand, and Australia.",
+        "duration": 2.718919515609741,
+        "memory_usage": 510025728,
+        "score": 0.4134
+    },
+    {
+        "prompt": "Question: What was being advertised in a famous TV advert which showed Paul Gascoigne burst into tears?\nAnswer:",
+        "response": " The TV advertisement you're referring to is for \"Time for Jim\" by GT Crisps, which aired during the 1990 FIFA World Cup. In the ad, former England soccer player Paul Gascoigne is moved to tears when he meets an old man who resembles his grandfather, thereby emphasizing the message of spending quality time with loved ones. The slogan for the advertisement was \"Time For Jim\" or \"Time for a Crunch.\"",
+        "duration": 2.8973169326782227,
+        "memory_usage": 509042688,
+        "score": 0.1365
+    },
+    {
+        "prompt": "Question: In which country is the city of Derry?\nAnswer:",
+        "response": " The city of Derry is in Northern Ireland, United Kingdom. It is also known as Londonderry by some due to a historical naming dispute.",
+        "duration": 2.4317123889923096,
+        "memory_usage": 509222912,
+        "score": 0.5113
+    },
+    {
+        "prompt": "Question: Death Valley is in which state of the USA?\nAnswer:",
+        "response": " California and Nevada (although most of it lies within California)",
+        "duration": 2.292220115661621,
+        "memory_usage": 509677568,
+        "score": 0.6641
+    },
+    {
+        "prompt": "Question: Whom did Pat Cash defeat in the 1987 Wimbledon Men's Singles Final?\nAnswer:",
+        "response": " In the 1987 Wimbledon Men's Singles Final, Pat Cash defeated Stefan Edberg. This match is famous for Cash's victory while playing with an injured ankle. The final score was 6-2, 4-7, 7-5, 6-1 in favor of Cash.",
+        "duration": 2.7180845737457275,
+        "memory_usage": 507674624,
+        "score": 0.2178
+    },
+    {
+        "prompt": "Question: Who was the first sportsman to be British Sports Personality of the Year twice?\nAnswer:",
+        "response": " The first sportsman to win the BBC Sports Personality of the Year award twice is Daley Thompson, a British former decathlete and Olympic gold medalist. He won the award in 1980 and again in 1984. It's important to note that the award was introduced in 1954, and since then, there have been multiple winners who have won the award more than once, but Thompson is the first.",
+        "duration": 2.8423895835876465,
+        "memory_usage": 508870656,
+        "score": 0.2222
+    },
+    {
+        "prompt": "Question: Who became the first socialist Prime Minister of Greece in 1981?\nAnswer:",
+        "response": " The correct answer is Andreas Papandreou. He was a Greek politician who founded and led the Panhellenic Socialist Movement (PASOK). He served as the Prime Minister of Greece from 1981 to 1989, and again from 1996 to 2004. It's important to note that while PASOK is considered a social democratic party today, under Papandreou's leadership it was more socially progressive and Euro-skeptical.",
+        "duration": 3.0243358612060547,
+        "memory_usage": 508293120,
+        "score": 0.5283
+    },
+    {
+        "prompt": "Question: In which country was Daniel Libeskind, architect of the Jewish Museum in Berlin born?\nAnswer:",
+        "response": " Daniel Libeskind was born in Poland. He was born on May 12, 1946, in \u0141\u00f3d\u017a, but he later immigrated to the United States as a teenager in 1959. The Jewish Museum Berlin, one of his most notable works, was indeed designed by him and opened in 2001, showcasing the history of German-Jewish life before 1933 and the Holocaust.",
+        "duration": 2.8789279460906982,
+        "memory_usage": 509542400,
+        "score": 0.3164
+    },
+    {
+        "prompt": "Question: What is the longest river in North America?\nAnswer:",
+        "response": " The Mississippi River is the longest river in North America, with a total length of approximately 6,275 kilometers (3,900 miles). It drains all or parts of 31 U.S. states and two Canadian provinces. However, it's important to note that the Rio Grande, which has a total length of about 3,830 km (2,380 mi), is considered the fourth-longest river in North America if we only count the main stem of the river. The Missouri River, with a length of approximately 4,441 km (2,759 mi), and Yukon River, which is about 3,185 km (1,980 mi) long, are the second and third longest rivers in North America respectively.",
+        "duration": 3.4293782711029053,
+        "memory_usage": 509444096,
+        "score": 0.4695
+    },
+    {
+        "prompt": "Question: Malev was the national airline of which European country from 1946 to 2012?\nAnswer:",
+        "response": " Romania (Malev, short for \"Romania's Air Transport Enterprise,\" was the flag carrier and main airline of Romania.)",
+        "duration": 2.464923858642578,
+        "memory_usage": 511082496,
+        "score": 0.2533
+    },
+    {
+        "prompt": "Question: What Italian word refers to a painting technique where paint is laid onto the canvas so thickly that the brush or knife strokes are visible?\nAnswer:",
+        "response": " Impasto (pronounced im-pas-toh) is the Italian term for the painting technique in which paint is applied thickly, allowing the texture of the brush or palette knife strokes to be visible. This method can create a sense of depth and thickness in the painted subject matter. Notable artists who have used impasto include Vincent van Gogh, Claude Monet, and Georges Seurat.",
+        "duration": 2.8080787658691406,
+        "memory_usage": 511479808,
+        "score": 0.643
+    },
+    {
+        "prompt": "Question: Linford Christie won a gold medal representing Great Britain in the 100 metres at the 1992 Olympics in Barcelona, but what country was he born in?\nAnswer:",
+        "response": " Linford Christie was born in British Guyana (now Guyana), but he represents Great Britain in international competitions.",
+        "duration": 2.441455364227295,
+        "memory_usage": 509554688,
+        "score": 0.1873
+    },
+    {
+        "prompt": "Question: New Zealand has won every IRB Sevens tournament since 1999 except one. Who won in 2005-2006?\nAnswer:",
+        "response": " England won the IRB Sevens tournament in 2005-2006. This is one of the rare instances where New Zealand did not emerge victorious in this competition since their dominance began in 1999.",
+        "duration": 2.570427179336548,
+        "memory_usage": 507756544,
+        "score": 0.2845
+    },
+    {
+        "prompt": "Question: During which month of the year is Oak Apple Day  (Royal Oak Day) celebrated?\nAnswer:",
+        "response": "29th May",
+        "duration": 2.193169593811035,
+        "memory_usage": 508436480,
+        "score": 0.6661
+    },
+    {
+        "prompt": "Question: The Book of Kells is in which city?\nAnswer:",
+        "response": " Dublin, Ireland. The Book of Kells, an illuminated manuscript containing the four Gospels of the New Testament, is held at Trinity College Dublin. It is believed to have been created by Irish monks around AD 800.",
+        "duration": 2.6645712852478027,
+        "memory_usage": 507973632,
+        "score": 0.4948
+    },
+    {
+        "prompt": "Question: \"In which 20th century conflict did the \"\"Tet offensive\"\" take place?\"\nAnswer:",
+        "response": " The Tet Offensive took place during the Vietnam War, specifically in early 1968. This military campaign was a significant event in that conflict due to its impact on both the military and political dynamics of the war.",
+        "duration": 2.5235838890075684,
+        "memory_usage": 509112320,
+        "score": 0.5212
+    },
+    {
+        "prompt": "Question: After the Olympics, what are the world's second-largest multi-sport event, the Delhi edition of which was in the news in 2010?\nAnswer:",
+        "response": " Commonwealth Games. The 2010 Delhi Commonwealth Games were controversial due to several issues such as construction delays and corruption allegations, but they remained a significant global multi-sport event after the Olympics.",
+        "duration": 2.5003957748413086,
+        "memory_usage": 509120512,
+        "score": 0.6381
+    },
+    {
+        "prompt": "Question: What was Bruce Springsteen's first number one album in the U.K.\nAnswer:",
+        "response": " Bruce Springsteen's first number-one album in the U.K. was \"The River,\" which reached the top spot on February 20, 1981. This album was his fourth studio album and contained hit singles like \"Hungry Heart\" and \"The River.\" Previously, his albums \"Born to Run\" (1975) and \"Darkness on the Edge of Town\" (1978) had reached high positions in the U.K., but did not secure the number-one position.",
+        "duration": 3.012948989868164,
+        "memory_usage": 510013440,
+        "score": 0.1
+    },
+    {
+        "prompt": "Question: In a 2004 poll run by the BBC, which TV show won the title of Best British Sitcom?\nAnswer:",
+        "response": " The title of Best British Sitcom, according to the 2004 BBC poll, was given to \"Fawlty Towers.\" This classic sitcom, created and written by John Cleese and Connie Booth, originally aired from 1975-1979. It follows the misadventures of Basil Fawlty, the eccentric proprietor of the Titfield Tower hotel in Torquay.",
+        "duration": 2.9393563270568848,
+        "memory_usage": 510705664,
+        "score": 0.2365
+    },
+    {
+        "prompt": "Question: In what year was Olaf Palme, Prime Minister of Sweden, assassinated?\nAnswer:",
+        "response": "1986. Olaf Palme served as the Prime Minister of Sweden from 1969 to 1976 and again from 1982 until his assassination on February 28, 1986, in central Stockholm, Sweden. The circumstances surrounding his death remain a subject of investigation.",
+        "duration": 2.7472105026245117,
+        "memory_usage": 511819776,
+        "score": 0.2891
+    },
+    {
+        "prompt": "Question: Episcopal refers to what authority?\nAnswer:",
+        "response": " Episcopal refers to a form of church governance or to the bishops who exercise this form of governance. In this context, it's most commonly associated with the Anglican Communion, an international grouping of churches within the worldwide Anglican Communion, which is part of the Judeo-Christian tradition. The term \"episcopal\" means \"of or pertaining to bishops.\" These bishops have a role in governing their respective dioceses and the wider Church. The Episcopal Church (United States) is an autonomous branch of the Anglican Communion, and it operates under its own constitution and canons.",
+        "duration": 3.280846118927002,
+        "memory_usage": 509190144,
+        "score": 0.3746
+    },
+    {
+        "prompt": "Question: Who did Snoopy take to the skies in his Sopwith Camel doghouse/biplane to do battle with in the comic strip Peanuts?\nAnswer:",
+        "response": " The Red Baron, a fictional character based on Manfred von Richthofen (also known as the \"Red Baron\"), was the enemy that Snoopy, the beagle from the comic strip Peanuts, would pretend to fight against while piloting his imaginary Sopwith Camel doghouse/biplane. Despite being a figment of imagination, the Red Baron is iconic due to his real-life counterpart's prowess as one of the most successful fighter pilots in history during World War I.",
+        "duration": 2.945918083190918,
+        "memory_usage": 510533632,
+        "score": 0.6078
+    },
+    {
+        "prompt": "Question: What type of bomber dropped the atomic bomb on Hiroshima in 1945?\nAnswer:",
+        "response": " The Enola Gay, a Boeing B-29 Superfortress, was the aircraft that dropped the atomic bomb (Little Boy) on Hiroshima on August 6, 1945. The mission was part of Operation Crossroads, led by the United States Army Air Forces.",
+        "duration": 2.6371235847473145,
+        "memory_usage": 511737856,
+        "score": 0.3606
+    },
+    {
+        "prompt": "Question: \"The word \"\"batty\"\" derives from which expression?\"\nAnswer:",
+        "response": " The word \"batty\" is believed to have originated from the French term \"bat\", meaning a club or cudgel. It was later used in English to refer to a type of weapon, specifically a flat piece of wood used for striking a ball (as in cricket or baseball). Over time, it has taken on more informal meanings, such as referring to something eccentric, strange, or of a homosexual nature. This usage is considered derogatory and offensive. It's always important to use language respectfully and avoid terms that may cause harm or discomfort to others.",
+        "duration": 3.0828473567962646,
+        "memory_usage": 510808064,
+        "score": 0.4098
+    },
+    {
+        "prompt": "Question: Nashville based Mac McAnally was named for the second consecutive year Musician of the Year at which 2009 awards event?\nAnswer:",
+        "response": " The Country Music Association (CMA) Awards, held in Nashville. Mac McAnally received the honor as \"Musician of the Year\" at the 2009 CMA Awards.",
+        "duration": 2.56693172454834,
+        "memory_usage": 511193088,
+        "score": 0.6593
+    },
+    {
+        "prompt": "Question: Who created the fictional LAPD detective Harry Bosch?\nAnswer:",
+        "response": " Michael Connelly is the author who created the fictional LAPD detective Harry Bosch. Bosch is a popular character in the mystery and crime fiction genre.",
+        "duration": 2.4764132499694824,
+        "memory_usage": 511561728,
+        "score": 0.3624
+    },
+    {
+        "prompt": "Question: What now common device was proposed by Townes in 1958 and built by Maiman in 1960? (Townes got the Nobel Prize and Maiman filed the patent)\nAnswer:",
+        "response": " Laser, specifically the ruby laser. Charles H. Townes proposed the concept of the laser in 1958 and was awarded the Nobel Prize for Physics in 1964 for this work. Theodore Maiman built the first operational laser using a synthetic ruby crystal in 1960, filed a patent for it, and is considered the father of the laser industry.",
+        "duration": 2.8753597736358643,
+        "memory_usage": 509202432,
+        "score": 0.5194
+    },
+    {
+        "prompt": "Question: In which long-running comic series did the eponymous hero experience two dream sequences where he married each of his girlfriends, Veronica and Betty?\nAnswer:",
+        "response": " Archie Comics",
+        "duration": 2.2049720287323,
+        "memory_usage": 510144512,
+        "score": 0.7954
+    },
+    {
+        "prompt": "Question: Which decade does Michael J Fox go back to in Back to the Future?\nAnswer:",
+        "response": "1950s and 1885 (future from his perspective) in the movie \"Back to the Future.\" In the first movie, he travels back to 1955, and in the second and third movies, he travels forward to 2015 (the year the trilogy was released). The time machine also takes him to the Wild West of 1885.",
+        "duration": 2.9619405269622803,
+        "memory_usage": 508055552,
+        "score": 0.1446
+    },
+    {
+        "prompt": "Question: What was the surname of the French brothers who invented the hot - air balloon in the 18'th century ?\nAnswer:",
+        "response": " The brothers who invented the hot-air balloon were the Montgolfier brothers, specifically Jacques-\u00c9tienne and Joseph-Michel Montgolfier.",
+        "duration": 2.478966236114502,
+        "memory_usage": 509886464,
+        "score": 0.4634
+    },
+    {
+        "prompt": "Question: What is the capital city of Nevada?\nAnswer:",
+        "response": " The capital city of Nevada is Carson City. However, it's important to note that this might not always be the case as capitals can change over time due to various reasons such as political or geographical shifts. For example, in 1864, Nevada was established with Austin as its first territorial capital, then Virginia City from 1865 to 1869, and finally Carson City starting in 1871.",
+        "duration": 2.9158902168273926,
+        "memory_usage": 510136320,
+        "score": 0.4652
+    },
+    {
+        "prompt": "Question: \"The wine \"\"Lachryma Christi\"\" is made from grapes grown on the slopes of which mountain?\"\nAnswer:",
+        "response": " Mount Etna, Sicily, Italy. The name translates to \"Tears of Christ\" and is said to have originated from a legend that the tears of Jesus fell upon the vines during the Crucifixion, hence the deep, rich color of the wine. However, it's also connected to a specific event in which a miraculous flow of water was believed to come from a stone statue of Christ on Mount Etna, and the name is derived from that.",
+        "duration": 2.982570171356201,
+        "memory_usage": 510226432,
+        "score": 0.3408
+    },
+    {
+        "prompt": "Question: \"The phrases \"\"cry wolf\"\" and \"\"sour grapes\"\" have a basis in which collection of stories?\"\nAnswer:",
+        "response": " The phrases \"cry wolf\" and \"sour grapes\" come from Aesop's Fables, a collection of fables credited to the ancient Greek slave and storyteller Aesop. These stories illustrate moral lessons and have been influential in literature for centuries.\n\n1) \"Cry Wolf\" originates from the Aesop's Fable titled \"The Boy Who Cried Wolf.\" In this tale, a shepherd boy repeatedly tricks villagers into believing there is a wolf in his flock, only to find out one day when a real wolf does attack that no one believes him. The moral of the story is about the consequences of deception and the importance of trust.\n\n2) \"Sour Grapes\" is based on Aesop's Fable called \"The Fox and the Grapes.\" In this fable, a fox tries to reach some grapes hanging from a vine but cannot. When he can't attain them, he decides they must not be sweet, thus justifying his inability to enjoy them. The moral of the story is about accepting one's limitations and acknowledging that sometimes things are simply out of our reach.\n\nThese fables continue to inspire and teach us valuable life lessons even today!",
+        "duration": 4.157382488250732,
+        "memory_usage": 511516672,
+        "score": 0.518
+    },
+    {
+        "prompt": "Question: Who is the President of Argentina ?\nAnswer:",
+        "response": " The current President of Argentina, as of my last update, is Alberto Fern\u00e1ndez. He has been in office since December 10, 2019. However, please verify from a reliable source to ensure the information's accuracy as it may have changed since my last training data update.",
+        "duration": 2.6415560245513916,
+        "memory_usage": 514863104,
+        "score": 0.2047
+    },
+    {
+        "prompt": "Question: Which sign of the Zodiac are people born on 30th October?\nAnswer:",
+        "response": " The zodiac sign for people born on October 30th depends on the specific year they were born. If someone was born before November 1 at 12:01 am, they would be Scorpio; otherwise, they would be Libra. However, since most years have less than 31 days in October, it's more common for people born on October 30th to be Libras.",
+        "duration": 2.9149553775787354,
+        "memory_usage": 515502080,
+        "score": 0.4001
+    },
+    {
+        "prompt": "Question: Messier numbers were first applied to what?\nAnswer:",
+        "response": " Messier numbers were first applied to the objects in the Messier catalog, which is a list of celestial objects that include galaxies, star clusters, and nebulae. The Messier catalog was compiled by Charles Messier in the 18th century as a means to help him avoid confusing these objects with comets during his astronomical observations. Each object in the catalog has a unique Messier number, which ranges from M1 to M110.",
+        "duration": 2.948439598083496,
+        "memory_usage": 515723264,
+        "score": 0.3348
+    },
+    {
+        "prompt": "Question: \u2018International \u2018what\u2019 is the official colour of the paint on the Golden Gate Bridge in California?\nAnswer:",
+        "response": " International 'what' you are asking for here is a 'color'. The official color of the Golden Gate Bridge in California is International Orange.",
+        "duration": 2.4604580402374268,
+        "memory_usage": 514396160,
+        "score": 0.4861
+    },
+    {
+        "prompt": "Question: In betting, which odds are known as \u2018Enin\u2019?\nAnswer:",
+        "response": " The term 'Enin' is not commonly used in the context of betting. It might be a typo or a regional term. In standard sports betting, common terms for odds include Decimal odds, American odds (Moneyline), Fractional odds, and Hong Kong odds. If you have any more information about where this term originated, that could help clarify the answer.",
+        "duration": 2.7719528675079346,
+        "memory_usage": 514572288,
+        "score": 0.1698
+    },
+    {
+        "prompt": "Question: Which American golfer beat Tom Watson in a play-off to win the 2009 Open Golf championship at Turnberry?\nAnswer:",
+        "response": " The golfer who beat Tom Watson in a playoff to win the 2009 Open Championship at Turnberry was Stewart Cink. This memorable event marked the fifth and final major title for both players, with Cink emerging victorious on the first extra hole after tying Watson during regulation play.",
+        "duration": 2.7246265411376953,
+        "memory_usage": 510574592,
+        "score": 0.4343
+    },
+    {
+        "prompt": "Question: Former professional footballer Neil Ruddock played for which English club from 1986 to 1988?\nAnswer:",
+        "response": " The former professional footballer Neil Ruddock played for West Ham United from 1986 to 1988. He also represented clubs such as Liverpool, Coventry City, Southampton, and Derby County during his career. Notable international appearances include playing for the England national team in 1997.",
+        "duration": 2.6940298080444336,
+        "memory_usage": 512057344,
+        "score": 0.3143
+    },
+    {
+        "prompt": "Question: There are three snakes native to Britain, the adder, the grass snake and which other?\nAnswer:",
+        "response": " The third snake native to Britain is the common or smooth snake. It's less common than the adders and grass snakes, but can be found in various parts of England, Wales, and Scotland. Common snakes are typically smaller than adders and have smooth scales instead of the zigzag-patterned ones of the adder. They prefer dry, heathland habitats.",
+        "duration": 2.7911930084228516,
+        "memory_usage": 511553536,
+        "score": 0.5153
+    },
+    {
+        "prompt": "Question: To which genus of trees does the willow belong?\nAnswer:",
+        "response": " The willow belongs to the genus Salix. This genus is commonly known as the willows and contains over 400 different species of deciduous shrubs or small trees native to northern hemisphere regions, including North America, Europe, and Asia. They are often found near water sources due to their adaptations for surviving in damp habitats. Willows are well-known for their weeping branches and the ability of some species to produce salicylic acid, which is the precursor to aspirin.",
+        "duration": 2.9315693378448486,
+        "memory_usage": 511565824,
+        "score": 0.2729
+    },
+    {
+        "prompt": "Question: What is the name of the topmost bone of the spine that supports the skull\nAnswer:",
+        "response": " The topmost bone of the spine, which supports the skull, is called the Occipital bone. This bone forms the posterior and inferior part of the cranium (skull) and articulates with the first vertebra, C1 or Atlas. However, in a loose sense, the skull can also be considered as the first vertebra because it doesn't have a separate vertebral column above it.",
+        "duration": 2.820162296295166,
+        "memory_usage": 512929792,
+        "score": 0.2295
+    },
+    {
+        "prompt": "Question: What colour does the planet Neptune appear to be from space?\nAnswer:",
+        "response": " Neptune appears blue from space. This unique color is due to the presence of methane in its atmosphere, which absorbs red light and scatters shorter wavelengths (blue and violet), giving Neptune its striking azure hue.",
+        "duration": 2.6232094764709473,
+        "memory_usage": 512307200,
+        "score": 0.419
+    },
+    {
+        "prompt": "Question: What is the second letter of the Greek alphabet?\nAnswer:",
+        "response": " The second letter of the Greek alphabet is Beta (\u03b2, \u0392). The first letter is Alpha (\u03b1, \u0391) and the third one is Gamma (\u03b3, \u0393).",
+        "duration": 2.4986886978149414,
+        "memory_usage": 512720896,
+        "score": 0.3526
+    },
+    {
+        "prompt": "Question: How are the lovers Vrechen and Sali described in the title of a 1906 opera by Delius?\nAnswer:",
+        "response": " The lovers Vrechen and Sali are described in the title of the opera \"A Village Romeo and Juliet\" by Delius. In this opera, set in a village on the Mediterranean coast, the lovers are portrayed as representing local traditions that are threatened by encroaching modernity.",
+        "duration": 2.6827681064605713,
+        "memory_usage": 511090688,
+        "score": 0.6664
+    },
+    {
+        "prompt": "Question: Which female singer released the autobiography, 'True'?\nAnswer:",
+        "response": " The autobiography titled 'True' was written by Spice Girl Melanie Brown (also known as Scary Spice). However, it might be confusing because there is also a book with the same title by Madonna. But in this case, you were asking about the singer who wrote the autobiography, not the book title.",
+        "duration": 2.7472293376922607,
+        "memory_usage": 510763008,
+        "score": 0.2078
+    },
+    {
+        "prompt": "Question: The Chinese New Year has just occurred, what is it the year of?\nAnswer:",
+        "response": "2023 is the Year of the Rabbit in the Chinese Zodiac. The Chinese New Year typically falls between January 21 and February 20. However, as I'm writing this response on February 9, 2023, the actual year is still 2022 (Year of the Tiger). Chinese New Year often extends over several days and ends with the Lantern Festival on the fifteenth day of the first lunar month. The Year of the Rabbit will start in January 2023.",
+        "duration": 3.0836007595062256,
+        "memory_usage": 510799872,
+        "score": 0.1735
+    },
+    {
+        "prompt": "Question: In Norse mythology, what type of creature was Fenrir?\nAnswer:",
+        "response": " Fenrir is a giant wolf in Norse mythology. He is the son of Loki and Angrbo\u00f0a and brother to the Midgard serpent Jormungand and Hel, the goddess of death. Fenrir is bound by chains in a procession known as the binding of Fenrir, which signals the beginning of Ragnarok, the end of the world and the subsequent rebirth.",
+        "duration": 2.875683069229126,
+        "memory_usage": 511651840,
+        "score": 0.3685
+    },
+    {
+        "prompt": "Question: Which two words are inscribed on the Victoria Cross?\nAnswer:",
+        "response": " The Victoria Cross, the highest and most prestigious award for gallantry in the face of the enemy that can be awarded to British and Commonwealth forces, does not have any words inscribed on it. It is a Maltese cross patt\u00e9e made of gun metal, with the busts of St George, St Andrew, St Patrick, and St George of the Nevilles (the patron saint of Windsor) in the quadrants. The reverse bears the recipients' name, rank, number, regiment or ship, and the date.",
+        "duration": 2.9837141036987305,
+        "memory_usage": 512036864,
+        "score": 0.1673
+    },
+    {
+        "prompt": "Question: In 1999, who became King of Jordan following the death of King Hussein?\nAnswer:",
+        "response": " Abdullah II became King of Jordan in 1999, following the death of his father, King Hussein. King Abdullah II has been the King of Jordan ever since then.",
+        "duration": 2.4739532470703125,
+        "memory_usage": 512606208,
+        "score": 0.5418
+    },
+    {
+        "prompt": "Question: Which British prime minister resigned as a result of the Suez Crisis?\nAnswer:",
+        "response": " Anthony Eden, who was the British Prime Minister at the time, resigned due to the Suez Crisis. The crisis occurred in 1956 when Egypt nationalized the Suez Canal, and a joint British-French-Israeli military operation was launched to reclaim it. However, international pressure, particularly from the United States, led to their withdrawal, causing domestic turmoil in Britain and ultimately resulting in Eden's resignation.",
+        "duration": 2.884854793548584,
+        "memory_usage": 512495616,
+        "score": 0.4695
+    },
+    {
+        "prompt": "Question: Who piloted the command module during the first Moon landing?\nAnswer:",
+        "response": " Michael Collins, an American astronaut, was the pilot of the command module during the Apollo 11 mission, while Neil Armstrong and Buzz Aldrin landed on the moon in the lunar module. While Collins remained in the command module and orbited the Moon, Armstrong and Aldrin carried out their historic walk on the lunar surface.",
+        "duration": 2.774216413497925,
+        "memory_usage": 511401984,
+        "score": 0.3934
+    },
+    {
+        "prompt": "Question: An older woman who is attracted to, and often has sex with, much younger men is called a what\nAnswer:",
+        "response": " Cougar (Informal term) or an older woman dating significantly younger men is often referred to as a cougar. However, it's important to note that this term can be seen as derogatory by some and is not universally accepted or appropriate in all contexts. It is always crucial to respect individuals and their personal choices regarding relationships.",
+        "duration": 2.7142343521118164,
+        "memory_usage": 511455232,
+        "score": 0.6347
+    },
+    {
+        "prompt": "Question: \"Which disease, the victims of which are nearly always men, (females are asymptomatic carriers of the disorder), is sometimes known as \"\"The Royal Disease\"\"?\"\nAnswer:",
+        "response": " Porphyria, particularly Acute Intermittent Porphyria, is a group of rare metabolic disorders known for affecting mostly males. Queen Elizabeth I, who lived in an era without proper medical understanding and treatment, was suspected to have had porphyria due to symptoms often associated with the disorder. However, it's important to note that modern diagnostics could not confirm this as she lived before the development of genetic testing. Porphyria has been referred to as \"The Royal Disease\" because of its prevalence in European royal families.",
+        "duration": 3.042419672012329,
+        "memory_usage": 511410176,
+        "score": 0.2548
+    },
+    {
+        "prompt": "Question: Who founded the eponymous fashion label DVF?\nAnswer:",
+        "response": " Diane von Furstenberg is the founder of the fashion label DVF. She was born in Belgium and moved to New York City in 1972, where she launched her iconic wrap dress, which became an instant classic and helped establish her as a leading force in women's fashion.",
+        "duration": 2.716599702835083,
+        "memory_usage": 512454656,
+        "score": 0.5268
+    },
+    {
+        "prompt": "Question: The 'Bechdel Test' is an informal measure of what in films and other fictional entertainment?\nAnswer:",
+        "response": " Representation of women and gender balance. The Bechdel Test checks if a work of fiction has at least two women who talk to each other about something other than a man.",
+        "duration": 2.524691343307495,
+        "memory_usage": 513220608,
+        "score": 0.4956
+    },
+    {
+        "prompt": "Question: What colour is a polar bears skin?\nAnswer:",
+        "response": " A polar bear's skin is black, but it's usually covered with thick fur which can appear white.",
+        "duration": 2.3650119304656982,
+        "memory_usage": 512073728,
+        "score": 0.3351
+    },
+    {
+        "prompt": "Question: In British currency, how many pre-decimal pennies were in a pound?\nAnswer:",
+        "response": "20 pennies made up one pound before the decimal system was introduced on February 15, 1971.",
+        "duration": 2.380060911178589,
+        "memory_usage": 511975424,
+        "score": 0.1011
+    },
+    {
+        "prompt": "Question: According to the proverb, a chain is only as strong as what?\nAnswer:",
+        "response": " Its weakest link. The idea here is that if one part of a chain (the \"weakest link\") fails or gives way, then the entire chain is compromised and will likely fail as well. This proverb can be applied to many situations in life, emphasizing the importance of addressing weaknesses before they cause larger problems.",
+        "duration": 2.7479934692382812,
+        "memory_usage": 510189568,
+        "score": 0.5226
+    },
+    {
+        "prompt": "Question: \"In \"\"The Lord Of The Rings\"\", what was the name of Gandalf's horse?\"\nAnswer:",
+        "response": " In J.R.R. Tolkien's \"The Lord of the Rings,\" the name of Gandalf's horse is Bill the Pony.",
+        "duration": 2.4915425777435303,
+        "memory_usage": 511614976,
+        "score": 0.0395
+    },
+    {
+        "prompt": "Question: Military signals are given on which musical instrument?\nAnswer:",
+        "response": " The question seems to be a bit of a mix-up. Military signals are not typically given using a musical instrument, but rather through flags, Morse code, or other visual and auditory codes. If you meant to ask about military music, then the answer would be various wind, percussion, and string instruments, depending on the context (e.g., drum and bugle corps for ceremonies, marching bands for parades). But it's important to clarify the specific context when discussing such topics.",
+        "duration": 3.0253729820251465,
+        "memory_usage": 511807488,
+        "score": -0.0192
+    },
+    {
+        "prompt": "Question: A sorrel is which animal with a light reddish-brown coat?\nAnswer:",
+        "response": " The term \"sorrel\" is not commonly used to describe animals. However, in the context of horses, a \"sorrel\" horse is typically a chestnut horse with a red or bay mane and tail. If you meant a different animal, I apologize for the confusion. In that case, a sorrel color generally refers to a reddish-brown coat in animals such as foxes, dogs, cats, and some deer species. To clarify, if you are referring to a mammal with a light reddish-brown coat, the term you might be looking for is \"Sorrel\" color.",
+        "duration": 3.162858247756958,
+        "memory_usage": 512901120,
+        "score": 0.4152
+    },
+    {
+        "prompt": "Question: \"Who wrote \"\"The Water Babies\"\"?\"\nAnswer:",
+        "response": " \"The Water Babies\" was written by Charles Kingsley. It is a children's fantasy novel published in 1863, featuring the adventures of an orphaned chimney sweep named Tom who falls into a river and transforms into a water baby as he learns about life and morality.",
+        "duration": 2.669067859649658,
+        "memory_usage": 513830912,
+        "score": 0.2026
+    },
+    {
+        "prompt": "Question: What is the name of the target in a game of curling?\nAnswer:",
+        "response": " The target in a game of curling is called the \"house.\" It consists of four concentric circles, with the center being the \"button.\" The goal of the game is to get your team's stones closer to the center (the button) than the opposing team.",
+        "duration": 2.648271322250366,
+        "memory_usage": 514658304,
+        "score": 0.2055
+    },
+    {
+        "prompt": "Question: Traditionally made for agricultural workers, which elongated suet crust dumpling has a meat filling at one end and a jam one at the other?\nAnswer:",
+        "response": " The traditional British dish you're referring to is called a \"Ploughman's Wife,\" although the correct name should actually be \"Ploughboy's Wife\" due to the historical role of women in preparing food for farm workers. However, it seems there might have been a mix-up in the details as the Ploughboy's Wife is not traditionally an elongated suet crust dumpling but rather a savory meat pie with sweet suet crust on one end and a sweet jam or fruit filling on the other. This misconception might have arisen from the similarity in names with another pastry, the \"Cumberland Rum Nicky,\" which is an elongated suet crust dumpling with a meat and dried fruit filling at one end and a stewed prune or dried fruit filling on the other.",
+        "duration": 3.506993055343628,
+        "memory_usage": 512004096,
+        "score": 0.2373
+    },
+    {
+        "prompt": "Question: \"Who is cartoon character \"\"The Phantom\"\" married to?\"\nAnswer:",
+        "response": " The Phantom, a fictional character created by Lee Falk, does not have a wife in the traditional sense. However, he is bonded to his cousin Diana Palmer who acts as his second-in-command and love interest. This relationship is more of a partnership than a marriage.",
+        "duration": 2.622593402862549,
+        "memory_usage": 514002944,
+        "score": 0.2294
+    },
+    {
+        "prompt": "Question: In which city was Terry Wogan born?\nAnswer:",
+        "response": " Limerick, Ireland",
+        "duration": 2.346111536026001,
+        "memory_usage": 514842624,
+        "score": 0.8379
+    },
+    {
+        "prompt": "Question: Which treaty in 1957 led to the creation of the EEC?\nAnswer:",
+        "response": " The Treaty of Rome, signed on March 25, 1957, led to the creation of the European Economic Community (EEC), also known as the Common Market. This treaty aimed at establishing a unified market for goods and services, as well as promoting economic cooperation among its member states. The EEC eventually evolved into the European Union (EU) we know today.",
+        "duration": 2.8473336696624756,
+        "memory_usage": 512466944,
+        "score": 0.5544
+    },
+    {
+        "prompt": "Question: \"Who wrote \"\"March of the Meanies\"\" for the Beatles' cartoon film \"\"Yellow Submarine\"\"?\"\nAnswer:",
+        "response": " The song \"March of the Meanies\" was written by George Martin, who is often referred to as the \"Fifth Beatle\". However, it's important to note that although he wrote and produced much of the music for the Beatles, he did not write songs that were credited to Lennon-McCartney. In this case, the song was part of the score for the film and not a standard Beatles composition.",
+        "duration": 2.9253013134002686,
+        "memory_usage": 512671744,
+        "score": 0.4221
+    },
+    {
+        "prompt": "Question: \"Which famous science fiction novel of 1898 is famous for its ending which states \"\"After all that mankind had tried, the Earth was saved by the littlest things that God, in his wisdom, had put on this Earth?\"\nAnswer:",
+        "response": " The answer to your question is \"The War of the Worlds\" by H.G. Wells. In the novel's ending, the Martians are defeated not by human ingenuity or technology, but by common terrestrial microbes that prove fatal to their immune systems. This line, \"After all that mankind had tried, the Earth was saved by the littlest things that God, in his wisdom, had put on this Earth,\" perfectly encapsulates the theme of survival through unexpected means.",
+        "duration": 3.0204830169677734,
+        "memory_usage": 512937984,
+        "score": 0.4224
+    },
+    {
+        "prompt": "Question: \"Who famously said in 1916 \"\"History is more or less bunk\"\"?\"\nAnswer:",
+        "response": " The person who said, \"History is merely a list of static dates and events... History is more or less bunk\" was Henry Ford, an American industrialist. This quote demonstrates his unconventional view on history education and its practicality in everyday life.",
+        "duration": 2.5886077880859375,
+        "memory_usage": 513232896,
+        "score": 0.4241
+    },
+    {
+        "prompt": "Question: What type of creature is a Harvestman?\nAnswer:",
+        "response": " A Harvestman, also known as a Daddy Long Legs or a Potato Bug (mistakenly, as it's not related to true potato bugs), belongs to the arachnid family Opiliones, which includes over 6,000 species. They have long, spindly legs and are often found in damp environments such as leaf litter, under logs or in gardens. Unlike spiders, harvestmen do not spin webs to catch prey. Instead, they feed on small invertebrates and decaying plant material.",
+        "duration": 3.0416452884674072,
+        "memory_usage": 513630208,
+        "score": 0.5438
+    },
+    {
+        "prompt": "Question: Edmund Hillary and Tenzing Norgay did what in May 1953?\nAnswer:",
+        "response": " Edmund Hillary and Tenzing Norgay reached the summit of Mount Everest in May 1953.",
+        "duration": 2.4399120807647705,
+        "memory_usage": 513462272,
+        "score": 0.6045
+    },
+    {
+        "prompt": "Question: \"After 97 years since being installed on a rock in Copenhagen harbour, the statue of \"\"The Little Mermaid\"\" left its place in April 2010 to go where?\"\nAnswer:",
+        "response": " To be restored and reinstalled at the same location in Copenhagen harbor. The statue was not moved to a different location. It's just that it left its place temporarily for restoration purposes.",
+        "duration": 2.5329842567443848,
+        "memory_usage": 513921024,
+        "score": 0.1513
+    },
+    {
+        "prompt": "Question: Who famously owned a bicycle shop at 22 South Williams Street, Dayton, Oh?\nAnswer:",
+        "response": " Orville Wright, along with his brother Wilbur, used the location as their workshop to develop and test their flying machines. The Wright brothers are famous for inventing and building the world's first successful motor-operated airplane. Although not originally a bicycle shop, it was eventually converted into one after they started repairing bicycles during the 1890s to finance their aircraft construction.",
+        "duration": 2.800405740737915,
+        "memory_usage": 514330624,
+        "score": 0.606
+    },
+    {
+        "prompt": "Question: In which London road is Harrod\u2019s department store?\nAnswer:",
+        "response": " Brompton Road, situated in Knightsbridge. The famous Harrods department store can be found at the intersection of Brompton Road and Knightbridge, in the district of Westminster, Central London.",
+        "duration": 2.588836193084717,
+        "memory_usage": 512520192,
+        "score": 0.6688
+    },
+    {
+        "prompt": "Question: What is usually added to Pernod before it is drank by the French\nAnswer:",
+        "response": " Water, typically. Pernod is an absinthe-like liqueur from France, which is traditionally served diluted with water and a sugar cube (optional). This process is called \"La Louche\" in French, where the sugar dissolves into the water before being poured over the Pernod.",
+        "duration": 2.7438626289367676,
+        "memory_usage": 512872448,
+        "score": 0.3549
+    },
+    {
+        "prompt": "Question: Halophobia is the fear of what?\nAnswer:",
+        "response": " Halophobia is the irrational fear of salt or salty water. It's not a common phobia, but it does exist. People with halophobia might experience anxiety or panic when exposed to high concentrations of salt or even when thinking about consuming salty food.",
+        "duration": 2.6810548305511475,
+        "memory_usage": 512561152,
+        "score": 0.0119
+    },
+    {
+        "prompt": "Question: What is the surname of Truman, played by Jim Carrey, in the 1998 film The Truman Show?\nAnswer:",
+        "response": " In the movie The Truman Show, the character Truman is played by Jim Carrey. However, his surname in the film is not explicitly stated, but it's often assumed to be \"Show\" based on the title of the movie. In reality, the character Truman Burbank was created for the purpose of the show within the story, so he doesn't technically have a real-world surname.",
+        "duration": 2.87609601020813,
+        "memory_usage": 512598016,
+        "score": 0.3266
+    },
+    {
+        "prompt": "Question: On which major river does Bamako, the capital of Mali stand?\nAnswer:",
+        "response": " The city of Bamako, the capital of Mali, stands on the Niger River. It is the largest city in Mali and serves as a major transportation hub for both road and river transport.",
+        "duration": 2.5454862117767334,
+        "memory_usage": 512823296,
+        "score": 0.4047
+    },
+    {
+        "prompt": "Question: \"What name was given to 6 labourers in Dorset, England, who formed a \"\"Friendly Society of Agricultural Labourers\"\" and in 1834 were sentenced to 7 years transportation for \"\"administering unlawful oaths\"\"?\"\nAnswer:",
+        "response": " The six laborers were known as the Tolpuddle Martyrs. They were agricultural workers from Tolpuddle, Dorset, England who formed a trade union, which was illegal at that time. In 1834, they were sentenced to transportation for seven years for administering an oath among their members, which was seen as seditious by the authorities. This event helped spark support for trade unions in Britain and is celebrated annually on May Day.",
+        "duration": 2.998013734817505,
+        "memory_usage": 512364544,
+        "score": 0.5562
+    },
+    {
+        "prompt": "Question: Which 19th century British general, who lived between 1824 and 1901, gave his name to a type of military belt?\nAnswer:",
+        "response": " The 19th-century British general whose name became synonymous with a type of military belt is Charles George Gordon (1833 \u2013 1885). Commonly known as \"Chinese Gordon\" or \"Gordon of Khartoum,\" he served in various parts of the world and is perhaps best remembered for his defense of the Sudanese city of Khartoum against the Mahdist state. The \"Gordon belt\" was a type of military equipment used during that time, although its use may have evolved over the years and been adapted to different circumstances.",
+        "duration": 3.108656406402588,
+        "memory_usage": 513507328,
+        "score": 0.1401
+    },
+    {
+        "prompt": "Question: Which US city filed for bankruptcy in July 2013?\nAnswer:",
+        "response": " Detroit, Michigan was the U.S. city that filed for bankruptcy in July 2013. It was the largest municipal bankruptcy filing in U.S. history, with $18 billion in debt. The reasons for its financial distress were largely due to a combination of population loss and economic shifts which led to a decline in tax revenue.",
+        "duration": 2.7779152393341064,
+        "memory_usage": 513298432,
+        "score": 0.4828
+    },
+    {
+        "prompt": "Question: The Altiplano is a high plateau in the Andes name either of the two countries in which it lies?\nAnswer:",
+        "response": "1. Bolivia\n2. Chile\n\nCorrect Answer: Both Bolivia and Chile share parts of the Altiplano plateau, making it a trans-border region. The largest portion lies within Bolivia, specifically including Lake Titicaca, which is the highest navigable lake in the world.",
+        "duration": 2.689418315887451,
+        "memory_usage": 514777088,
+        "score": 0.4974
+    },
+    {
+        "prompt": "Question: Which musical was written by Tim Rice with two ex-members of ABBA?\nAnswer:",
+        "response": " Chess, a musical by Tim Rice and Benny Andersson (ex-member of ABBA) and Bj\u00f6rn Ulvaeus (also ex-member of ABBA). The musical explores the story of a romantic triangle among three characters involved in a political and romantic intrigue set against the backdrop of the 1970s Cold War.",
+        "duration": 2.7697882652282715,
+        "memory_usage": 512872448,
+        "score": 0.5472
+    },
+    {
+        "prompt": "Question: What was the Roman name for 'Bath'?\nAnswer:",
+        "response": " The Roman name for Bath, England, was Aquae Sulis. It is named after the British Celtic goddess Sulis, and it was a popular Roman spa town, known for its hot springs.",
+        "duration": 2.499743938446045,
+        "memory_usage": 512946176,
+        "score": 0.5653
+    },
+    {
+        "prompt": "Question: Which was the last team to win the FA Cup and Premier League double?\nAnswer:",
+        "response": " Manchester City was the last team to win both the FA Cup and Premier League in the same season. They achieved this feat in the 2018-2019 season, with Pep Guardiola as their manager. The FA Cup final was played on May 18, 2019, where City defeated Watford, while they clinched the Premier League title a few days earlier on May 12, 2019, by beating Leicester City.",
+        "duration": 2.926321029663086,
+        "memory_usage": 513441792,
+        "score": 0.3923
+    },
+    {
+        "prompt": "Question: Who brought a legal suit against Michael Jackson in early 2009 claiming a share of profits from the Thriller video?\nAnswer:",
+        "response": " The person who brought a legal suit against Michael Jackson in early 2009, claiming a share of profits from the \"Thriller\" video, was Victor A. Gutgo, a former employee at Solar Productions, Jackson's production company during the Thriller era. However, it is important to note that these events took place after Michael Jackson's death in June 2009, making the year of the lawsuit technically 2010. The case was eventually dismissed due to lack of evidence supporting Gutgo's claim.",
+        "duration": 3.0224339962005615,
+        "memory_usage": 513290240,
+        "score": 0.0625
+    },
+    {
+        "prompt": "Question: Pharaohs were leaders of which ancient nation?\nAnswer:",
+        "response": " Ancient Egypt",
+        "duration": 2.173534393310547,
+        "memory_usage": 513126400,
+        "score": 0.8275
+    },
+    {
+        "prompt": "Question: BG is the international car registration for which country?\nAnswer:",
+        "response": "BG does not represent any specific international car registration code. However, it could refer to Bulgaria as its country code (according to ISO 3166-1 alpha-2). For vehicle registrations in Bulgaria, the official code is BG, but it's usually followed by three additional characters (e.g., BG123ABC). To confirm the international car registration code for a specific country, you should check the United Nations Economic Commission for Europe (UNECE) or International Organization of Motor Vehicle Manufacturers (OICA) database.",
+        "duration": 3.1608967781066895,
+        "memory_usage": 513245184,
+        "score": 0.4301
+    },
+    {
+        "prompt": "Question: The United States deployed combat units in 1965 into which war to prevent a communist takeover of Southeast Asia, part of a wider strategy called containment?\nAnswer:",
+        "response": " The United States deployed combat units in 1965 into the Vietnam War as part of its larger strategy called containment. This was an effort to prevent the spread of communism during the Cold War. The official name of this military engagement was the \"Vietnam War,\" which lasted from 1955 to 1975, with significant U.S. involvement between 1965 and 1973.",
+        "duration": 2.921793222427368,
+        "memory_usage": 514727936,
+        "score": 0.655
+    },
+    {
+        "prompt": "Question: What does a silkworm feed on?\nAnswer:",
+        "response": " A silkworm, specifically the larva of the silkmoth (Bombyx mori), feeds exclusively on fresh mulberry leaves. It is reared commercially on a diet of Mulberry trees' leaves (Morus alba or Morus indica). This mono-diet ensures uniformity in size, color, and quality of the silk produced by the silkworm cocoons.",
+        "duration": 2.8707659244537354,
+        "memory_usage": 515575808,
+        "score": 0.3604
+    },
+    {
+        "prompt": "Question: Who was nearly 7 feet tall, weighed 500 pounds, and could drink 100 beers in a sitting?\nAnswer:",
+        "response": " Your question seems to describe a fictional character, as there's no recorded evidence of a real person meeting these specific attributes. The combination of extreme height, weight, and drinking capacity is not typical for any known human being.",
+        "duration": 2.594684362411499,
+        "memory_usage": 513118208,
+        "score": 0.1664
+    },
+    {
+        "prompt": "Question: Who bought the Duke and Duchess of Windsor's house in Paris in 1986?\nAnswer:",
+        "response": " The Duke and Duchess of Windsor's house in Paris, known as Villa Les Cedres, was purchased by Mohammed Al-Fayed, a wealthy Egyptian-born British businessman, in 1986. He is well known for being the father of Dodi Fayed, who died along with Diana, Princess of Wales, in a car accident in 1997.",
+        "duration": 2.8467462062835693,
+        "memory_usage": 513273856,
+        "score": 0.3922
+    },
+    {
+        "prompt": "Question: \"In Samuel Beckett's play \"\"Waiting For Godot\"\", which 2 characters appear together, briefly, once in each act?\"\nAnswer:",
+        "response": " The characters that appear together only briefly, once in each act, are Estragon (or Gogo) and Vladimir (or Didi). In Act 1, they arrive together at the beginning of the play and then part for a while, meeting again towards the end. Similarly, in Act 2, they also arrive together at the start but separate shortly thereafter, coming back together at the very end of the act.",
+        "duration": 2.8932018280029297,
+        "memory_usage": 513433600,
+        "score": 0.1957
+    },
+    {
+        "prompt": "Question: Which US President was given the nickname \u2018The Great Emancipator\u2019?\nAnswer:",
+        "response": " Abraham Lincoln, the 16th President of the United States, was given the nickname 'The Great Emancipator'. He is renowned for his role in the abolition of slavery through the Emancipation Proclamation during the American Civil War.",
+        "duration": 2.5976319313049316,
+        "memory_usage": 513290240,
+        "score": 0.6831
+    },
+    {
+        "prompt": "Question: Who was the last King of Iraq?\nAnswer:",
+        "response": " The last King of Iraq was Saddam Hussein, but he was a military dictator and not a king. The monarchy in Iraq ended with the abolition of the Hashemite Kingdom of Iraq by the Revolutionary Command Council of Iraq on July 14, 1958, when King Faisal II was assassinated during the Iraqi coup d'\u00e9tat of 1958.",
+        "duration": 2.8927316665649414,
+        "memory_usage": 513658880,
+        "score": 0.2311
+    },
+    {
+        "prompt": "Question: Who became British Prime Minister on the 22nd. January 1924?\nAnswer:",
+        "response": " The person who became the British Prime Minister on January 22, 1924, was Ramsay MacDonald. He served as the Labour Party's first Prime Minister and led the minority Labour government until October of that same year. After a general election in which his party won a majority, he again became Prime Minister, serving until 1935.",
+        "duration": 2.784487009048462,
+        "memory_usage": 513323008,
+        "score": 0.4333
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "prompt": "Problem: Write a function to sum all even numbers in a list.\nStarter Code: def sum_even(numbers):\nComplete the code:",
+        "response": " To complete the function, you need to iterate through the input list and check if each number is even by checking if it's modulo with 2 is zero. Here is the completed code:\n\n```python\ndef sum_even(numbers):\n    total = 0\n    for num in numbers:\n        if num % 2 == 0:\n            total += num\n    return total\n```\n\nIn this function, we initialize a variable `total` to store the sum of even numbers. Then we iterate through each number in the list using a for loop. Inside the loop, we check if the current number is divisible by 2 (i.e., if its modulo with 2 is zero). If it is, we add the number to our `total`. Finally, we return the total sum of even numbers.",
+        "duration": 3.5937514305114746,
+        "memory_usage": 534315008,
+        "score": 0.8327
+    },
+    {
+        "prompt": "Problem: Write a function to check if a string is a palindrome.\nStarter Code: def is_palindrome(text):\nComplete the code:",
+        "response": " Here is the completed code for checking if a string is a palindrome:\n\n```python\ndef is_palindrome(text):\n    # Convert the input text to lowercase and remove non-alphanumeric characters\n    cleaned_text = ''.join(c.lower() for c in text if c.isalnum())\n\n    # Reverse the cleaned text and compare it with the original text\n    return cleaned_text == cleaned_text[::-1]\n```\n\nThe function first cleans the input text by converting all characters to lowercase and removing non-alphanumeric characters. Then, it checks if the reversed cleaned text is equal to the original cleaned text. If they are equal, then the string is a palindrome; otherwise, it's not.",
+        "duration": 3.4940552711486816,
+        "memory_usage": 536473600,
+        "score": 0.793
+    },
+    {
+        "prompt": "Problem: Implement a recursive function to calculate factorial.\nStarter Code: def factorial(n):\nComplete the code:",
+        "response": " Here is the completed code for a recursive function that calculates the factorial of a number:\n\n```python\ndef factorial(n):\n    if n == 0:\n        return 1\n    else:\n        return n * factorial(n-1)\n```\n\nIn this code, the base case is when `n` equals to 0, we return 1. Otherwise, we call the function recursively with `n - 1` until it reaches the base case and then multiply all the results together.",
+        "duration": 3.121704339981079,
+        "memory_usage": 536240128,
+        "score": 0.81
+    }
+]

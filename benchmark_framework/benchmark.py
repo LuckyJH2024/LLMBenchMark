@@ -2,16 +2,18 @@ import time
 import threading
 import ollama
 import psutil
-from bert_score import score
 import os
 import json
 import numpy as np
 import requests
-from typing import List, Dict, Any
 from sentence_transformers import SentenceTransformer, util
 from transformers import RobertaTokenizer, RobertaModel
 import torch
 import re
+from rouge import Rouge
+from bert_score import score as bert_score_lib
+
+
 
 class LLMBenchmark:
     def __init__(self, models, tasks):
@@ -28,50 +30,86 @@ class LLMBenchmark:
             self.results[model] = {}
             for task_type, tasks in self.tasks.items():
                 print(f"Running {task_type} tasks for model {model}")
-                self.results[model][task_type] = self.benchmark_task(model, tasks, task_type)
+                self.results[model][task_type] = self.benchmark_task(model, tasks)
                 safe_model_name = model.replace(":", "-")  # 处理非法文件名字符
                 self.save_results(f"results/{safe_model_name}_{task_type}.json", self.results[model][task_type])
         return self.results
+    
+    def call_model_api(self, model_name, prompt):
+        if "gpt" in model_name.lower():
+            api_url = "https://api.openai.com/v1/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {os.getenv('OPENAI_API_KEY')}",
+                "Content-Type": "application/json"
+            }
+            data = {
+                "model": model_name,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.7
+            }
+            response = requests.post(api_url, headers=headers, json=data)
+            return response.json()["choices"][0]["message"]["content"]
 
-    def benchmark_task(self, model, task_data, task_type):
+        elif "deepseek" in model_name.lower():
+            api_url = "https://api.deepseek.com/v1/chat/completions"
+            headers = {
+                "Authorization": f"Bearer {os.getenv('DEEPSEEK_API_KEY')}",
+                "Content-Type": "application/json"
+            }
+            data = {
+                "model": model_name,
+                "messages": [{"role": "user", "content": prompt}],
+                "temperature": 0.7
+            }
+            response = requests.post(api_url, headers=headers, json=data)
+            return response.json()["choices"][0]["message"]["content"]
+
+        elif "claude" in model_name.lower():
+            api_url = "https://api.anthropic.com/v1/messages"
+            headers = {
+                "x-api-key": os.getenv("ANTHROPIC_API_KEY"),
+                "anthropic-version": "2023-06-01",
+                "Content-Type": "application/json"
+            }
+            data = {
+                "model": model_name,
+                "max_tokens": 1024,
+                "messages": [{"role": "user", "content": prompt}]
+            }
+            response = requests.post(api_url, headers=headers, json=data)
+            return response.json()["content"][0]["text"]
+
+        else:
+            raise ValueError(f"Unsupported model: {model_name}")
+
+
+    def benchmark_task(self, model, task_data):
         results = []
         for task in task_data:
             print(f"Running task with prompt: {task['prompt']}")
             start_time = time.time()
 
             try:
-                api_url = "http://localhost:11434/api/generate"
-                payload = {
-                    "model": model,
-                    "prompt": task["prompt"],
-                    "stream": False
-                }
-                response = requests.post(api_url, json=payload)
-                model_response = response.json().get("response", "")
+                model_response = self.call_model_api(model, task["prompt"])
+                print(f"Model replied: {model_response.strip()}")
             except Exception as e:
                 model_response = f"Error: {e}"
 
             duration = time.time() - start_time
             memory_usage = psutil.Process(os.getpid()).memory_info().rss
 
-            task["response"] = model_response  # ⬅️ 非常关键！传入给 reasoning scorer
-
             if "ground_truth" in task:
-                if task_type == "reasoning":
-                    score_detail = self.evaluate_reasoning_all(task)
-                    task.update(score_detail)  # ⬅️ 一次性保留全部字段
-                    task["score"] = score_detail["answer_score"]  # legacy 兼容性字段
-                else:
-                    task["score"] = self.evaluate(model_response, task["ground_truth"], task_type)
+                score = self.evaluate(model_response, task["ground_truth"], task.get("task_type"))
             else:
-                task["score"] = None
+                score = None
 
-            task.update({
+            results.append({
+                "prompt": task["prompt"],
+                "response": model_response,
                 "duration": duration,
                 "memory_usage": memory_usage,
+                "score": score
             })
-
-            results.append(task)  # ⬅️ 保存完整字段
 
         return results
 
@@ -95,7 +133,7 @@ class LLMBenchmark:
         if task_type == "qa":
             return self.evaluate_qa_style(response, ground_truth)
         elif task_type == "summarization":
-            return self.text_overlap(response, ground_truth)
+            return self.hybrid_summarization_score(response, ground_truth)
         elif task_type == "code":
             return self.code_similarity(response, ground_truth)
         elif task_type == "reasoning":
@@ -110,75 +148,54 @@ class LLMBenchmark:
         keyword_score = 1.0 if truth_clean in response_clean else \
                         0.5 if any(word in response_clean for word in truth_clean.split()) else 0.0
 
-        similarity_score = self.text_similarity(response, ground_truth)
-        final_score = 0.4 * keyword_score + 0.6 * similarity_score
+        # similarity_score = self.text_similarity(response, ground_truth)
+        # final_score = 0.4 * keyword_score + 0.6 * similarity_score
 
-        print(f"[QA DEBUG] HIT: {keyword_score}, SIM: {similarity_score}, FINAL: {final_score}")
-        return round(final_score, 4)
+        # print(f"[QA DEBUG] HIT: {keyword_score}, SIM: {similarity_score}, FINAL: {final_score}")
+        return keyword_score
 
     def evaluate_reasoning_style(self, response, ground_truth):
-        # Semantic alignment
-        try:
-            P, R, F1 = score([response], [ground_truth], lang='en', verbose=False)
-            semantic_score = F1.item()
-        except Exception:
-            semantic_score = self.text_similarity(response, ground_truth)
+        response_clean = re.sub(r'[^\w\s]', '', response.lower())
+        truth_clean = re.sub(r'[^\w\s]', '', ground_truth.lower())
 
-        # Keyword containment
-        truth_words = set(ground_truth.lower().split())
-        response_words = set(response.lower().split())
-        hit_score = 1.0 if truth_words <= response_words else 0.5 if truth_words & response_words else 0.0
+        # 简化关键词匹配逻辑
+        hit_score = 1.0 if truth_clean in response_clean else \
+                    0.5 if any(word in response_clean for word in truth_clean.split()) else 0.0
 
+        semantic_score = self.text_similarity(response, ground_truth)
         final_score = 0.3 * hit_score + 0.7 * semantic_score
+
         print(f"[REASONING DEBUG] HIT: {hit_score}, SIM: {semantic_score}, FINAL: {final_score}")
         return round(final_score, 4)
-    
-    def evaluate_reasoning_all(self, sample: Dict[str, Any]) -> Dict[str, Any]:
-        response = sample.get("response", "")
-        ground_truth = sample.get("ground_truth", "")
-        steps = sample.get("reasoning_steps", [])
-        ref_steps = sample.get("reference_steps", [])
-        paraphrased = sample.get("paraphrased_response", "")
 
-        response_clean = response.strip().lower()
-        ground_clean = ground_truth.strip().lower()
-        if response_clean == ground_clean:
-            answer_score = 1.0
-        else:
-            try:
-                P, R, F1 = score([response], [ground_truth], lang='en', verbose=False)
-                answer_score = round(F1.item(), 4)
-            except:
-                answer_score = self.text_similarity(response, ground_truth)
-
-        if steps and ref_steps:
-            total = 0
-            for pred, ref in zip(steps, ref_steps):
-                total += self.text_similarity(pred, ref)
-            chain_score = round(total / len(ref_steps), 4)
-        else:
-            chain_score = None
-
-        consistency_score = self.text_similarity(response, paraphrased) if paraphrased else None
-
-        return {
-            "answer_score": answer_score,
-            "chain_score": chain_score,
-            "consistency_score": consistency_score
-        }
-    
     def text_similarity(self, text1, text2):
         emb1 = self.sbert.encode(text1, convert_to_tensor=True)
         emb2 = self.sbert.encode(text2, convert_to_tensor=True)
         cosine_score = util.cos_sim(emb1, emb2)
         return round(cosine_score.item(), 4)
 
-    def text_overlap(self, summary, reference):
-        summary_words = set(summary.split())
-        ref_words = set(reference.split())
-        if not ref_words:
-            return 0.0
-        return len(summary_words.intersection(ref_words)) / len(ref_words)
+
+    def hybrid_summarization_score(self, prediction: str, reference: str) -> float:
+        # Step 1: 计算 ROUGE-L F1
+        try:
+            rouge = Rouge()
+            rouge_f1 = rouge.get_scores(prediction, reference)[0]['rouge-l']['f']
+        except Exception as e:
+            print(f"[ROUGE error] {e}")
+            rouge_f1 = 0.0
+
+        # Step 2: 计算 BERTScore F1
+        try:
+            P, R, F1 = bert_score_lib([prediction], [reference], lang="en", verbose=False)
+            bert_f1 = F1[0].item()
+        except Exception as e:
+            print(f"[BERTScore error] {e}")
+            bert_f1 = 0.0
+
+        # Step 3: 加权平均
+        final_score = 0.5 * rouge_f1 + 0.5 * bert_f1
+        return round(final_score, 4)
+
 
     def init_codebert(self):
         print("Loading CodeBERT model...")
@@ -224,5 +241,5 @@ class LLMBenchmark:
         return summary_stats
 
     def save_results(self, filename, data):
-        with open(filename, 'w', encoding='utf-8') as file:
+        with open(filename, 'w') as file:
             json.dump(data, file, indent=4)
